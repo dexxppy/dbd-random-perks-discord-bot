@@ -1,0 +1,777 @@
+[
+    {
+        "id": 1,
+        "name": "Bond",
+        "survivor_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Leader",
+        "survivor_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Prove Thyself",
+        "survivor_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Adrenaline",
+        "survivor_id": 2
+    },
+    {
+        "id": 5,
+        "name": "Quick & Quiet",
+        "survivor_id": 2
+    },
+    {
+        "id": 6,
+        "name": "Sprint Burst",
+        "survivor_id": 2
+    },
+    {
+        "id": 7,
+        "name": "Botany Knowledge",
+        "survivor_id": 3
+    },
+    {
+        "id": 8,
+        "name": "Emapthy",
+        "survivor_id": 3
+    },
+    {
+        "id": 9,
+        "name": "Self-care",
+        "survivor_id": 3
+    },
+    {
+        "id": 10,
+        "name": "Calm Spirit",
+        "survivor_id": 4
+    },
+    {
+        "id": 11,
+        "name": "Iron Will",
+        "survivor_id": 4
+    },
+    {
+        "id": 12,
+        "name": "Saboteur",
+        "survivor_id": 4
+    },
+    {
+        "id": 13,
+        "name": "Balanced Landing",
+        "survivor_id": 5
+    },
+    {
+        "id": 14,
+        "name": "Streetwise",
+        "survivor_id": 5
+    },
+    {
+        "id": 15,
+        "name": "Urban Evasion",
+        "survivor_id": 5
+    },
+    {
+        "id": 16,
+        "name": "Borrowed Time",
+        "survivor_id": 6
+    },
+    {
+        "id": 17,
+        "name": "Left Behind",
+        "survivor_id": 6
+    },
+    {
+        "id": 18,
+        "name": "Unbreakable",
+        "survivor_id": 6
+    },
+    {
+        "id": 19,
+        "name": "Alert",
+        "survivor_id": 7
+    },
+    {
+        "id": 20,
+        "name": "Lithe",
+        "survivor_id": 7
+    },
+    {
+        "id": 21,
+        "name": "Technician",
+        "survivor_id": 7
+    },
+    {
+        "id": 22,
+        "name": "Dead Hard",
+        "survivor_id": 8
+    },
+    {
+        "id": 23,
+        "name": "No Mither",
+        "survivor_id": 8
+    },
+    {
+        "id": 24,
+        "name": "We're Gonna Live Forever",
+        "survivor_id": 8
+    },
+    {
+        "id": 25,
+        "name": "Pharmacy",
+        "survivor_id": 9
+    },
+    {
+        "id": 26,
+        "name": "Vigil",
+        "survivor_id": 9
+    },
+    {
+        "id": 27,
+        "name": "Wake Up!",
+        "survivor_id": 9
+    },
+    {
+        "id": 28,
+        "name": "Detective's Hunch",
+        "survivor_id": 10
+    },
+    {
+        "id": 29,
+        "name": "Stake Out",
+        "survivor_id": 10
+    },
+    {
+        "id": 30,
+        "name": "Tenacity",
+        "survivor_id": 10
+    },
+    {
+        "id": 31,
+        "name": "Boil Over",
+        "survivor_id": 11
+    },
+    {
+        "id": 32,
+        "name": "Dance With Me",
+        "survivor_id": 11
+    },
+    {
+        "id": 33,
+        "name": "Windows of Opportunity",
+        "survivor_id": 11
+    },
+    {
+        "id": 34,
+        "name": "Autodidact",
+        "survivor_id": 12
+    },
+    {
+        "id": 35,
+        "name": "Deliverance",
+        "survivor_id": 12
+    },
+    {
+        "id": 36,
+        "name": "Diversion",
+        "survivor_id": 12
+    },
+    {
+        "id": 37,
+        "name": "Aftercare",
+        "survivor_id": 13
+    },
+    {
+        "id": 38,
+        "name": "Breakdown",
+        "survivor_id": 13
+    },
+    {
+        "id": 39,
+        "name": "Distortion",
+        "survivor_id": 13
+    },
+    {
+        "id": 40,
+        "name": "Head On",
+        "survivor_id": 14
+    },
+    {
+        "id": 41,
+        "name": "Poised",
+        "survivor_id": 14
+    },
+    {
+        "id": 42,
+        "name": "Solidarity",
+        "survivor_id": 14
+    },
+    {
+        "id": 43,
+        "name": "Any Means Necessary",
+        "survivor_id": 15
+    },
+    {
+        "id": 44,
+        "name": "Breakout",
+        "survivor_id": 15
+    },
+    {
+        "id": 45,
+        "name": "Lucky Break",
+        "survivor_id": 15
+    },
+    {
+        "id": 46,
+        "name": "For the People",
+        "survivor_id": 16
+    },
+    {
+        "id": 47,
+        "name": "Off the Record",
+        "survivor_id": 16
+    },
+    {
+        "id": 48,
+        "name": "Red Herring",
+        "survivor_id": 16
+    },
+    {
+        "id": 49,
+        "name": "Blood Pact",
+        "survivor_id": 17
+    },
+    {
+        "id": 50,
+        "name": "Repressed Alliance",
+        "survivor_id": 17
+    },
+    {
+        "id": 51,
+        "name": "Soul Guard",
+        "survivor_id": 17
+    },
+    {
+        "id": 52,
+        "name": "Build to Last",
+        "survivor_id": 18
+    },
+    {
+        "id": 53,
+        "name": "Desperate Measures",
+        "survivor_id": 18
+    },
+    {
+        "id": 54,
+        "name": "Visionary",
+        "survivor_id": 18
+    },
+    {
+        "id": 55,
+        "name": "Appraisal",
+        "survivor_id": 19
+    },
+    {
+        "id": 56,
+        "name": "Deception",
+        "survivor_id": 19
+    },
+    {
+        "id": 57,
+        "name": "Power Struggle",
+        "survivor_id": 19
+    },
+    {
+        "id": 58,
+        "name": "Fast Track",
+        "survivor_id": 20
+    },
+    {
+        "id": 59,
+        "name": "Self-Preservation",
+        "survivor_id": 20
+    },
+    {
+        "id": 60,
+        "name": "Smash Hit",
+        "survivor_id": 20
+    },
+    {
+        "id": 61,
+        "name": "Boon: Exponential",
+        "survivor_id": 21
+    },
+    {
+        "id": 62,
+        "name": "Corrective Action",
+        "survivor_id": 21
+    },
+    {
+        "id": 63,
+        "name": "Overcome",
+        "survivor_id": 21
+    },
+    {
+        "id": 64,
+        "name": "Boon: Circle of Healing",
+        "survivor_id": 22
+    },
+    {
+        "id": 65,
+        "name": "Boon: Shadow Step",
+        "survivor_id": 22
+    },
+    {
+        "id": 66,
+        "name": "Clairvoyance",
+        "survivor_id": 22
+    },
+    {
+        "id": 67,
+        "name": "Low Profile",
+        "survivor_id": 23
+    },
+    {
+        "id": 68,
+        "name": "Reactive Healing",
+        "survivor_id": 23
+    },
+    {
+        "id": 69,
+        "name": "Wiretap",
+        "survivor_id": 23
+    },
+    {
+        "id": 70,
+        "name": "Better than New",
+        "survivor_id": 24
+    },
+    {
+        "id": 71,
+        "name": "Hyperfocus",
+        "survivor_id": 24
+    },
+    {
+        "id": 72,
+        "name": "Reassurance",
+        "survivor_id": 24
+    },
+    {
+        "id": 73,
+        "name": "Bite the Bullet",
+        "survivor_id": 25
+    },
+    {
+        "id": 74,
+        "name": "Flashbang",
+        "survivor_id": 25
+    },
+    {
+        "id": 75,
+        "name": "Rookie Spirit",
+        "survivor_id": 25
+    },
+    {
+        "id": 76,
+        "name": "Blast Mine",
+        "survivor_id": 26
+    },
+    {
+        "id": 77,
+        "name": "Counterforce",
+        "survivor_id": 26
+    },
+    {
+        "id": 78,
+        "name": "Resurgence",
+        "survivor_id": 26
+    },
+    {
+        "id": 79,
+        "name": "Decisive Strike",
+        "survivor_id": 27
+    },
+    {
+        "id": 80,
+        "name": "Object of Obsession",
+        "survivor_id": 27
+    },
+    {
+        "id": 81,
+        "name": "Sole Survivor",
+        "survivor_id": 27
+    },
+    {
+        "id": 82,
+        "name": "Ace in the Hole",
+        "survivor_id": 28
+    },
+    {
+        "id": 83,
+        "name": "Open-Handed",
+        "survivor_id": 28
+    },
+    {
+        "id": 84,
+        "name": "Up The Ante",
+        "survivor_id": 28
+    },
+    {
+        "id": 85,
+        "name": "Buckle Up",
+        "survivor_id": 29
+    },
+    {
+        "id": 86,
+        "name": "Flip-Flop",
+        "survivor_id": 29
+    },
+    {
+        "id": 87,
+        "name": "Mettle of Man",
+        "survivor_id": 29
+    },
+    {
+        "id": 88,
+        "name": "Better Together",
+        "survivor_id": 30
+    },
+    {
+        "id": 89,
+        "name": "Fixated",
+        "survivor_id": 30
+    },
+    {
+        "id": 90,
+        "name": "Inner Strength",
+        "survivor_id": 30
+    },
+    {
+        "id": 91,
+        "name": "Babysitter",
+        "survivor_id": 31
+    },
+    {
+        "id": 92,
+        "name": "Camaraderie",
+        "survivor_id": 31
+    },
+    {
+        "id": 93,
+        "name": "Second Wind",
+        "survivor_id": 31
+    },
+    {
+        "id": 94,
+        "name": "Boon: Dark Theory",
+        "survivor_id": 32
+    },
+    {
+        "id": 95,
+        "name": "Empathic Connection",
+        "survivor_id": 32
+    },
+    {
+        "id": 96,
+        "name": "Parental Guidance",
+        "survivor_id": 32
+    },
+    {
+        "id": 97,
+        "name": "Inner Focus",
+        "survivor_id": 33
+    },
+    {
+        "id": 98,
+        "name": "Overzealous",
+        "survivor_id": 33
+    },
+    {
+        "id": 99,
+        "name": "Residual Manifest",
+        "survivor_id": 33
+    },
+    {
+        "id": 100,
+        "name": "Fogwise",
+        "survivor_id": 34
+    },
+    {
+        "id": 101,
+        "name": "Potential Energy",
+        "survivor_id": 34
+    },
+    {
+        "id": 102,
+        "name": "Quick Gamit",
+        "survivor_id": 34
+    },
+    {
+        "id": 103,
+        "name": "Cut Loose",
+        "survivor_id": 35
+    },
+    {
+        "id": 104,
+        "name": "Friendly Competition",
+        "survivor_id": 35
+    },
+    {
+        "id": 105,
+        "name": "Teamwork: Power of Two",
+        "survivor_id": 35
+    },
+    {
+        "id": 106,
+        "name": "Backgroud Player",
+        "survivor_id": 36
+    },
+    {
+        "id": 107,
+        "name": "Blood Rush",
+        "survivor_id": 36
+    },
+    {
+        "id": 108,
+        "name": "Teamwork: Collective Stealth",
+        "survivor_id": 36
+    },
+    {
+        "id": 109,
+        "name": "Made for This",
+        "survivor_id": 37
+    },
+    {
+        "id": 110,
+        "name": "Scavenger",
+        "survivor_id": 37
+    },
+    {
+        "id": 111,
+        "name": "Troubleshooter",
+        "survivor_id": 37
+    },
+    {
+        "id": 112,
+        "name": "Dramaturgy",
+        "survivor_id": 38
+    },
+    {
+        "id": 113,
+        "name": "Plot Twist",
+        "survivor_id": 38
+    },
+    {
+        "id": 114,
+        "name": "Scene Partner",
+        "survivor_id": 38
+    },
+    {
+        "id": 115,
+        "name": "Chemical Trap",
+        "survivor_id": 39
+    },
+    {
+        "id": 116,
+        "name": "Light-Footed",
+        "survivor_id": 39
+    },
+    {
+        "id": 117,
+        "name": "Lucky Star",
+        "survivor_id": 39
+    },
+    {
+        "id": 118,
+        "name": "Boon: Illumination",
+        "survivor_id": 40
+    },
+    {
+        "id": 119,
+        "name": "Champion of Light",
+        "survivor_id": 40
+    },
+    {
+        "id": 120,
+        "name": "Deadline",
+        "survivor_id": 40
+    },
+    {
+        "id": 121,
+        "name": "Invocation: Weaving Spiders",
+        "survivor_id": 41
+    },
+    {
+        "id": 122,
+        "name": "Strength in Shadows",
+        "survivor_id": 41
+    },
+    {
+        "id": 123,
+        "name": "Wicked",
+        "survivor_id": 41
+    },
+    {
+        "id": 124,
+        "name": "Bardic Inspiration",
+        "survivor_id": 42
+    },
+    {
+        "id": 125,
+        "name": "Mirrored Illusion",
+        "survivor_id": 42
+    },
+    {
+        "id": 126,
+        "name": "Still Sight",
+        "survivor_id": 42
+    },
+    {
+        "id": 127,
+        "name": "Finesse",
+        "survivor_id": 43
+    },
+    {
+        "id": 128,
+        "name": "Hardened",
+        "survivor_id": 43
+    },
+    {
+        "id": 129,
+        "name": "Specialist",
+        "survivor_id": 43
+    },
+    {
+        "id": 130,
+        "name": "Exultation",
+        "survivor_id": 44
+    },
+    {
+        "id": 131,
+        "name": "Eyes of Belmont",
+        "survivor_id": 44
+    },
+    {
+        "id": 132,
+        "name": "Moment of Glory",
+        "survivor_id": 44
+    },
+    {
+        "id": 133,
+        "name": "Clean Break",
+        "survivor_id": 45
+    },
+    {
+        "id": 134,
+        "name": "Invocation: Treacherous Crows",
+        "survivor_id": 45
+    },
+    {
+        "id": 135,
+        "name": "Shoulder the Burden",
+        "survivor_id": 45
+    },
+    {
+        "id": 136,
+        "name": "Apocalyptic Ingenuity",
+        "survivor_id": 46
+    },
+    {
+        "id": 137,
+        "name": "Come and Get Me!",
+        "survivor_id": 46
+    },
+    {
+        "id": 138,
+        "name": "Teamwork: Toughen Up",
+        "survivor_id": 46
+    },
+    {
+        "id": 139,
+        "name": "Conviction",
+        "survivor_id": 47
+    },
+    {
+        "id": 140,
+        "name": "Last Stand",
+        "survivor_id": 47
+    },
+    {
+        "id": 141,
+        "name": "Teamwork: Throw Down",
+        "survivor_id": 47
+    },
+    {
+        "id": 142,
+        "name": "Dark Sense",
+        "survivor_id": 0
+    },
+    {
+        "id": 143,
+        "name": "Hope",
+        "survivor_id": 0
+    },
+    {
+        "id": 144,
+        "name": "Deja Vu",
+        "survivor_id": 0
+    },
+    {
+        "id": 145,
+        "name": "Kindred",
+        "survivor_id": 0
+    },
+    {
+        "id": 146,
+        "name": "Lightweight",
+        "survivor_id": 0
+    },
+    {
+        "id": 147,
+        "name": "No One Left Behind",
+        "survivor_id": 0
+    },
+    {
+        "id": 148,
+        "name": "Plunderer's Instinct",
+        "survivor_id": 0
+    },
+    {
+        "id": 149,
+        "name": "Premonition",
+        "survivor_id": 0
+    },
+    {
+        "id": 150,
+        "name": "Resilience",
+        "survivor_id": 0
+    },
+    {
+        "id": 151,
+        "name": "Slippery Meat",
+        "survivor_id": 0
+    },
+    {
+        "id": 152,
+        "name": "Small Game",
+        "survivor_id": 0
+    },
+    {
+        "id": 153,
+        "name": "Spine Chill",
+        "survivor_id": 0
+    },
+    {
+        "id": 154,
+        "name": "This is Not Happening",
+        "survivor_id": 0
+    },
+    {
+        "id": 155,
+        "name": "We'll Make It",
+        "survivor_id": 0
+    }
+]
