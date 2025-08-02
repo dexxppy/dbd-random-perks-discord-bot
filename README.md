@@ -60,6 +60,11 @@ python main.py
 ```
 
 ## 📸 Preview
+### Random survivor perks
+![Survivor perks](screenshots/random_surv.png)
+
+### Random killer perks
+![Killer perks](screenshots/random_killer.png)
 
 ## 📌 To-Do
 - Enable users to get random item and add-ons
