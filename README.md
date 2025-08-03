@@ -3,6 +3,10 @@
 A Discord bot that helps you randomly select Dead by Daylight perks for Killers and Survivors — perfect for challenges, custom games, or just for fun!  
 Users can roll perks, select which ones they want to replace, and reroll with a single button click.
 
+## Add the bot to your Discord Server!
+Paste the link below in your browser, log in to discord, select your server and give necessary permissions(all selected). Authorise and enjoy!
+https://discord.com/oauth2/authorize?client_id=1401135973974282290&permissions=11264&integration_type=0&scope=applications.commands+bot
+
 ## ✨ Features
 
 - `!random_killer` – Get 4 random Killer perks
@@ -77,5 +81,5 @@ MIT License. Free to use, modify.
 
 ---
 
-Made with ❤️ by dexppy.
+Made with ❤️ by dexxppy.
 
