@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
         
 @bot.command()
 async def random_killer(ctx):
-    perks_list = map_perks('killers', 'killer_perks', 'killer_id')
+    perks_list = map_perks('data/killer', 'killers', 'killer_perks', 'killer_id')
     randomize_result = get_random_perks(perks_list, [])
     exclude_ids = randomize_result["exclude_ids"]
     random_perks = randomize_result["random_perks"]
@@ -28,7 +28,7 @@ async def random_killer(ctx):
 
 @bot.command()
 async def random_surv(ctx):
-    perks_list = map_perks('survivors', 'survivor_perks', 'survivor_id')
+    perks_list = map_perks('data/survivor', 'survivors', 'survivor_perks', 'survivor_id')
     randomize_result = get_random_perks(perks_list, [])
     exclude_ids = randomize_result["exclude_ids"]
     random_perks = randomize_result["random_perks"]

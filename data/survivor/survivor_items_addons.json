@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "name": "Battery",
+        "rarity": "Common"
+    },
+    {
+        "id": 2,
+        "name": "Leather Grip",
+        "rarity": "Common"
+    },
+    {
+        "id": 3,
+        "name": "Power Bulb",
+        "rarity": "Common"
+    },
+    {
+        "id": 4,
+        "name": "Wide Lens",
+        "rarity": "Common"
+    },
+    {
+        "id": 5,
+        "name": "Focus Lens",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 6,
+        "name": "Heavy Duty Battery",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 7,
+        "name": "Low Amp Filament",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 8,
+        "name": "Rubber Grip",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 9,
+        "name": "TIR Optic",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 10,
+        "name": "Intense Halogen",
+        "rarity": "Rare"
+    },
+    {
+        "id": 11,
+        "name": "Long Life Battery",
+        "rarity": "Rare"
+    },
+    {
+        "id": 12,
+        "name": "High-End Sapphire Lens",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 13,
+        "name": "Odd Bulb",
+        "rarity": "Ultra Rare"
+    },
+    {
+        "id": 14,
+        "name": "Prayer Rope",
+        "rarity": "Common"
+    },
+       {
+        "id": 15,
+        "name": "Eroded Token",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 16,
+        "name": "Prayer Beads",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 17,
+        "name": "Scratched Pearl",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 18,
+        "name": "Gold Token",
+        "rarity": "Rare"
+    },
+    {
+        "id": 19,
+        "name": "Blood Amber",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 20,
+        "name": "Milky Glass",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 21,
+        "name": "Unique Wedding Ring",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 22,
+        "name": "Weaved Ring",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 23,
+        "name": "Map Addendum",
+        "rarity": "Common"
+    },
+       {
+        "id": 24,
+        "name": "Glass Bead",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 25,
+        "name": "Red Twine",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 26,
+        "name": "Retardant Jelly",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 27,
+        "name": "Unusual Stamp",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 28,
+        "name": "Yellow Wire",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 29,
+        "name": "Black Silk Cord",
+        "rarity": "Rare"
+    },
+    {
+        "id": 30,
+        "name": "Odd Stamp",
+        "rarity": "Rare"
+    },
+    {
+        "id": 31,
+        "name": "Crystal Bead",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 32,
+        "name": "Bandages",
+        "rarity": "Common"
+    },
+    {
+        "id": 33,
+        "name": "Butterfly Tape",
+        "rarity": "Common"
+    },
+    {
+        "id": 34,
+        "name": "Rubber Gloves",
+        "rarity": "Common"
+    },
+    {
+        "id": 35,
+        "name": "Medical Scissors",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 36,
+        "name": "Needle & Thread",
+        "rarity": "Uncommon"
+    },
+        {
+        "id": 37,
+        "name": "Self Adherent Wrap",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 38,
+        "name": "Sponge",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 39,
+        "name": "Gauze Roll",
+        "rarity": "Rare"
+    },
+    {
+        "id": 40,
+        "name": "Surgical Suture",
+        "rarity": "Rare"
+    },
+    {
+        "id": 41,
+        "name": "Abdominal Dressing",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 42,
+        "name": "Styptic Agent",
+        "rarity": "Very Rare"
+    },
+    {
+        "id": 43,
+        "name": "Anti-Haemorrhagic Syringe",
+        "rarity": "Ultra Rare"
+    },
+    {
+        "id": 44,
+        "name": "Gel Dressings",
+        "rarity": "Ultra Rare"
+    },
+    {
+        "id": 45,
+        "name": "Clean Rag",
+        "rarity": "Common"
+    },
+    {
+        "id": 46,
+        "name": "Instructions",
+        "rarity": "Common"
+    },
+    {
+        "id": 47,
+        "name": "Scraps",
+        "rarity": "Common"
+    },
+    {
+        "id": 48,
+        "name": "Cutting Wire",
+        "rarity": "Uncommon"
+    },    
+    {
+        "id": 49,
+        "name": "Protective Gloves",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 50,
+        "name": "Socket Swivels",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 51,
+        "name": "Spring Clamp",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 52,
+        "name": "Wire Spool",
+        "rarity": "Uncommon"
+    },
+    {
+        "id": 53,
+        "name": "Grip Wrench",
+        "rarity": "Rare"
+    },
+    {
+        "id": 54,
+        "name": "Hacksaw",
+        "rarity": "Rare"
+    },
+    {
+        "id": 55,
+        "name": "Brand New Part",
+        "rarity": "Ultra Rare"
+    }
+]

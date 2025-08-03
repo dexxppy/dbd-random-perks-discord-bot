@@ -1,0 +1,542 @@
+[
+    {
+        "killer": "The Trapper",
+        "killer_perks": [
+            "Agitation",
+            "Brutal Strength",
+            "Unnerving Presence"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Bear Oil",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Makeshift Wrap",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Padded Jaws",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Trapper Gloves",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "4-Coil Spring Kit",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Coffee Grounds",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Lengthened Jaws",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Serrated Jaws",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Wax Brick",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Fastening Tools",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Rusted Jaws",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Secondary Coil",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Tar Bottle",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Trapper Bag",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Honing Stone",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Oily Coil",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Tension Spring",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Trapper Sack",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Bloody Coil",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Iridescent Stone",
+                "addon_rarity": ""
+            }
+        ]
+    },
+    {
+        "killer": "The Wraith",
+        "killer_perks": [
+            "Bloodhound",
+            "Predator",
+            "Shadowborn"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "\"The Beast\" - Soot",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"The Ghost\" - Soot",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"The Hound\" - Soot",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"The Serpent\" - Soot",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Blind Warrior\" - Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Blink\" - Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Swift Hunt\" - Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Windstorm\" - Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Bone Clapper",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Blind Warrior\" - White",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Blink\" - White",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Shadow Dance\" - White",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Swift Hunt\" - White",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Windstorm\" - White",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"All Seeing\" - Blood",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Shadow Dance\" - Blood",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Swift Hunt\" - Blood",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Windstorm\" - Blood",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"All Seeing\" - Spirit",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Coxcombed Clapper",
+                "addon_rarity": ""
+            }
+        ]
+    },
+    {
+        "killer": "The Hillbilly",
+        "killer_perks": [
+            "Enduring",
+            "Lightborn",
+            "Tinkerer"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Counterweight",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Cracked Primer Bulb",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Discarded Air Filter",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Steel Toe Boots",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Clogged Intake",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Greased Throttle",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "High-Speed Idler Screw",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Off-Brand Motor Oil",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Thermal Casing",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Begrimed Chains",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dad's Boots",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Low Kickback Chains",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Ragged Engine",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "The Thompsons' Mix",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Apex Muffler",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Filthy Slippers",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "LoPro Chains",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Spiked Boots",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Iridescent Engravings",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Tuned Carburettor",
+                "addon_rarity": ""
+            }
+        ]
+    },
+    {
+        "killer": "The Nurse",
+        "killer_perks": [
+            "A Nurse's Calling",
+            "Stridor",
+            "Thanatophobia"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Metal Spoon",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Plaid Flannel",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "White Nit Comb",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Wooden Horse",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Bad Man Keepsake",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Catatonic Boy's Treasure",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dark Cincture",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dull Bracelet",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Pocket Watch",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Anxious Gasp",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Ataxic Respiration",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Fragile Wheeze",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Heavy Panting",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Spasmodic Breath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "\"Bad Man's\" Last Breath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Campbell's Last Breath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Jenner's Last Breath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Kavanagh's Last Breath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Matchbox",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Torn Bookmark",
+                "addon_rarity": ""
+            }
+        ]
+    },
+    {
+        "killer": "The Shape",
+        "killer_perks": [
+            "Dying Light",
+            "Play with Your Food",
+            "Save the Best for Last"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Blond Hair",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Boyfriend's Memo",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Memorial Flower",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Tacky Earrings",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dead Rabbit",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Glass Fragment",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Hair Brush",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Jewellery",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Reflective Fragment",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Hair Bow",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "J. Myers Memorial",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Jewellery Box",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Judith's Journal",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Mirror Shard",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Lock of Hair",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Scratched Mirror",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Tombstone Piece",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Vanity Mirror",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Fragrant Tuft of Hair",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Judith's Tombstone",
+                "addon_rarity": ""
+            }
+        ]
+    },
+    {
+        "killer": "The Hag",
+        "killer_perks": [
+            "Hex: Devour Hope",
+            "Hex: Ruin",
+            "Hex: The Third Seal"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Bog Water",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dead Fly Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Powdered Eggshell",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Rope Necklet",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Bloodied Water",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Cypress Necklet",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dragonfly Wings",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Half Eggshell",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Pussy Willow Catkins",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Bloodied Mud",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Cracked Turtle Egg",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Dried Cicada",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Swamp Orchid Necklet",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Willow Wreath",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Disfigured Ear",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Grandma's Heart",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Rusty Shackles",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Scarred Hand",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Mint Rag",
+                "addon_rarity": ""
+            },
+            {
+                "addon_name": "Waterlogged Shoe",
+                "addon_rarity": ""
+            }
+        ]
+    }
+]

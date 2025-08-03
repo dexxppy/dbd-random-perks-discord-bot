@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Flashlight",
+        "rarity": "Common",
+        "addons_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    },
+    {
+        "id": 2,
+        "name": "Sport Flashlight",
+        "rarity": "Rare",
+        "addons_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    },
+    {
+        "id": 3,
+        "name": "Utility Flashlight",
+        "rarity": "Very Rare",
+        "addons_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    },
+    {
+        "id": 4,
+        "name": "Broken Key",
+        "rarity": "Rare",
+        "addons_ids": [14, 15, 16, 17, 18, 19, 20, 21, 22]
+    },
+        {
+        "id": 5,
+        "name": "Dull Key",
+        "rarity": "Very Rare",
+        "addons_ids": [14, 15, 16, 17, 18, 19, 20, 21, 22]
+    },
+    {
+        "id": 6,
+        "name": "Skeleton Key",
+        "rarity": "Ultra Rare",
+        "addons_ids": [14, 15, 16, 17, 18, 19, 20, 21, 22]
+    },
+    {
+        "id": 7,
+        "name": "Map",
+        "rarity": "Rare",
+        "addons_ids": [23, 24, 25, 26, 27, 28, 29, 30, 31]
+    },
+    {
+        "id": 8,
+        "name": "Rainbow Map",
+        "rarity": "Ultra Rare",
+        "addons_ids": [23, 24, 25, 26, 27, 28, 29, 30, 31]
+    },
+    {
+        "id": 9,
+        "name": "Camping Aid Kit",
+        "rarity": "Common",
+        "addons_ids": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+        "id": 10,
+        "name": "First Aid Kit",
+        "rarity": "Uncommon",
+        "addons_ids": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+        "id": 11,
+        "name": "Emergency Med-Kit",
+        "rarity": "Rare",
+        "addons_ids": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+        "id": 12,
+        "name": "Ranger Med-Kit",
+        "rarity": "Very Rare",
+        "addons_ids": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+        "id": 13,
+        "name": "Worn-Out Tools",
+        "rarity": "Common",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    },
+    {
+        "id": 14,
+        "name": "Toolbox",
+        "rarity": "Uncommon",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    },
+    {
+        "id": 15,
+        "name": "Commodious Toolbox",
+        "rarity": "Rare",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    },
+    {
+        "id": 16,
+        "name": "Mechanic's Toolbox",
+        "rarity": "Rare",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    },
+    {
+        "id": 17,
+        "name": "Alex's Toolbox",
+        "rarity": "Very Rare",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    },
+    {
+        "id": 18,
+        "name": "Engineer's Toolbox",
+        "rarity": "Very Rare",
+        "addons_ids": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    }
+]

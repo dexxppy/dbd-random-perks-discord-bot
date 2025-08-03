@@ -8,21 +8,21 @@ def get_row_by_id(data, id):
         
     return None
 
-def map_perks(champs_filename, champs_perks_filename, column_name_to_map_by):
+def map_perks(filepath, champs_filename, perks_filename, column_name_to_map_by):
     champs = []
-    champs_perks = []
+    perks = []
     mapped_perks = []
 
-    champs_data_path = os.path.join('data', f'{champs_filename}.json')
-    champs_perks_data_path = os.path.join('data', f'{champs_perks_filename}.json')
+    champs_data_path = os.path.join(filepath, f'{champs_filename}.json')
+    perks_data_path = os.path.join(filepath, f'{perks_filename}.json')
 
     with open(champs_data_path, 'r', encoding='utf-8') as f:
         champs = json.load(f)
 
-    with open(champs_perks_data_path, 'r', encoding='utf-8') as f:
-        champs_perks = json.load(f)
+    with open(perks_data_path, 'r', encoding='utf-8') as f:
+        perks = json.load(f)
 
-    for perk in champs_perks:
+    for perk in perks:
         mapped_perks.append({
             "id": perk["id"],
             "name": perk["name"],
