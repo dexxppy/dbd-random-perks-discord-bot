@@ -39,7 +39,7 @@ https://discord.com/oauth2/authorize?client_id=1401135973974282290&permissions=1
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dexppy/dbd-random-perks-discord-bot.git
+git clone https://github.com/dexxppy/dbd-random-perks-discord-bot.git
 cd dbd-random-perks-discord-bot
 ```
 ### 2. Install dependencies
