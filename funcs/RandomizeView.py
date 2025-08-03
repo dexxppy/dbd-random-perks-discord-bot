@@ -64,6 +64,7 @@ class RandomizeView(discord.ui.View):
 
         content = f"**{self.ctx.author.mention}**, here are your new perks:\n \n{msg} \n \n If you don't own any of these perks, you can replace them!\n \n"
 
-        await interaction.response.send_message(content=content, view=self)
+        await interaction.response.edit_message(content=content, view=self)
+
 
 
