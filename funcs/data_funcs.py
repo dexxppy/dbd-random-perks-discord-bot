@@ -1,33 +1,67 @@
 import json
 import os
 
-def get_row_by_id(data, id):
+def get_row_by_id(data, id, id_field_name):
     for item in data:
-        if item["id"] == id:
+        if item[id_field_name] == id:
             return item
         
     return None
 
-def map_perks(filepath, champs_filename, perks_filename, column_name_to_map_by):
-    champs = []
+def get_data(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data
+
+def get_survivor_data():
+    path = "data/survivor/survivors_list.json"
+    data = get_data(path)
+
+    survivor_id = 0
+    survivors = []
+    perk_id = 1
     perks = []
-    mapped_perks = []
 
-    champs_data_path = os.path.join(filepath, f'{champs_filename}.json')
-    perks_data_path = os.path.join(filepath, f'{perks_filename}.json')
+    for row in data:
+        survivors.append({"survivor_id": survivor_id, "survivor_name": row["survivor_name"]})
+        survivor_id += 1
+        for perk in row["survivor_perks"]:
+            perks.append({"survivor_perk_id": perk_id, "survivor_perk_name": perk,
+                          "survivor_owner_name": row["survivor_name"]})
+            perk_id += 1
 
-    with open(champs_data_path, 'r', encoding='utf-8') as f:
-        champs = json.load(f)
+    del survivors[0]
+    return {"survivors": survivors, "perks": perks}
 
-    with open(perks_data_path, 'r', encoding='utf-8') as f:
-        perks = json.load(f)
 
-    for perk in perks:
-        mapped_perks.append({
-            "id": perk["id"],
-            "name": perk["name"],
-            "owner_name": get_row_by_id(champs, perk[column_name_to_map_by])["name"]
-        })
+def get_killer_data():
+    path = "data/killer/killers_list.json"
+    data = get_data(path)
 
-    return mapped_perks
+    killer_id = 1
+    killers = []
+    perk_id = 1
+    perks = []
+    addon_id = 1
+    # TODO: scrape shared killer perks and pop all killers from
 
+    for row in data:
+        killer = {"killer_id": killer_id, "killer_name": row["killer"]}
+        killer_id += 1
+
+        for perk in row["killer_perks"]:
+            perks.append({"killer_perk_id": perk_id, "killer_perk_name": perk,
+                          "killer_owner_name": row["killer"]})
+            perk_id += 1
+
+        addons = []
+        for addon in row["killer_addons"]:
+            addons.append({"killer_addon_id": addon_id, "killer_addon_name": addon["addon_name"],
+                            "killer_addon_rarity": addon["addon_rarity"]})
+            addon_id += 1
+
+        killer["killer_addons"] = addons
+        killers.append(killer)
+
+    return {"killers": killers, "perks": perks}

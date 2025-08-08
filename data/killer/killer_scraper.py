@@ -63,12 +63,12 @@ addons_dicts = []
 for addon in addons:
     addon_list = []
     for addon_name in addon:
-        addon_list.append({"addon_name": addon_name, "addon_rarity": ""})
+        addon_list.append({"addon_name": addon_name, "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"})
     addons_dicts.append(addon_list)
 
 for killer, perk_list, addon_list in zip(killers, perks, addons_dicts):
     list.append({
-        "killer": killer,
+        "killer_name": killer,
         "killer_perks": perk_list,
         "killer_addons": addon_list
     })

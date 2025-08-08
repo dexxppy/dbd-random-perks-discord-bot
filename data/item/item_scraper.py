@@ -14,9 +14,13 @@ CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
 service = Service(CHROMEDRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
+item_families = ["Flashlights", "Keys", "Maps", "Med-kits", "Toolboxes"]
+
 addons = []
 
 try:
+    family_index = 0
+
     for link in links:
         driver.get(link)
         time.sleep(2)
@@ -40,8 +44,9 @@ try:
 
             except Exception as e:
                 continue
-                
-        addons.append(vals)
+
+        addons.append({"item_family": item_families[family_index], "addons": vals})
+        family_index += 1
 
 except Exception as e:
     print(f"Error ocurred with addons: {e}")
@@ -53,6 +58,7 @@ driver.get("https://deadbydaylight.fandom.com/wiki/Items")
 time.sleep(2)
 
 try:
+    family_index = 0
     table_divs = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')
     table_divs = [table_divs[index] for index in item_tables_indexes] # only items tables
 
@@ -74,38 +80,42 @@ try:
 
             except Exception as e:
                 continue
-            
-        items.append(vals)
+
+        items.append({"item_family": item_families[family_index], "items": vals})
+        family_index += 1
 
 except Exception as e:
     print(f"Error ocurred with items: {e}")
 
 driver.quit()
 
-addons_dict_list = []
+families_dict_list = []
 
-for addon_row in addons:
-    mapped_row = []
+for addons_data_row, item_data_row in zip(addons, items):
+    addons_values = addons_data_row["addons"]
+    items_values = item_data_row["items"]
+    mapped_row_addons = []
+    mapped_row_items = []
 
-    for addon in addon_row:
-        mapped_row.append({
+
+    for addon in addons_values:
+        mapped_row_addons.append({
             "addon_name": addon,
-            "addon_rarity": "",
+            "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare",
         })
 
-    addons_dict_list.append(mapped_row)
-
-list = []
-
-for item_row, addons_dicts in zip(items, addons_dict_list):
-    for item in item_row:
-        list.append({
+    for item in items_values:
+        mapped_row_items.append({
             "item_name": item,
-            "item_rarity": "",
-            "item_addons_set": addons_dicts
+            "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare",
         })
+
+    families_dict_list.append({"item_family": addons_data_row["item_family"],
+                             "items": mapped_row_items,
+                             "addons": mapped_row_addons
+                             })
         
 
 with open('items_list.json', 'w', encoding='utf-8') as f:
-    json.dump(list, f, ensure_ascii=False, indent=4)
+    json.dump(families_dict_list, f, ensure_ascii=False, indent=4)
 
