@@ -1,6 +1,38 @@
 [
     {
-        "killer": "The Trapper",
+        "killer_name": "All Killers",
+        "killer_perks": [
+            "Bitter Murmur",
+            "Deerstalker",
+            "Distressing",
+            "Hex: No One Escapes Death",
+            "Hex: Thrill of the Hunt",
+            "Insidious",
+            "Iron Grasp",
+            "Scourge Hook: Monstrous Shrine",
+            "Shattered Hope",
+            "Sloppy Butcher",
+            "Spies from the Shadows",
+            "Unrelenting",
+            "Whispers",
+            "Iron Grasp",
+            "Insidious",
+            "Whispers",
+            "Deerstalker",
+            "Hex: No One Escapes Death",
+            "Distressing",
+            "Hex: Thrill of the Hunt",
+            "Scourge Hook: Monstrous Shrine",
+            "Sloppy Butcher",
+            "Bitter Murmur",
+            "Unrelenting",
+            "Shattered Hope",
+            "Spies from the Shadows"
+        ],
+        "killer_addons": []
+    },
+    {
+        "killer_name": "The Trapper",
         "killer_perks": [
             "Agitation",
             "Brutal Strength",
@@ -9,88 +41,88 @@
         "killer_addons": [
             {
                 "addon_name": "Bear Oil",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Makeshift Wrap",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Padded Jaws",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Trapper Gloves",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "4-Coil Spring Kit",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Coffee Grounds",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Lengthened Jaws",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Serrated Jaws",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wax Brick",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Fastening Tools",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rusted Jaws",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Secondary Coil",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Tar Bottle",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Trapper Bag",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Honing Stone",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Oily Coil",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Tension Spring",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Trapper Sack",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Bloody Coil",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Iridescent Stone",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "killer": "The Wraith",
+        "killer_name": "The Wraith",
         "killer_perks": [
             "Bloodhound",
             "Predator",
@@ -99,88 +131,88 @@
         "killer_addons": [
             {
                 "addon_name": "\"The Beast\" - Soot",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"The Ghost\" - Soot",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"The Hound\" - Soot",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"The Serpent\" - Soot",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Blind Warrior\" - Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Blink\" - Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Swift Hunt\" - Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Windstorm\" - Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Bone Clapper",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Blind Warrior\" - White",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Blink\" - White",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Shadow Dance\" - White",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Swift Hunt\" - White",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Windstorm\" - White",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"All Seeing\" - Blood",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Shadow Dance\" - Blood",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Swift Hunt\" - Blood",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Windstorm\" - Blood",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"All Seeing\" - Spirit",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Coxcombed Clapper",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "killer": "The Hillbilly",
+        "killer_name": "The Hillbilly",
         "killer_perks": [
             "Enduring",
             "Lightborn",
@@ -189,88 +221,88 @@
         "killer_addons": [
             {
                 "addon_name": "Counterweight",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Cracked Primer Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Discarded Air Filter",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Steel Toe Boots",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Clogged Intake",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Greased Throttle",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-Speed Idler Screw",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Off-Brand Motor Oil",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Thermal Casing",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Begrimed Chains",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dad's Boots",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Kickback Chains",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Ragged Engine",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "The Thompsons' Mix",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Apex Muffler",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Filthy Slippers",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "LoPro Chains",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Spiked Boots",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Iridescent Engravings",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Tuned Carburettor",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "killer": "The Nurse",
+        "killer_name": "The Nurse",
         "killer_perks": [
             "A Nurse's Calling",
             "Stridor",
@@ -279,178 +311,88 @@
         "killer_addons": [
             {
                 "addon_name": "Metal Spoon",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Plaid Flannel",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "White Nit Comb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wooden Horse",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Bad Man Keepsake",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Catatonic Boy's Treasure",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dark Cincture",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dull Bracelet",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Pocket Watch",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Anxious Gasp",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Ataxic Respiration",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Fragile Wheeze",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Panting",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Spasmodic Breath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "\"Bad Man's\" Last Breath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Campbell's Last Breath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Jenner's Last Breath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Kavanagh's Last Breath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Matchbox",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Torn Bookmark",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "killer": "The Shape",
-        "killer_perks": [
-            "Dying Light",
-            "Play with Your Food",
-            "Save the Best for Last"
-        ],
-        "killer_addons": [
-            {
-                "addon_name": "Blond Hair",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Boyfriend's Memo",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Memorial Flower",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Tacky Earrings",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Dead Rabbit",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Glass Fragment",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Hair Brush",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Jewellery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Reflective Fragment",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Hair Bow",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "J. Myers Memorial",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Jewellery Box",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Judith's Journal",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Mirror Shard",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Lock of Hair",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Scratched Mirror",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Tombstone Piece",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Vanity Mirror",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Fragrant Tuft of Hair",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Judith's Tombstone",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "killer": "The Hag",
+        "killer_name": "The Hag",
         "killer_perks": [
             "Hex: Devour Hope",
             "Hex: Ruin",
@@ -459,84 +401,2976 @@
         "killer_addons": [
             {
                 "addon_name": "Bog Water",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dead Fly Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Powdered Eggshell",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rope Necklet",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Bloodied Water",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Cypress Necklet",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dragonfly Wings",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Half Eggshell",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Pussy Willow Catkins",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Bloodied Mud",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Cracked Turtle Egg",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Dried Cicada",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Swamp Orchid Necklet",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Willow Wreath",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Disfigured Ear",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Grandma's Heart",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rusty Shackles",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Scarred Hand",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Mint Rag",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Waterlogged Shoe",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
+    },
+    {
+        "killer_name": "The Doctor",
+        "killer_perks": [
+            "Monitor & Abuse",
+            "Overcharge",
+            "Overwhelming Presence"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "\"Calm\" - Class I",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Order\" - Class I",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Maple Knight",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mouldy Electrode",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Calm\" - Class II",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Discipline\" - Class II",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Order\" - Class II",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Restraint\" - Class II",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Polished Electrode",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Discipline\" - Class III",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Restraint\" - Class III",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "High Stimulus Electrode",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Interview Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Scrapped Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Calm\" - Carter's Notes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Discipline\" - Carter's Notes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Order\" - Carter's Notes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Restraint\" - Carter's Notes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent King",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Queen",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Huntress",
+        "killer_perks": [
+            "Beast of Prey",
+            "Hex: Huntress Lullaby",
+            "Territorial Imperative"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Amanita Toxin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bandaged Haft",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Coarse Stone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Yellowed Cloth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leather Loop",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Manna Grass Braid",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Oak Haft",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shiny Pin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Weighted Head",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Deerskin Gloves",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Flower Babushka",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rose Root",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusty Head",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Venomous Concoction",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Begrimed Head",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Glowing Concoction",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Infantry Belt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wooden Fox",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Head",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Soldier's Puttee",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Cannibal",
+        "killer_perks": [
+            "Barbecue & Chilli",
+            "Franklin's Demise",
+            "Knock Out"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Chainsaw File",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spark Plug",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Speed Limiter",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vegetable Oil",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chilli",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Homemade Muffler",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Knife Scratches",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Long Guide Bar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Primer Bulb",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Begrimed Chains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Grisly Chains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shop Lubricant",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "The Beast's Marks",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "The Grease",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Award-winning Chilli",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Depth Gauge Rake",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Light Chassis",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusted Chains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Carburettor Tuning Guide",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Flesh",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Nightmare",
+        "killer_perks": [
+            "Blood Warden",
+            "Fire Up",
+            "Remember Me"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Garden Rake",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kid's Drawing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sheep Block",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wool Shirt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cat Block",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Green Dress",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Nancy's Sketch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Outdoor Rope",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Prototype Claws",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blue Dress",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jump Rope",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Nancy's Masterpiece",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Paint Thinner",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Unicorn Block",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Z\" Block",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Class Photo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pill Bottle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Swing Chains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Black Box",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Red Paint Brush",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Pig",
+        "killer_perks": [
+            "Make Your Choice",
+            "Scourge Hook: Hangman's Trick",
+            "Surveillance"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Combat Straps",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Interlocking Razor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "John's Medical File",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shattered Syringe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Face Mask",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Last Will",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Razor Wires",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Utility Blades",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Workshop Grease",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bag of Gears",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jigsaw's Annotated Plan",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rules Set No.2",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusty Attachments",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Slow-Release Toxin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Amanda's Secret",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Crate of Gears",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jigsaw's Sketch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tampered Timer",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Amanda's Letter",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Video Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Clown",
+        "killer_perks": [
+            "Bamboozle",
+            "Coulrophobia",
+            "Pop Goes the Weasel"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Fingerless Parade Gloves",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Party Bottle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Robin Feather",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "VHS Porn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kerosene Can",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Solvent Jug",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Starling Feather",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sticky Soda Bottle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Thick Cork Stopper",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bottle of Chloroform",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Flask of Bleach",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Smelly Inner Soles",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spirit of Hartshorn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sulphuric Acid Vial",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cheap Gin Bottle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cigar Box",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ether 15 Vol%",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Garish Make-Up Kit",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Redhead's Pinkie Finger",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tattoo's Middle Finger",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Spirit",
+        "killer_perks": [
+            "Hex: Haunted Ground",
+            "Rancor",
+            "Spirit Fury"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Gifted Bamboo Comb",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Origami Crane",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shiawase Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Zōri",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Juniper Bonsai",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kaiun Talisman",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Muddy Sports Day Cap",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rin's Broken Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "White Hair Ribbon",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Katana Tsuba",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mother's Glasses",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusty Flute",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Senko Hanabi",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Uchiwa",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Dried Cherry Blossom",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Furin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wakizashi Saya",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Yakuyoke Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kintsugi Teacup",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mother-Daughter Ring",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Legion",
+        "killer_perks": [
+            "Discordance",
+            "Iron Maiden",
+            "Mad Grit"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Friendship Bracelet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mischief List",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Scratched Ruler",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Smiley Face Pin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Defaced Smiley Pin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Etched Ruler",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Julie's Mix Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mural Sketch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Never-Sleep Pills",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Joey's Mix Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Stolen Sketch Book",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Stylish Sunglasses",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Susie's Mix Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "The Legion Pin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "BFFs",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Filthy Blade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Frank's Mix Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Stab Wounds Study",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Fuming Mix Tape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Button",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Plague",
+        "killer_perks": [
+            "Corrupt Intervention",
+            "Dark Devotion",
+            "Infectious Fright"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Healing Salve",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Limestone Seal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Olibanum Incense",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Prayer Tablet Fragment",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blessed Apple",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Emetic Potion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Haematite Seal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Potent Tincture",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Prophylactic Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ashen Apple",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Exorcism Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Incensed Ointment",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Infected Emetic",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rubbing Oil",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Devotee's Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Severed Toe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vile Emetic",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Worship Tablet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Black Incense",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Seal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Ghost Face",
+        "killer_perks": [
+            "Furtive Chase",
+            "I'm All Ears",
+            "Thrilling Tremors"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "\"Philly\"",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cheap Cologne",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Headline Cut-Outs",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Walleye's Matchbook",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cinch Straps",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Marked Map",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Olsen's Address Book",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Olsen's Journal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Telephoto Lens",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chewed Pen",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Knife Belt Clip",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lasting Perfume",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leather Knife Sheath",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Olsen's Wallet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Driver's License",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Drop-Leg Knife Sheath",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Night Vision Monocular",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Victim's Detailed Routine",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "\"Ghost Face Caught on Tape\"",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Outdoor Security Camera",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Demogorgon",
+        "killer_perks": [
+            "Cruel Limits",
+            "Mindbreaker",
+            "Surge"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Black Heart",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rat Liver",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rat Tail",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rotten Pumpkin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Barb's Glasses",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mews' Guts",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rotten Green Tripe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sticky Lining",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Viscous Webbing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Brass Case Lighter",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Deer Lung",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Eleven's Soda",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Thorny Vines",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Violet Waxcap",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lifeguard Whistle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Unknown Egg",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Upside Down Resin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vermilion Webcap",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leprose Lichen",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Red Moss",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Oni",
+        "killer_perks": [
+            "Blood Echo",
+            "Nemesis",
+            "Zanshin Tactics"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Blackened Toenail",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cracked Sakazuki",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Paper Lantern",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rotting Rope",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bloody Sash",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Child's Wooden Sword",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chipped Saihai",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ink Lion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Polished Maedate",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kanai-Anzen Talisman",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Scalped Topknot",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shattered Wakizashi",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wooden Oni Mask",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Yamaoka Sashimono",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Akito's Crutch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lion Fang",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Splintered Hull",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tear-Soaked Tenugui",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Family Crest",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Renjiro's Bloody Glove",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Deathslinger",
+        "killer_perks": [
+            "Dead Man's Switch",
+            "Gearhead",
+            "Hex: Retribution"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Modified Ammo Belt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rickety Chain",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Snake Oil",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spit Polish Rag",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chewing Tobacco",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jaw Smasher",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Marshal's Badge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Poison Oak Leaves",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusted Spike",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bayshore's Gold Tooth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Honey Locust Thorn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tin Oil Can",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wanted Poster",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Warden's Keys",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Barbed Wire",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bayshore's Cigar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Gold Creek Whiskey",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Prison Chain",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hellshire Iron",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Coin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Executioner",
+        "killer_perks": [
+            "Deathbound",
+            "Forced Penance",
+            "Trail of Torment"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Black Strap",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Copper Ring",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Dead Butterfly",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lead Ring",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cinderella Music Box",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Forgotten Videotape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leopard-Print Fabric",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spearhead",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wax Doll",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Burning Man Painting",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mannequin Foot",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tablet of the Oppressor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Valtiel Sect Photograph",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Crimson Ceremony Book",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lost Memories Book",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rust-Coloured Egg",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Scarlet Egg",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Seal of Metatron",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Obsidian Goblet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Blight",
+        "killer_perks": [
+            "Dragon's Grip",
+            "Hex: Blood Favour",
+            "Hex: Undying"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Chipped Monocle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Compound Seven",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Foxglove",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Placebo Tablet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blighted Rat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Canker Thorn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Plague Bile",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pustula Dust",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shredded Notes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Adrenaline Vial",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blighted Crow",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Compound Twenty-One",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rose Tonic",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Umbra Salts",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Alchemist's Ring",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Soul Chemical",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Summoning Stone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vigo's Journal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Compound Thirty-Three",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Blight Tag",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Twins",
+        "killer_perks": [
+            "Coup de Grâce",
+            "Hoarder",
+            "Oppression"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Cat Figurine",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Soured Milk",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tiny Fingernail",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Toy Sword",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Baby Teeth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bloody Black Hood",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cat's Eye",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ceremonial Candelabrum",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Madeleine's Glove",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Madeleine's Scarf",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rusted Needle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sewer Sludge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Stale Biscuit",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Weighty Rattle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Drop of Perfume",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Forest Stew",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spinning Top",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Victor's Soldier",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Pendant",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Silencing Cloth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Trickster",
+        "killer_perks": [
+            "Hex: Crowd Control",
+            "No Way Out",
+            "Starstruck"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Inferno Wires",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Killing Part Chords",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Memento Blades",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Trick Pouch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Caged Heart Shoes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ji-Woon's Autograph",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lucky Blade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "On Target Single",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tequila Moonrock",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bloody Boa",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Fizz-Spin Soda",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Melodious Murder",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ripper Brace",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Waiting For You Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cut Thru U Single",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Diamond Cufflinks",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Edge of Revival Album",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Trick Blades",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Death Throes Compilation",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Photocard",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Nemesis",
+        "killer_perks": [
+            "Eruption",
+            "Hysteria",
+            "Lethal Pursuer"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Brian's Intestine",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Damaged Syringe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "S.T.A.R.S. Field Combat Manual",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Visitor Wristband",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Admin Wristband",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Adrenaline Injector",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Marvin's Blood",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mikhail's Eye",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Zombie Heart",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Licker Tongue",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Plant 43 Vines",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Serotonin Injector",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "T-Virus Sample",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tyrant Gore",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Broken Recovery Coin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Depleted Ink Ribbon",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jill's Sandwich",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ne-α Parasite",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Umbrella Badge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shattered S.T.A.R.S. Badge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Cenobite",
+        "killer_perks": [
+            "No Holds Barred"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Bent Nail",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Burning Candle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leather Strip",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lively Crickets",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Flickering Television",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Liquified Gore",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Skewered Rat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spoiled Meal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wriggling Maggots",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Frank's Heart",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Larry's Blood",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Larry's Remains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Slice of Frank",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Torture Pillar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chatterer's Tooth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Greasy Black Lens",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Impaling Wire",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Original Pain",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Engineer's Fang",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Lament Configuration",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Artist",
+        "killer_perks": [
+            "Grim Embrace",
+            "Hex: Pentimento",
+            "Scourge Hook: Pain Resonance"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Choclo Corn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Oil Paints",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Thick Tar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vibrant Obituary",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Automatic Drawing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Festering Carrion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Still Life Crow",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Untitled Agony",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Velvet Fabric",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Charcoal Stick",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Darkest Ink",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "O Grief, O Lover",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Silver Bell",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Thorny Nest",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ink Egg",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Matias' Baby Shoes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Severed Hands",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Severed Tongue",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Garden of Rot",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Feather",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Onryō",
+        "killer_perks": [
+            "Call of Brine",
+            "Merciless Storm",
+            "Scourge Hook: Floods of Rage"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Cabin Sign",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mother's Mirror",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Old Newspaper",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Videotape Copy",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Clump of Hair",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Reiko's Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sea-Soaked Cloth",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Well Stone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Yoichi's Fishing Net",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bloody Fingernails",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mother's Comb",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rickety Pinwheel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ring Drawing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Well Water",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Distorted Photo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tape Editing Deck",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Telephone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "VCR",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Videotape",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Remote Control",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Dredge",
+        "killer_perks": [
+            "Darkness Revealed",
+            "Dissolution",
+            "Septic Touch"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Caffeine Tablets",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Follower's Cowl",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mortar and Pestle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Wooden Plank",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Air Freshener",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Burnt Letters",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Fallen Shingle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Haddie's Calendar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Malthinker's Skull",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Broken Doll",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Destroyed Pillow",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ottomarian Writing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "War Helmet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Worry Stone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Boat Key",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Field Recorder",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lavalier Microphone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tilling Blade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Wooden Plank",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sacrificial Knife",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Mastermind",
+        "killer_perks": [
+            "Awakened Awareness",
+            "Superior Anatomy",
+            "Terminus"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Jewel Beetle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "R.P.D. Shoulder Walkie",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Unicorn Medallion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Uroboros Tendril",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bullhorn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Chalice (Gold)",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leather Gloves",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lion Medallion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Loose Crank",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Egg (Gold)",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Maiden Medallion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Portable Safe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Red Herb",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Video Conference Device",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Dark Sunglasses",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Green Herb",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Helicopter Stick",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Uroboros Virus",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Uroboros Vial",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lab Photo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Knight",
+        "killer_perks": [
+            "Hex: Face the Darkness",
+            "Hubris",
+            "Nowhere to Hide"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Gritty Lump",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Map of the Realm",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pillaged Mead",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tattered Tabard",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Battle Axe Head",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Call to Arms",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cold Steel Manacles",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Dried Horsemeat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Treated Blade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Broken Hilt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Grim Iron Mask",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ironworker's Tongs",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sharpened Mount",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Town Watch's Torch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blacksmith's Hammer",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Flint and Steel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Healing Poultice",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jailer's Chimes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Company Banner",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Knight's Contract",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Skull Merchant",
+        "killer_perks": [
+            "Game Afoot",
+            "Leverage",
+            "THWACK!"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Adi Valente Issue 1",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "High-Current Upgrade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "High-Power Floodlight",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ultrasonic Speaker",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Adaptive Lighting",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Low-Power Mode",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Shotgun Speakers",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Stereo Remote Mic",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Supercharge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Brown Noise Generator",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Infrared Upgrade",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Loose Screw",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Powdered Glass",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vital Targeting Processor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Advanced Movement Prediction",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Geographical Readout",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Prototype Rotor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Randomised Strobes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Expired Batteries",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Unpublished Manuscript",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Singularity",
+        "killer_perks": [
+            "Forced Hesitation",
+            "Genetic Limits",
+            "Machine Learning"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Broken Security Key",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Diagnostic Tool (Repair)",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Heavy Water",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Nutritional Slurry",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Android Arm",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cremated Remains",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cryo Gel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kid's Ball Glove",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ultrasonic Sensor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hologram Generator",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hyperawareness Spray",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Live Wires",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Nanomachine Gel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spent Oxygen Tank",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Crew Manifest",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Diagnostic Tool (Construction)",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Foreign Plant Fibres",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Soma Family Photo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Denied Requisition Form",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Crystal Shard",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Xenomorph",
+        "killer_perks": [
+            "Alien Instinct",
+            "Rapid Brutality",
+            "Ultimate Weapon"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Cereal Rations",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Drinking Bird",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ovomorph",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ripley's Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ash's Innards",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Brett's Cap",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Crew Headset",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lambert's Star Map",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Light Wand",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Emergency Helmet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Kane's Helmet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Moulted Skin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Multipurpose Hatchet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Parker's Headband",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cat Carrier",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Harpoon Gun",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Self-Destruct Bolt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Semiotic Keyboard",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Acidic Blood",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Improvised Cattle Prod",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Good Guy",
+        "killer_perks": [
+            "Batteries Included",
+            "Friends 'til the End",
+            "Hex: Two Can Play"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Doll Eyes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Good Guy Box",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Strobing Light",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tiny Scalpel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Automatic Screwdriver",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Electric Carving Knife",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hair Spray & Candle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Jump Rope",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Power Drill",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Portable TV",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rat Poison",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Running Shoes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Silk Pillow",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Yardstick",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Mirror Shards",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pile of Nails",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Plastic Bag",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Straight Razor",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hard Hat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Amulet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Unknown",
+        "killer_perks": [
+            "Unbound",
+            "Undone",
+            "Unforeseen"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Blurry Photo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Punctured Eyeball",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Rabbit's Foot",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sketch Attempt",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Device of Undisclosed Origin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Last Known Recording",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Notebook of Theories",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Slashed Backpack",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Victim's Map",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "B-Movie Poster",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Footprint Cast",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Front-Page Article",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Hypnotist's Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vanishing Box",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Discarded Milk Carton",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Homemade Mask",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Obscure Game Cartridge",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Serum Vial",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Captured by the Dark",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent OSS Report",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Lich",
+        "killer_perks": [
+            "Dark Arrogance",
+            "Languid Touch",
+            "Weave Attunement"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Crystal Ball",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Raven's Feather",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Tattered Headband",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Trickster's Glove",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Glass Eye",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lantern of Revealing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Potion of Speed",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ring of Spell Storing",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ring of Telekinesis",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Boots of Speed",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cloak of Elvenkind",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ornate Horn",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pearl of Power",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Staff of Withering",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Bag of Holding",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cloak of Invisibility",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Dragontooth Dagger",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Robe of Eyes",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Book of Vile Darkness",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Vorpal Sword",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Dark Lord",
+        "killer_perks": [
+            "Dominance",
+            "Hex: Wretched Fate",
+            "Human Greed"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Cerberus Talon",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Clock Tower Gear",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ruby Circlet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Traveller's Hat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Blood-Filled Goblet",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Magical Ticket",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Moonstone Necklace",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "White Wolf Medallion",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Winged Boots",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Force of Echo",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Killer Doll",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Pocket Watch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sunglasses",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sylph Feather",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Cube of Zoe",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Lapis Lazuli",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Medusa's Hair",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Warg's Fang",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Alucard's Shield",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Ring of Vlad",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Houndmaster",
+        "killer_perks": [
+            "All-Shaking Thunder",
+            "No Quarter",
+            "Scourge Hook: Jagged Compass"
+        ],
+        "killer_addons": [
+            {
+                "addon_name": "Creature's Bone",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Sticky Pitch",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Trainer's Book",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Young Coconut",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Barley Meal",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Belaying Pins",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Knotted Rope",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Smoked Snapper",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spyglass",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Fatty Meat",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Spiked Collar",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Training Bell",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Unfinished Map",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Waterskin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Gunpowder Tin",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Leather Harness",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Marlinspike",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Ship Figurehead",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Iridescent Wheel Handle",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "addon_name": "Torn Novel",
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ]
+    },
+    {
+        "killer_name": "The Ghoul",
+        "killer_perks": [
+            "Forever Entwined",
+            "Hex: Nothing But Misery",
+            "None Are Free"
+        ],
+        "killer_addons": []
+    },
+    {
+        "killer_name": "The Animatronic",
+        "killer_perks": [
+            "Haywire",
+            "Help Wanted",
+            "Phantom Fear"
+        ],
+        "killer_addons": []
     }
 ]

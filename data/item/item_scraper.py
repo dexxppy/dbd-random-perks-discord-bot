@@ -116,6 +116,6 @@ for addons_data_row, item_data_row in zip(addons, items):
                              })
         
 
-with open('items_list.json', 'w', encoding='utf-8') as f:
+with open('./data/item/items_list.json', 'w', encoding='utf-8') as f:
     json.dump(families_dict_list, f, ensure_ascii=False, indent=4)
 

@@ -1,1737 +1,428 @@
 [
     {
-        "item_name": "Flashlight",
-        "item_rarity": "",
-        "item_addons_set": [
+        "item_family": "Flashlights",
+        "items": [
+            {
+                "item_name": "Flashlight",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Sport Flashlight",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Utility Flashlight",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Anniversary Flashlight",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Masquerade Flashlight",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Will O' Wisp",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ],
+        "addons": [
             {
                 "addon_name": "Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Intense Halogen",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "item_name": "Sport Flashlight",
-        "item_rarity": "",
-        "item_addons_set": [
+        "item_family": "Keys",
+        "items": [
+            {
+                "item_name": "Broken Key",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Dull Key",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Skeleton Key",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ],
+        "addons": [
             {
                 "addon_name": "Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Intense Halogen",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "item_name": "Utility Flashlight",
-        "item_rarity": "",
-        "item_addons_set": [
+        "item_family": "Maps",
+        "items": [
+            {
+                "item_name": "Map",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Rainbow Map",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Bloodsense Map",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ],
+        "addons": [
             {
                 "addon_name": "Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Intense Halogen",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "item_name": "Anniversary Flashlight",
-        "item_rarity": "",
-        "item_addons_set": [
+        "item_family": "Med-kits",
+        "items": [
+            {
+                "item_name": "Camping Aid Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "First Aid Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Emergency Med-Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Ranger Med-Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "All Hallows' Eve Lunchbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Anniversary Med-Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            },
+            {
+                "item_name": "Masquerade Med-Kit",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+            }
+        ],
+        "addons": [
             {
                 "addon_name": "Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Intense Halogen",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     },
     {
-        "item_name": "Masquerade Flashlight",
-        "item_rarity": "",
-        "item_addons_set": [
+        "item_family": "Toolboxes",
+        "items": [
             {
-                "addon_name": "Battery",
-                "addon_rarity": ""
+                "item_name": "Worn-Out Tools",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "item_name": "Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "item_name": "Commodious Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "item_name": "Mechanic's Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "item_name": "Alex's Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "item_name": "Engineer's Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "item_name": "Anniversary Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "item_name": "Festive Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "item_name": "Masquerade Toolbox",
+                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
-        ]
-    },
-    {
-        "item_name": "Will O' Wisp",
-        "item_rarity": "",
-        "item_addons_set": [
+        ],
+        "addons": [
             {
                 "addon_name": "Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Power Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Focus Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Rubber Grip",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Intense Halogen",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             },
             {
                 "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Broken Key",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Dull Key",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Skeleton Key",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Map",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Rainbow Map",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Bloodsense Map",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Camping Aid Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "First Aid Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Emergency Med-Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Ranger Med-Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "All Hallows' Eve Lunchbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Anniversary Med-Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Masquerade Med-Kit",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Worn-Out Tools",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Commodious Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Mechanic's Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Alex's Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Engineer's Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Anniversary Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Festive Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
-            }
-        ]
-    },
-    {
-        "item_name": "Masquerade Toolbox",
-        "item_rarity": "",
-        "item_addons_set": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": ""
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": ""
+                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
             }
         ]
     }

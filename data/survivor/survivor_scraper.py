@@ -105,6 +105,6 @@ for surv, perk_list in zip(survs, perks):
     })
 
 
-with open('survivors_list.json', 'w', encoding='utf-8') as f:
+with open('./data/survivor/survivors_list.json', 'w', encoding='utf-8') as f:
     json.dump(list, f, ensure_ascii=False, indent=4)
 
