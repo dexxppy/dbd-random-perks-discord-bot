@@ -1,329 +1,76 @@
 [
     {
-        "item_family": "Flashlights",
-        "items": [
-            {
-                "item_name": "Flashlight",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Sport Flashlight",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Utility Flashlight",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Anniversary Flashlight",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Masquerade Flashlight",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Will O' Wisp",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ],
-        "addons": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ]
-    },
-    {
-        "item_family": "Keys",
-        "items": [
-            {
-                "item_name": "Broken Key",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Dull Key",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Skeleton Key",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ],
-        "addons": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ]
-    },
-    {
-        "item_family": "Maps",
-        "items": [
-            {
-                "item_name": "Map",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Rainbow Map",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Bloodsense Map",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ],
-        "addons": [
-            {
-                "addon_name": "Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Leather Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Wide Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "TIR Optic",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            }
-        ]
-    },
-    {
-        "item_family": "Med-kits",
+        "item_family": "Med Kits",
         "items": [
             {
                 "item_name": "Camping Aid Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Common"
             },
             {
                 "item_name": "First Aid Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Uncommon"
             },
             {
                 "item_name": "Emergency Med-Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Rare"
             },
             {
                 "item_name": "Ranger Med-Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "All Hallows' Eve Lunchbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Anniversary Med-Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Masquerade Med-Kit",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Very Rare"
             }
         ],
         "addons": [
             {
-                "addon_name": "Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Rubber Gloves",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Leather Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Bandages",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Butterfly Tape",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Wide Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Sponge",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Medical Scissors",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Self Adherent Wrap",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Needle & Thread",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Gauze Roll",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "TIR Optic",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Surgical Suture",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Styptic Agent",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Abdominal Dressing",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Anti-Haemorrhagic Syringe",
+                "addon_rarity": "Common"
             },
             {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Gel Dressings",
+                "addon_rarity": "Common"
             }
         ]
     },
@@ -332,97 +79,261 @@
         "items": [
             {
                 "item_name": "Worn-Out Tools",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Common"
             },
             {
                 "item_name": "Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Uncommon"
+            },
+            {
+                "item_name": "Mechanic’s Toolbox",
+                "item_rarity": "Rare"
             },
             {
                 "item_name": "Commodious Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_rarity": "Rare"
             },
             {
-                "item_name": "Mechanic's Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_name": "Alex’s Toolbox",
+                "item_rarity": "Ultra Rare"
             },
             {
-                "item_name": "Alex's Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Engineer's Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Anniversary Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Festive Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "item_name": "Masquerade Toolbox",
-                "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "item_name": "Engineer’s Toolbox",
+                "item_rarity": "Ultra Rare"
             }
         ],
         "addons": [
             {
+                "addon_name": "Instructions",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Scraps",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Clean Rag",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Wire Spool",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Spring Clamp",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Socket Swivels",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Cutting Wire",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Protective Gloves",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Hacksaw",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Grip Wrench",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Brand New Part",
+                "addon_rarity": "Common"
+            }
+        ]
+    },
+    {
+        "item_family": "Maps",
+        "items": [
+            {
+                "item_name": "Cryptic Map",
+                "item_rarity": "Common"
+            },
+            {
+                "item_name": "Scribbled Map",
+                "item_rarity": "Uncommon"
+            },
+            {
+                "item_name": "Annotated Map",
+                "item_rarity": "Rare"
+            }
+        ],
+        "addons": [
+            {
+                "addon_name": "Glowing Ink",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Gnarled Compass",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Battered Tape",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Sharpened Flint",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Crimson Stamp",
+                "addon_rarity": "Common"
+            }
+        ]
+    },
+    {
+        "item_family": "Keys",
+        "items": [
+            {
+                "item_name": "Broken Key",
+                "item_rarity": "Common"
+            },
+            {
+                "item_name": "Dull Key",
+                "item_rarity": "Uncommon"
+            },
+            {
+                "item_name": "Skeleton Key",
+                "item_rarity": "Rare"
+            }
+        ],
+        "addons": [
+            {
+                "addon_name": "Friendship Charm",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Shrill Whistle",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Braided Bauble",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Unique Wedding Ring",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Blood Amber",
+                "addon_rarity": "Common"
+            }
+        ]
+    },
+    {
+        "item_family": "Fog Vials",
+        "items": [
+            {
+                "item_name": "Apprentice’s Fog Vial",
+                "item_rarity": "Common"
+            },
+            {
+                "item_name": "Artisan’s Fog Vial",
+                "item_rarity": "Uncommon"
+            },
+            {
+                "item_name": "Vigo’s Fog Vial",
+                "item_rarity": "Rare"
+            }
+        ],
+        "addons": [
+            {
+                "addon_name": "Volcanic Stone",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Reactive Compound",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Oily Sap",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Mushroom Formula",
+                "addon_rarity": "Common"
+            },
+            {
+                "addon_name": "Potent Extract",
+                "addon_rarity": "Common"
+            }
+        ]
+    },
+    {
+        "item_family": "Flashlight",
+        "items": [
+            {
+                "item_name": "Flashlight",
+                "item_rarity": "Uncommon"
+            },
+            {
+                "item_name": "Sport Flashlight",
+                "item_rarity": "Rare"
+            },
+            {
+                "item_name": "Utility Flashlight",
+                "item_rarity": "Very Rare"
+            }
+        ],
+        "addons": [
+            {
+                "addon_name": "Power Bulb",
+                "addon_rarity": "Uncommon"
+            },
+            {
                 "addon_name": "Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "Leather Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "Wide Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "TIR Optic",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_name": "Heavy Duty Battery",
+                "addon_rarity": "Uncommon"
+            },
+            {
+                "addon_name": "Focus Lens",
+                "addon_rarity": "Uncommon"
+            },
+            {
+                "addon_name": "Rubber Grip",
+                "addon_rarity": "Uncommon"
+            },
+            {
+                "addon_name": "Low Amp Filament",
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "Long Life Battery",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
+            },
+            {
+                "addon_name": "Intense Halogen",
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             },
             {
                 "addon_name": "Odd Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
-            },
-            {
-                "addon_name": "Broken Bulb",
-                "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"
+                "addon_rarity": "Uncommon"
             }
         ]
     }

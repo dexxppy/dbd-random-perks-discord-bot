@@ -1,38 +1,5 @@
 [
     {
-        "survivor_name": "All Survivors",
-        "survivor_perks": [
-            "Dark Sense",
-            "Déjà Vu",
-            "Hope",
-            "Kindred",
-            "Lightweight",
-            "No One Left Behind",
-            "Plunderer's Instinct",
-            "Premonition",
-            "Resilience",
-            "Slippery Meat",
-            "Small Game",
-            "Spine Chill",
-            "This Is Not Happening",
-            "We'll Make It",
-            "Hope",
-            "Déjà Vu",
-            "No One Left Behind",
-            "Small Game",
-            "Plunderer's Instinct",
-            "Spine Chill",
-            "This Is Not Happening",
-            "Kindred",
-            "Dark Sense",
-            "We'll Make It",
-            "Slippery Meat",
-            "Premonition",
-            "Lightweight",
-            "Resilience"
-        ]
-    },
-    {
         "survivor_name": "Dwight Fairfield",
         "survivor_perks": [
             "Bond",
@@ -43,17 +10,17 @@
     {
         "survivor_name": "Meg Thomas",
         "survivor_perks": [
-            "Adrenaline",
-            "Quick & Quiet",
-            "Sprint Burst"
+            "Quick and Quiet",
+            "Sprint Burst",
+            "Adrenaline"
         ]
     },
     {
         "survivor_name": "Claudette Morel",
         "survivor_perks": [
-            "Botany Knowledge",
+            "",
             "Empathy",
-            "Self-Care"
+            "Self Care"
         ]
     },
     {
@@ -67,64 +34,64 @@
     {
         "survivor_name": "Nea Karlsson",
         "survivor_perks": [
-            "Balanced Landing",
-            "Streetwise",
+            "",
+            "",
             "Urban Evasion"
         ]
     },
     {
         "survivor_name": "Laurie Strode",
         "survivor_perks": [
-            "Decisive Strike",
-            "Object of Obsession",
-            "Sole Survivor"
+            "",
+            "Sole Survivor",
+            "Object of Obsession"
         ]
     },
     {
         "survivor_name": "Ace Visconti",
         "survivor_perks": [
-            "Ace in the Hole",
-            "Open-Handed",
-            "Up the Ante"
+            "Ace in The Hole",
+            "Open Handed",
+            "Up The Ante"
         ]
     },
     {
         "survivor_name": "Bill Overbeck",
         "survivor_perks": [
-            "Borrowed Time",
+            "Unbreakable",
             "Left Behind",
-            "Unbreakable"
+            "Borrowed Time"
         ]
     },
     {
         "survivor_name": "Feng Min",
         "survivor_perks": [
-            "Alert",
             "Lithe",
+            "Alert",
             "Technician"
         ]
     },
     {
         "survivor_name": "David King",
         "survivor_perks": [
-            "Dead Hard",
             "No Mither",
-            "We're Gonna Live Forever"
+            "Dead Hard",
+            "We’re Gonna Live Forever"
         ]
     },
     {
         "survivor_name": "Quentin Smith",
         "survivor_perks": [
-            "Pharmacy",
+            "",
             "Vigil",
-            "Wake Up!"
+            "Pharmacy"
         ]
     },
     {
         "survivor_name": "David Tapp",
         "survivor_perks": [
-            "Detective's Hunch",
             "Stake Out",
+            "Detective’s Hunch",
             "Tenacity"
         ]
     },
@@ -132,22 +99,22 @@
         "survivor_name": "Kate Denson",
         "survivor_perks": [
             "Boil Over",
-            "Dance With Me",
-            "Windows of Opportunity"
+            "Windows of Opportunity",
+            "Dance With Me"
         ]
     },
     {
         "survivor_name": "Adam Francis",
         "survivor_perks": [
-            "Autodidact",
-            "Deliverance",
-            "Diversion"
+            "",
+            "Diversion",
+            "Deliverance"
         ]
     },
     {
         "survivor_name": "Jeff Johansen",
         "survivor_perks": [
-            "Aftercare",
+            "",
             "Breakdown",
             "Distortion"
         ]
@@ -155,63 +122,63 @@
     {
         "survivor_name": "Jane Romero",
         "survivor_perks": [
-            "Head On",
             "Poised",
-            "Solidarity"
+            "Solidarity",
+            "Head On"
         ]
     },
     {
         "survivor_name": "Ash Williams",
         "survivor_perks": [
+            "Mettle of Man",
             "Buckle Up",
-            "Flip-Flop",
-            "Mettle of Man"
+            "Flip-Flop"
         ]
     },
     {
         "survivor_name": "Nancy Wheeler",
         "survivor_perks": [
-            "Better Together",
             "Fixated",
-            "Inner Strength"
+            "Inner Strength",
+            "Better Together"
         ]
     },
     {
         "survivor_name": "Steve Harrington",
         "survivor_perks": [
+            "",
             "Babysitter",
-            "Camaraderie",
             "Second Wind"
         ]
     },
     {
         "survivor_name": "Yui Kimura",
         "survivor_perks": [
-            "Any Means Necessary",
+            "",
             "Breakout",
-            "Lucky Break"
+            "Any Means Necessary"
         ]
     },
     {
         "survivor_name": "Zarina Kassir",
         "survivor_perks": [
-            "For the People",
+            "",
             "Off the Record",
-            "Red Herring"
+            "For The People"
         ]
     },
     {
         "survivor_name": "Cheryl Mason",
         "survivor_perks": [
-            "Blood Pact",
-            "Repressed Alliance",
+            "",
+            "",
             "Soul Guard"
         ]
     },
     {
         "survivor_name": "Felix Richter",
         "survivor_perks": [
-            "Built to Last",
+            "",
             "Desperate Measures",
             "Visionary"
         ]
@@ -220,14 +187,14 @@
         "survivor_name": "Élodie Rakoto",
         "survivor_perks": [
             "Appraisal",
-            "Deception",
-            "Power Struggle"
+            "Power Struggle",
+            "Deception"
         ]
     },
     {
         "survivor_name": "Yun-Jin Lee",
         "survivor_perks": [
-            "Fast Track",
+            "",
             "Self-Preservation",
             "Smash Hit"
         ]
@@ -235,15 +202,15 @@
     {
         "survivor_name": "Jill Valentine",
         "survivor_perks": [
-            "Blast Mine",
+            "",
             "Counterforce",
-            "Resurgence"
+            "Blast Mine"
         ]
     },
     {
         "survivor_name": "Leon Scott Kennedy",
         "survivor_perks": [
-            "Bite the Bullet",
+            "",
             "Flashbang",
             "Rookie Spirit"
         ]
@@ -251,7 +218,7 @@
     {
         "survivor_name": "Mikaela Reid",
         "survivor_perks": [
-            "Boon: Circle of Healing",
+            "",
             "Boon: Shadow Step",
             "Clairvoyance"
         ]
@@ -259,137 +226,161 @@
     {
         "survivor_name": "Jonah Vasquez",
         "survivor_perks": [
+            "",
             "Boon: Exponential",
-            "Corrective Action",
-            "Overcome"
+            "Corrective Action"
         ]
     },
     {
         "survivor_name": "Yoichi Asakawa",
         "survivor_perks": [
+            "Parental Guidance",
             "Boon: Dark Theory",
-            "Empathic Connection",
-            "Parental Guidance"
+            "Empathetic Connection"
         ]
     },
     {
         "survivor_name": "Haddie Kaur",
         "survivor_perks": [
-            "Inner Focus",
             "Overzealous",
-            "Residual Manifest"
+            "Residual Manifest",
+            "Inner Focus"
         ]
     },
     {
         "survivor_name": "Ada Wong",
         "survivor_perks": [
-            "Low Profile",
-            "Reactive Healing",
-            "Wiretap"
+            "",
+            "",
+            "Reactive Healing"
         ]
     },
     {
         "survivor_name": "Rebecca Chambers",
         "survivor_perks": [
-            "Better than New",
-            "Hyperfocus",
-            "Reassurance"
+            "",
+            "",
+            ""
         ]
     },
     {
         "survivor_name": "Vittorio Toscano",
         "survivor_perks": [
-            "Fogwise",
-            "Potential Energy",
-            "Quick Gambit"
+            "",
+            "",
+            "Potential Energy"
         ]
     },
     {
         "survivor_name": "Thalita Lyra",
         "survivor_perks": [
-            "Cut Loose",
-            "Friendly Competition",
-            "Teamwork: Power of Two"
+            "",
+            "",
+            ""
         ]
     },
     {
         "survivor_name": "Renato Lyra",
         "survivor_perks": [
-            "Background Player",
-            "Blood Rush",
-            "Teamwork: Collective Stealth"
+            "",
+            "",
+            "Background Player"
         ]
     },
     {
         "survivor_name": "Gabriel Soma",
         "survivor_perks": [
-            "Made for This",
-            "Scavenger",
+            "",
+            "Made For This",
             "Troubleshooter"
         ]
     },
     {
         "survivor_name": "Nicolas Cage",
         "survivor_perks": [
-            "Dramaturgy",
             "Plot Twist",
+            "Dramaturgy",
             "Scene Partner"
         ]
     },
     {
         "survivor_name": "Ellen Ripley",
         "survivor_perks": [
-            "Chemical Trap",
-            "Light-Footed",
-            "Lucky Star"
+            "",
+            "Lucky Star",
+            "Chemical Trap"
         ]
     },
     {
         "survivor_name": "Alan Wake",
         "survivor_perks": [
+            "Deadline",
             "Boon: Illumination",
-            "Champion of Light",
-            "Deadline"
+            "Champion of Light"
         ]
     },
     {
         "survivor_name": "Sable Ward",
         "survivor_perks": [
-            "Invocation: Weaving Spiders",
-            "Strength in Shadows",
-            "Wicked"
+            "",
+            "",
+            "Invocation: Weaving Spiders"
         ]
     },
     {
         "survivor_name": "Aestri Yazar & Baermar Uraz",
         "survivor_perks": [
-            "Bardic Inspiration",
-            "Mirrored Illusion",
-            "Still Sight"
+            "",
+            "Still Sight",
+            "Mirrored Illusion"
         ]
     },
     {
         "survivor_name": "Lara Croft",
         "survivor_perks": [
-            "Finesse",
-            "Hardened",
-            "Specialist"
+            "",
+            "",
+            "Hardened"
         ]
     },
     {
         "survivor_name": "Trevor Belmont",
         "survivor_perks": [
-            "Exultation",
+            "",
             "Eyes of Belmont",
-            "Moment of Glory"
+            "Exultation"
         ]
     },
     {
         "survivor_name": "Taurie Cain",
         "survivor_perks": [
-            "Clean Break",
+            "",
             "Invocation: Treacherous Crows",
             "Shoulder the Burden"
+        ]
+    },
+    {
+        "survivor_name": "Orela Rose",
+        "survivor_perks": [
+            "",
+            "Do No Harm",
+            "Duty of Care"
+        ]
+    },
+    {
+        "survivor_name": "Rick Grimes",
+        "survivor_perks": [
+            "",
+            "Apocalyptic Ingenuity",
+            "Come and Get Me!"
+        ]
+    },
+    {
+        "survivor_name": "Michonne Grimes",
+        "survivor_perks": [
+            "Conviction",
+            "Teamwork: Throw Down",
+            "Last Stand"
         ]
     }
 ]
