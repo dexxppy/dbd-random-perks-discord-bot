@@ -6,7 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from dotenv import load_dotenv
-from addon_page_links import links
 
 load_dotenv()
 CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
@@ -14,108 +13,83 @@ CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
 service = Service(CHROMEDRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
-item_families = ["Flashlights", "Keys", "Maps", "Med-kits", "Toolboxes"]
+link = "https://www.unwrittenrulebook.com/itemlist.html"
 
-addons = []
-
-try:
-    family_index = 0
-
-    for link in links:
-        driver.get(link)
-        time.sleep(2)
-
-        table_container = driver.find_elements(By.XPATH, '//div[contains(@class, "tabber wds-tabber")]')[1]
-        table = table_container.find_element(By.XPATH, './/div[contains(@class, "wds-tab__content wds-is-current")]').find_element(By.XPATH, './/table[contains(@class, "wikitable")]')
-
-        tbody = table.find_element(By.TAG_NAME, 'tbody')
-        rows = tbody.find_elements(By.TAG_NAME, 'tr')
-        vals = []
-
-        for row in rows:
-            ths = row.find_elements(By.TAG_NAME, 'th')
-            try:
-                for th in ths:
-                    a = th.find_element(By.TAG_NAME, 'a')
-                    name = a.text.strip()
-
-                    if name != '':
-                        vals.append(name)
-
-            except Exception as e:
-                continue
-
-        addons.append({"item_family": item_families[family_index], "addons": vals})
-        family_index += 1
-
-except Exception as e:
-    print(f"Error ocurred with addons: {e}")
-
-items = []
-item_tables_indexes = [2, 3, 4, 5, 6]
-
-driver.get("https://deadbydaylight.fandom.com/wiki/Items")
-time.sleep(2)
+all_items = []
 
 try:
-    family_index = 0
-    table_divs = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')
-    table_divs = [table_divs[index] for index in item_tables_indexes] # only items tables
+    driver.get(link)
+    time.sleep(2)
 
-    for table in table_divs:
-        time.sleep(2)
-        tbody = table.find_element(By.TAG_NAME, 'tbody')
-        rows = tbody.find_elements(By.TAG_NAME, 'tr')
-        vals = []
+    items_container = driver.find_element(By.XPATH,
+                                              './/section[contains(@class, "container")]//div[contains(@id, "item-container")]')
+    items_divs = items_container.find_elements(By.XPATH, './/div[contains(@class, "item-type-section")]')
 
-        for row in rows:
-            ths = row.find_elements(By.TAG_NAME, 'th')
-            try:
-                for th in ths:
-                    a = th.find_element(By.TAG_NAME, 'a')
-                    name = a.text.strip()
+    for div in items_divs:
+        item_family = div.find_element(By.XPATH, './/h2[contains(@class, "item-type-header")]').text
 
-                    if name != '':
-                        vals.append(name)
+        list_div = div.find_element(By.XPATH, './/div[contains(@class, "survivor-list")]')
+        list_subdivs = list_div.find_elements(By.CSS_SELECTOR, "div[class^='survivor-card']")
 
-            except Exception as e:
-                continue
+        addons = []
+        items = []
 
-        items.append({"item_family": item_families[family_index], "items": vals})
-        family_index += 1
+        first = True
+
+        for subdiv in list_subdivs:
+            info_div = subdiv.find_element(By.XPATH, ".//div[contains(@class, 'survivor-info')]")
+
+            if first:
+                addons_btn = info_div.find_elements(By.XPATH, ".//div[contains(@class, 'popup-buttons')]//button")[1]
+                addons_btn.click()
+                time.sleep(1)
+
+                popup_div = driver.find_element(By.XPATH,
+                                                ".//div[contains(@id, 'addonsPopup')]"
+                                                "//div[contains(@class, 'popup-content')]")
+                addons_div = popup_div.find_element(By.XPATH, "//div[contains(@id, 'addonsPopupContent')]"
+                                                "//div[contains(@class, 'perk-list')]")
+                addon_divs = addons_div.find_elements(By.CSS_SELECTOR, "div[class^='perk-item']")
+
+                for addon_div in addon_divs:
+                    details_div = addon_div.find_element(By.XPATH, ".//div[contains(@class, 'perk-details')]//div[contains(@class, 'perk-name')]")
+
+                    addon_name = driver.execute_script("""
+                        let element = arguments[0];
+                        let childSpans = element.querySelectorAll('span');
+                        let text = element.childNodes[0].nodeValue.trim();
+                        return text;
+                    """, details_div)
+
+                    addon_rarity = div.find_element(By.TAG_NAME, "span").text
+
+                    addons.append({"addon_name": addon_name, "addon_rarity": addon_rarity})
+
+                first = False
+                popup_div.find_element(By.XPATH, ".//button[contains(@class, 'popup-close')]").click()
+                time.sleep(1)
+
+            item_name = info_div.find_element(By.XPATH, ".//h2").text
+            item_rarity = info_div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-badges')]//span").text
+
+            items.append({"item_name": item_name, "item_rarity": item_rarity})
+
+        list = {
+            "item_family": item_family,
+            "items": items,
+            "addons": addons
+        }
+
+        all_items.append(list)
+
+    driver.quit()
 
 except Exception as e:
-    print(f"Error ocurred with items: {e}")
-
-driver.quit()
-
-families_dict_list = []
-
-for addons_data_row, item_data_row in zip(addons, items):
-    addons_values = addons_data_row["addons"]
-    items_values = item_data_row["items"]
-    mapped_row_addons = []
-    mapped_row_items = []
-
-
-    for addon in addons_values:
-        mapped_row_addons.append({
-            "addon_name": addon,
-            "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare",
-        })
-
-    for item in items_values:
-        mapped_row_items.append({
-            "item_name": item,
-            "item_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare",
-        })
-
-    families_dict_list.append({"item_family": addons_data_row["item_family"],
-                             "items": mapped_row_items,
-                             "addons": mapped_row_addons
-                             })
-        
+    print(e)
 
 with open('./data/item/items_list.json', 'w', encoding='utf-8') as f:
-    json.dump(families_dict_list, f, ensure_ascii=False, indent=4)
+    json.dump(all_items, f, ensure_ascii=False, indent=4)
+
+
+
 

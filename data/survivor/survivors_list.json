@@ -18,7 +18,7 @@
     {
         "survivor_name": "Claudette Morel",
         "survivor_perks": [
-            "",
+            "Botany Knowlege",
             "Empathy",
             "Self Care"
         ]
@@ -34,15 +34,15 @@
     {
         "survivor_name": "Nea Karlsson",
         "survivor_perks": [
-            "",
-            "",
+            "Balanced Landing",
+            "Streetwise",
             "Urban Evasion"
         ]
     },
     {
         "survivor_name": "Laurie Strode",
         "survivor_perks": [
-            "",
+            "Decisive Strike",
             "Sole Survivor",
             "Object of Obsession"
         ]
@@ -82,7 +82,7 @@
     {
         "survivor_name": "Quentin Smith",
         "survivor_perks": [
-            "",
+            "Wake Up",
             "Vigil",
             "Pharmacy"
         ]
@@ -106,7 +106,7 @@
     {
         "survivor_name": "Adam Francis",
         "survivor_perks": [
-            "",
+            "Autodidact",
             "Diversion",
             "Deliverance"
         ]
@@ -114,7 +114,7 @@
     {
         "survivor_name": "Jeff Johansen",
         "survivor_perks": [
-            "",
+            "Aftercare",
             "Breakdown",
             "Distortion"
         ]
@@ -146,7 +146,7 @@
     {
         "survivor_name": "Steve Harrington",
         "survivor_perks": [
-            "",
+            "Camaraderie",
             "Babysitter",
             "Second Wind"
         ]
@@ -154,7 +154,7 @@
     {
         "survivor_name": "Yui Kimura",
         "survivor_perks": [
-            "",
+            "Lucky Break",
             "Breakout",
             "Any Means Necessary"
         ]
@@ -162,7 +162,7 @@
     {
         "survivor_name": "Zarina Kassir",
         "survivor_perks": [
-            "",
+            "Red Herring",
             "Off the Record",
             "For The People"
         ]
@@ -170,15 +170,15 @@
     {
         "survivor_name": "Cheryl Mason",
         "survivor_perks": [
-            "",
-            "",
+            "Blood Pact",
+            "Repressed Alliance",
             "Soul Guard"
         ]
     },
     {
         "survivor_name": "Felix Richter",
         "survivor_perks": [
-            "",
+            "Built to Last",
             "Desperate Measures",
             "Visionary"
         ]
@@ -194,7 +194,7 @@
     {
         "survivor_name": "Yun-Jin Lee",
         "survivor_perks": [
-            "",
+            "Fast Track",
             "Self-Preservation",
             "Smash Hit"
         ]
@@ -202,7 +202,7 @@
     {
         "survivor_name": "Jill Valentine",
         "survivor_perks": [
-            "",
+            "Resurgence",
             "Counterforce",
             "Blast Mine"
         ]
@@ -210,7 +210,7 @@
     {
         "survivor_name": "Leon Scott Kennedy",
         "survivor_perks": [
-            "",
+            "Bite The Bullet",
             "Flashbang",
             "Rookie Spirit"
         ]
@@ -218,7 +218,7 @@
     {
         "survivor_name": "Mikaela Reid",
         "survivor_perks": [
-            "",
+            "Boon: Circle of Healing",
             "Boon: Shadow Step",
             "Clairvoyance"
         ]
@@ -226,7 +226,7 @@
     {
         "survivor_name": "Jonah Vasquez",
         "survivor_perks": [
-            "",
+            "Overcome",
             "Boon: Exponential",
             "Corrective Action"
         ]
@@ -250,47 +250,47 @@
     {
         "survivor_name": "Ada Wong",
         "survivor_perks": [
-            "",
-            "",
+            "Low-Profile",
+            "Wiretap",
             "Reactive Healing"
         ]
     },
     {
         "survivor_name": "Rebecca Chambers",
         "survivor_perks": [
-            "",
-            "",
-            ""
+            "Better Than New",
+            "Hyperfocus",
+            "Reassurance"
         ]
     },
     {
         "survivor_name": "Vittorio Toscano",
         "survivor_perks": [
-            "",
-            "",
+            "Fogwise",
+            "Quick Gambit",
             "Potential Energy"
         ]
     },
     {
         "survivor_name": "Thalita Lyra",
         "survivor_perks": [
-            "",
-            "",
-            ""
+            "Friendly Competition",
+            "Teamwork: Power of Two",
+            "Cut Loose"
         ]
     },
     {
         "survivor_name": "Renato Lyra",
         "survivor_perks": [
-            "",
-            "",
+            "Blood Rush",
+            "Teamwork: Collective Stealth",
             "Background Player"
         ]
     },
     {
         "survivor_name": "Gabriel Soma",
         "survivor_perks": [
-            "",
+            "Scavenger",
             "Made For This",
             "Troubleshooter"
         ]
@@ -306,7 +306,7 @@
     {
         "survivor_name": "Ellen Ripley",
         "survivor_perks": [
-            "",
+            "Light-Footed",
             "Lucky Star",
             "Chemical Trap"
         ]
@@ -322,15 +322,15 @@
     {
         "survivor_name": "Sable Ward",
         "survivor_perks": [
-            "",
-            "",
+            "Strength in Shadows",
+            "Wicked",
             "Invocation: Weaving Spiders"
         ]
     },
     {
         "survivor_name": "Aestri Yazar & Baermar Uraz",
         "survivor_perks": [
-            "",
+            "Bardic Inspiration",
             "Still Sight",
             "Mirrored Illusion"
         ]
@@ -338,15 +338,15 @@
     {
         "survivor_name": "Lara Croft",
         "survivor_perks": [
-            "",
-            "",
+            "Finesse",
+            "Specialist",
             "Hardened"
         ]
     },
     {
         "survivor_name": "Trevor Belmont",
         "survivor_perks": [
-            "",
+            "Moment of Glory",
             "Eyes of Belmont",
             "Exultation"
         ]
@@ -354,7 +354,7 @@
     {
         "survivor_name": "Taurie Cain",
         "survivor_perks": [
-            "",
+            "Clean Break",
             "Invocation: Treacherous Crows",
             "Shoulder the Burden"
         ]
@@ -362,7 +362,7 @@
     {
         "survivor_name": "Orela Rose",
         "survivor_perks": [
-            "",
+            "Rapid Response",
             "Do No Harm",
             "Duty of Care"
         ]
@@ -370,7 +370,7 @@
     {
         "survivor_name": "Rick Grimes",
         "survivor_perks": [
-            "",
+            "Teamwork: Toughen Up",
             "Apocalyptic Ingenuity",
             "Come and Get Me!"
         ]

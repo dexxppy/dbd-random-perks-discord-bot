@@ -39,15 +39,14 @@ def get_killer_data():
     path = "data/killer/killers_list.json"
     data = get_data(path)
 
-    killer_id = 1
+    killer_id = 0
     killers = []
     perk_id = 1
     perks = []
     addon_id = 1
-    # TODO: scrape shared killer perks and pop all killers from
 
     for row in data:
-        killer = {"killer_id": killer_id, "killer_name": row["killer"]}
+        killer = {"killer_id": killer_id, "killer_name": row["killer_name"]}
         killer_id += 1
 
         for perk in row["killer_perks"]:
@@ -65,3 +64,61 @@ def get_killer_data():
         killers.append(killer)
 
     return {"killers": killers, "perks": perks}
+
+
+def get_items_data():
+    path = 'data/item/items_list.json'
+    data = get_data(path)
+    
+    item_id = 1
+    items = []
+    addon_id = 1
+    addons = []
+    
+    for row in data:
+        family_name = row["item_family"]
+        
+        for item in row["items"]:
+            items.append({"item_id": item_id, "item_name": item["item_name"],
+                          "item_rarity": item["item_rarity"], "item_family": family_name})
+            item_id += 1
+            
+        for addon in row["addons"]:
+            addons.append({"addon_id": addon_id, "addon_name": addon["addon_name"],
+                          "addon_rarity": addon["addon_rarity"], "item_family": family_name})
+            addon_id += 1
+            
+    return {"items": items, "addons": addons}
+
+
+def get_offering_data():
+    path = 'data/offering/offerings_list.json'
+    data = get_data(path)
+    
+    killer_offering_id = 1
+    killer_offerings = []
+    survivor_offering_id = 1
+    survivor_offerings = []
+    
+    for row in data:
+        if row["character_type"] == "All":
+            for offering in row["offerings"]:
+                killer_offerings.append({"offering_id": killer_offering_id, "offering_name": offering["offering_name"],
+                                         "offering_rarity": offering["offering_rarity"]})
+                killer_offering_id += 1
+                
+                survivor_offerings.append({"offering_id": survivor_offering_id, "offering_name": offering["offering_name"],
+                                         "offering_rarity": offering["offering_rarity"]})
+                survivor_offering_id += 1
+        elif row["character_type"] == "Killer":
+            for offering in row["offerings"]:
+                killer_offerings.append({"offering_id": killer_offering_id, "offering_name": offering["offering_name"],
+                                         "offering_rarity": offering["offering_rarity"]})
+                killer_offering_id += 1
+        elif row["character_type"] == "Survivor":
+            for offering in row["offerings"]:
+                survivor_offerings.append({"offering_id": survivor_offering_id, "offering_name": offering["offering_name"],
+                                         "offering_rarity": offering["offering_rarity"]})
+                survivor_offering_id += 1
+
+    return {"killer_offerings": killer_offerings, "survivor_offerings": survivor_offerings}

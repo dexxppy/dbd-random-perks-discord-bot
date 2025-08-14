@@ -6,7 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from dotenv import load_dotenv
-from survivor_page_links import links
 
 load_dotenv()
 CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
@@ -14,97 +13,48 @@ CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
 service = Service(CHROMEDRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
-survs = ["All Survivors"]
-perks = []
+link = "https://www.unwrittenrulebook.com/survivorlist.html"
 
-general_perks_link = "https://deadbydaylight.fandom.com/wiki/Perks/General_Perks"
+survivors = []
 
 try:
-    driver.get(general_perks_link)
+    driver.get(link)
     time.sleep(2)
 
-    table = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')[0]
-    tbody = table.find_element(By.TAG_NAME, 'tbody')
-    rows = tbody.find_elements(By.TAG_NAME, 'tr')
-    vals = []
+    survivors_container = driver.find_element(By.XPATH,
+                                              './/section[contains(@class, "container")]//div[contains(@id, "survivor-container")]')
+    survivor_divs = survivors_container.find_elements(By.XPATH, '//div[contains(@class, "survivor-list")]'
+                                                             '//div[contains(@class, "survivor-card")]')
+    for div in survivor_divs:
+        perks = []
 
-    for row in rows:
-        ths = row.find_elements(By.TAG_NAME, 'th')
-        try:
-            for th in ths:
-                a = th.find_element(By.TAG_NAME, 'a')
-                name = a.text.strip()
+        info_div = div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-info')]")
+        survivor_name = info_div.find_element(By.TAG_NAME, "h2").text
 
-                if name != '':
-                    vals.append(name)
+        popup_button = info_div.find_elements(By.XPATH, './/div[contains(@class, "popup-buttons")]//button')[1]
 
-        except Exception as e:
-            continue
-            
-    perks.append(vals)
+        # get perks
+        popup_button.click()
+        time.sleep(1)
+        popup_container = driver.find_element(By.XPATH, './/div[contains(@id, "perksPopup")]//div[contains(@class, "popup-content")]')
+
+        perks_container = popup_container.find_element(By.XPATH, './/div[contains(@id, "perksContent")]//div[contains(@class, "perk-list")]')
+        perks_divs = perks_container.find_elements(By.XPATH, './/div[contains(@class, "perk-item")]')
+
+        for perk_div in perks_divs:
+            perk_name = perk_div.find_element(By.XPATH, './/div[contains(@class, "perk-details")]//div[contains(@class, "perk-name")]').text
+            perks.append(perk_name)
+
+        popup_container.find_element(By.XPATH, './/button[contains(@class, "popup-close")]').click()
+        time.sleep(1)
+
+        survivors.append({"survivor_name": survivor_name, "survivor_perks": perks})
+
+    driver.quit()
 
 except Exception as e:
-    print(f"Error processing general perks link: {e}")
-
-for link in links:
-    try:
-        driver.get(link[0])
-        time.sleep(2)
-
-        parent_div = driver.find_element(By.XPATH, '//div[contains(@class, "page-header__title")]')
-        surv_name = ""
-        try:
-            child_div = parent_div.find_element(By.XPATH, './/h1//span')
-            surv_name = child_div.text.strip()
-
-        except:
-            try: 
-                child_div = parent_div.find_element(By.XPATH, './/h1')
-                surv_name = child_div.text.strip()
-            except: 
-                print(f"Error finding child div for link {link[0]}")
-
-        surv_name = child_div.text.strip().split(' — ')[0]
-        survs.append(surv_name)
-
-        table_divs = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')
-        table_divs = [table_divs[link[1]]] # only perks table
-
-        for table in table_divs:
-            time.sleep(2)
-            tbody = table.find_element(By.TAG_NAME, 'tbody')
-            rows = tbody.find_elements(By.TAG_NAME, 'tr')
-            vals = []
-
-            for row in rows:
-                ths = row.find_elements(By.TAG_NAME, 'th')
-                try:
-                    for th in ths:
-                        a = th.find_element(By.TAG_NAME, 'a')
-                        name = a.text.strip()
-
-                        if name != '':
-                            vals.append(name)
-
-                except Exception as e:
-                    continue
-            
-            perks.append(vals)
-
-    except Exception as e:
-        print(f"Error processing link {link[0]}: {e}")
-
-driver.quit()
-
-list = []
-
-for surv, perk_list in zip(survs, perks):
-    list.append({
-        "survivor_name": surv,
-        "survivor_perks": perk_list,
-    })
-
+    print(e)
 
 with open('./data/survivor/survivors_list.json', 'w', encoding='utf-8') as f:
-    json.dump(list, f, ensure_ascii=False, indent=4)
+    json.dump(survivors, f, ensure_ascii=False, indent=4)
 

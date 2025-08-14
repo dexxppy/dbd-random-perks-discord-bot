@@ -182,7 +182,7 @@
     {
         "killer_name": "The Hillbilly",
         "killer_perks": [
-            "",
+            "Lightborn",
             "Enduring",
             "Tinkerer"
         ],
@@ -268,7 +268,7 @@
     {
         "killer_name": "The Nurse",
         "killer_perks": [
-            "",
+            "Stridor",
             "Thanatophobia",
             "A Nurse’s Calling"
         ],
@@ -534,8 +534,8 @@
     {
         "killer_name": "The Doctor",
         "killer_perks": [
-            "",
-            "",
+            "Monitor and Abuse",
+            "Overwhelming Presence",
             "Overcharge"
         ],
         "killer_addons": [
@@ -714,8 +714,8 @@
     {
         "killer_name": "The Cannibal",
         "killer_perks": [
-            "",
-            "",
+            "Franklin’s Demise",
+            "Knock Out",
             "BBQ and Chilli"
         ],
         "killer_addons": [
@@ -804,8 +804,8 @@
     {
         "killer_name": "The Nightmare",
         "killer_perks": [
-            "",
-            "",
+            "Remember Me",
+            "Fire Up",
             "Blood Warden"
         ],
         "killer_addons": [
@@ -980,7 +980,7 @@
     {
         "killer_name": "The Clown",
         "killer_perks": [
-            "",
+            "Coulrophobia",
             "Bamboozle",
             "Pop Goes The Weasel"
         ],
@@ -1070,7 +1070,7 @@
     {
         "killer_name": "The Spirit",
         "killer_perks": [
-            "",
+            "Hex: Haunted Ground",
             "Spirit Fury",
             "Rancor"
         ],
@@ -1160,7 +1160,7 @@
     {
         "killer_name": "The Legion",
         "killer_perks": [
-            "",
+            "Mad Grit",
             "Discordance",
             "Iron Maiden"
         ],
@@ -1250,8 +1250,8 @@
     {
         "killer_name": "The Plague",
         "killer_perks": [
-            "",
-            "",
+            "Corrupt Intervention",
+            "Dark Devotion",
             "Infectious Fright"
         ],
         "killer_addons": [
@@ -1340,8 +1340,8 @@
     {
         "killer_name": "The Ghost Face",
         "killer_perks": [
-            "",
-            "",
+            "Furtive Chase",
+            "I’m All Ears",
             "Thrilling Tremors"
         ],
         "killer_addons": [
@@ -1430,8 +1430,8 @@
     {
         "killer_name": "The Demogorgon",
         "killer_perks": [
-            "",
-            "",
+            "Cruel Limits",
+            "Surge",
             "Mindbreaker"
         ],
         "killer_addons": [
@@ -1610,8 +1610,8 @@
     {
         "killer_name": "The Deathslinger",
         "killer_perks": [
-            "",
-            "",
+            "Hex: Retribution",
+            "Dead Man’s Switch",
             "Gearhead"
         ],
         "killer_addons": [
@@ -1700,8 +1700,8 @@
     {
         "killer_name": "The Executioner",
         "killer_perks": [
-            "",
-            "",
+            "Trail of Torment",
+            "Forced Penance",
             "Deathbound"
         ],
         "killer_addons": [
@@ -1970,7 +1970,7 @@
     {
         "killer_name": "The Trickster",
         "killer_perks": [
-            "",
+            "Starstruck",
             "No Way Out",
             "Hex: Crowd Control"
         ],
@@ -2150,7 +2150,7 @@
     {
         "killer_name": "The Cenobite",
         "killer_perks": [
-            "",
+            "No Holds Barred (Deadlock)",
             "Hex: Fortune’s Fool (Plaything)",
             "Scourge Hook: Weeping Wounds (Gift of Pain)"
         ],
@@ -2330,8 +2330,8 @@
     {
         "killer_name": "The Onryō",
         "killer_perks": [
-            "",
-            "",
+            "Call of Brine",
+            "Scourge Hook: Floods of Rage",
             "Merciless Storm"
         ],
         "killer_addons": [
@@ -2420,8 +2420,8 @@
     {
         "killer_name": "The Dredge",
         "killer_perks": [
-            "",
-            "",
+            "Dissolution",
+            "Septic Touch",
             "Darkness Revealed"
         ],
         "killer_addons": [
@@ -2690,7 +2690,7 @@
     {
         "killer_name": "The Skull Merchant",
         "killer_perks": [
-            "",
+            "Game Afoot",
             "THWACK!",
             "Leverage"
         ],
@@ -2780,8 +2780,8 @@
     {
         "killer_name": "The Singularity",
         "killer_perks": [
-            "",
-            "",
+            "Genetic Limits",
+            "Machine Learning",
             "Forced Hesitation"
         ],
         "killer_addons": [
@@ -2960,7 +2960,7 @@
     {
         "killer_name": "The Good Guy",
         "killer_perks": [
-            "",
+            "Batteries Included",
             "Friends ‘til the End",
             "Hex: Two Can Play"
         ],
@@ -3050,8 +3050,8 @@
     {
         "killer_name": "The Unknown",
         "killer_perks": [
-            "",
-            "",
+            "Unforeseen",
+            "Undone",
             "Unbound"
         ],
         "killer_addons": [
@@ -3140,7 +3140,7 @@
     {
         "killer_name": "The Lich",
         "killer_perks": [
-            "",
+            "Weave Attunement",
             "Dark Arrogance",
             "Languid Touch"
         ],
@@ -3230,7 +3230,7 @@
     {
         "killer_name": "The Dark Lord",
         "killer_perks": [
-            "",
+            "Hex: Wretched Fate",
             "Human Greed",
             "Dominance"
         ],
@@ -3410,7 +3410,7 @@
     {
         "killer_name": "The Ghoul",
         "killer_perks": [
-            "",
+            "Hex: Nothing But Misery",
             "None Are Free",
             "Forever Entwined"
         ],

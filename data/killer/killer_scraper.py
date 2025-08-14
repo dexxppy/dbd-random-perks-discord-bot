@@ -6,7 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from dotenv import load_dotenv
-from killer_page_links import links
 
 load_dotenv()
 CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
@@ -14,101 +13,79 @@ CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH')
 service = Service(CHROMEDRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
-killers = ["All Killers"]
-perks = []
-addons = [[]]
+link = "https://www.unwrittenrulebook.com/killerlist.html"
 
-general_perks_link = "https://deadbydaylight.fandom.com/wiki/Perks/General_Perks"
+killers = []
 
 try:
-    driver.get(general_perks_link)
+    driver.get(link)
     time.sleep(2)
 
-    table = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')[1]
-    tbody = table.find_element(By.TAG_NAME, 'tbody')
-    rows = tbody.find_elements(By.TAG_NAME, 'tr')
-    vals = []
+    killers_container = driver.find_element(By.XPATH,
+                                              './/section[contains(@class, "container")]//div[contains(@id, "killer-container")]')
+    killers_divs = killers_container.find_elements(By.XPATH, '//div[contains(@class, "survivor-list")]'
+                                                             '//div[contains(@class, "survivor-card")]')
+    for div in killers_divs:
+        perks = []
+        addons = []
 
-    for row in rows:
-        ths = row.find_elements(By.TAG_NAME, 'th')
-        try:
-            for th in ths:
-                a = th.find_element(By.TAG_NAME, 'a')
-                name = a.text.strip()
+        info_div = div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-info')]")
+        killer_name = driver.execute_script("""
+                        let element = arguments[0];
+                        let childSpans = element.querySelectorAll('span');
+                        let text = element.childNodes[0].nodeValue.trim();
+                        return text;
+                    """, info_div.find_element(By.TAG_NAME, 'h2'))
 
-                if name != '':
-                    vals.append(name)
+        popup_buttons = info_div.find_elements(By.XPATH, './/div[contains(@class, "popup-buttons")]//button')
 
-        except Exception as e:
-            continue
+        # get perks
+        popup_buttons[2].click()
+        time.sleep(1)
+        popup_container = driver.find_element(By.XPATH, './/div[contains(@id, "perksPopup")]//div[contains(@class, "popup-content")]')
 
-    perks.append(vals)
+        perks_container = popup_container.find_element(By.XPATH, './/div[contains(@id, "perksContent")]//div[contains(@class, "perk-list")]')
+        perks_divs = perks_container.find_elements(By.XPATH, './/div[contains(@class, "perk-item")]')
+
+        for perk_div in perks_divs:
+            perk_name = perk_div.find_element(By.XPATH, './/div[contains(@class, "perk-details")]//div[contains(@class, "perk-name")]').text
+            perks.append(perk_name)
+
+        popup_container.find_element(By.XPATH, './/button[contains(@class, "popup-close")]').click()
+        time.sleep(1)
+
+        # get addons
+        popup_buttons[3].click()
+        time.sleep(1)
+        popup_container = driver.find_element(By.XPATH, './/div[contains(@id, "addonsPopup")]//div[contains(@class, "popup-content")]')
+
+        addons_container = popup_container.find_element(By.XPATH, './/div[contains(@id, "addonsContent")]//div[contains(@class, "perk-list")]')
+        addons_divs = addons_container.find_elements(By.CSS_SELECTOR, 'div[class^="perk-item"]')
+
+        for addon_div in addons_divs:
+            details_div = addon_div.find_element(By.XPATH, './/div[contains(@class, "perk-details")]//div[contains(@class, "perk-name")]')
+            addon_name = driver.execute_script("""
+                let element = arguments[0];
+                let childSpans = element.querySelectorAll('span');
+                let text = element.childNodes[0].nodeValue.trim();
+                return text;
+            """, details_div)
+
+            addon_rarity = details_div.find_element(By.TAG_NAME, "span").text
+            addons.append({"addon_name": addon_name, "addon_rarity": addon_rarity})
+
+        popup_container.find_element(By.XPATH, './/button[contains(@class, "popup-close")]').click()
+        time.sleep(1)
+
+        killers.append({"killer_name": killer_name, "killer_perks": perks, "killer_addons": addons})
+
+    driver.quit()
 
 except Exception as e:
-    print(f"Error processing general perks link: {e}")
-
-for link in links:
-    try:
-        driver.get(link[0])
-        time.sleep(2)
-
-        parent_div = driver.find_element(By.XPATH, '//div[contains(@class, "page-header__title")]')
-        child_div = parent_div.find_element(By.XPATH, './/h1')
-
-        killer_name = child_div.text.strip().split(' — ')
-        if len(killer_name) > 1:
-            killers.append(killer_name[1])
-        else:
-            killers.append(killer_name[0])
-
-        table_divs = driver.find_elements(By.XPATH, '//table[contains(@class, "wikitable")]')
-        table_divs = [table_divs[link[1]], table_divs[link[2]]] # only perks and addons tables
-
-        for table in table_divs:
-            time.sleep(1)
-            tbody = table.find_element(By.TAG_NAME, 'tbody')
-            rows = tbody.find_elements(By.TAG_NAME, 'tr')
-            vals = []
-
-            for row in rows:
-                ths = row.find_elements(By.TAG_NAME, 'th')
-                try:
-                    for th in ths:
-                        a = th.find_element(By.TAG_NAME, 'a')
-                        name = a.text.strip()
-                        if name != '':
-                            vals.append(name)
-
-                except Exception as e:
-                    continue
-
-            if table == table_divs[0]:  # perks table
-                perks.append(vals)
-            elif table == table_divs[1]:  # addons table
-                addons.append(vals)
-
-    except Exception as e:
-        print(f"Error processing link {link}: {e}")
-
-driver.quit()
-
-list = []
-
-addons_dicts = []
-
-for addon in addons:
-    addon_list = []
-    for addon_name in addon:
-        addon_list.append({"addon_name": addon_name, "addon_rarity": "Common/Uncommon/Rare/Very Rare/Ultra Rare"})
-    addons_dicts.append(addon_list)
-
-for killer, perk_list, addon_list in zip(killers, perks, addons_dicts):
-    list.append({
-        "killer_name": killer,
-        "killer_perks": perk_list,
-        "killer_addons": addon_list
-    })
+    print(e)
 
 with open('./data/killer/killers_list.json', 'w', encoding='utf-8') as f:
-    json.dump(list, f, ensure_ascii=False, indent=4)
+    json.dump(killers, f, ensure_ascii=False, indent=4)
+
+
 
