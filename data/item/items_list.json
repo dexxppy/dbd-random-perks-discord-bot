@@ -1,339 +1,339 @@
 [
     {
-        "item_family": "Med Kits",
-        "items": [
+        "survivor_item_family": "Med Kits",
+        "survivor_items": [
             {
-                "item_name": "Camping Aid Kit",
-                "item_rarity": "Common"
+                "survivor_item_name": "Camping Aid Kit",
+                "survivor_item_rarity": "Common"
             },
             {
-                "item_name": "First Aid Kit",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "First Aid Kit",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Emergency Med-Kit",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Emergency Med-Kit",
+                "survivor_item_rarity": "Rare"
             },
             {
-                "item_name": "Ranger Med-Kit",
-                "item_rarity": "Very Rare"
+                "survivor_item_name": "Ranger Med-Kit",
+                "survivor_item_rarity": "Very Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Rubber Gloves",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Rubber Gloves",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Bandages",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Bandages",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Butterfly Tape",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Butterfly Tape",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Sponge",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Sponge",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Medical Scissors",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Medical Scissors",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Self Adherent Wrap",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Self Adherent Wrap",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Needle & Thread",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Needle & Thread",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Gauze Roll",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Gauze Roll",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Surgical Suture",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Surgical Suture",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Styptic Agent",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Styptic Agent",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Abdominal Dressing",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Abdominal Dressing",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Anti-Haemorrhagic Syringe",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Anti-Haemorrhagic Syringe",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Gel Dressings",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Gel Dressings",
+                "survivor_addon_rarity": "Common"
             }
         ]
     },
     {
-        "item_family": "Toolboxes",
-        "items": [
+        "survivor_item_family": "Toolboxes",
+        "survivor_items": [
             {
-                "item_name": "Worn-Out Tools",
-                "item_rarity": "Common"
+                "survivor_item_name": "Worn-Out Tools",
+                "survivor_item_rarity": "Common"
             },
             {
-                "item_name": "Toolbox",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "Toolbox",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Mechanic’s Toolbox",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Mechanic’s Toolbox",
+                "survivor_item_rarity": "Rare"
             },
             {
-                "item_name": "Commodious Toolbox",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Commodious Toolbox",
+                "survivor_item_rarity": "Rare"
             },
             {
-                "item_name": "Alex’s Toolbox",
-                "item_rarity": "Ultra Rare"
+                "survivor_item_name": "Alex’s Toolbox",
+                "survivor_item_rarity": "Ultra Rare"
             },
             {
-                "item_name": "Engineer’s Toolbox",
-                "item_rarity": "Ultra Rare"
+                "survivor_item_name": "Engineer’s Toolbox",
+                "survivor_item_rarity": "Ultra Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Instructions",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Instructions",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Scraps",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Scraps",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Clean Rag",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Clean Rag",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Wire Spool",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Wire Spool",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Spring Clamp",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Spring Clamp",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Socket Swivels",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Socket Swivels",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Cutting Wire",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Cutting Wire",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Protective Gloves",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Protective Gloves",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Hacksaw",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Hacksaw",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Grip Wrench",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Grip Wrench",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Brand New Part",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Brand New Part",
+                "survivor_addon_rarity": "Common"
             }
         ]
     },
     {
-        "item_family": "Maps",
-        "items": [
+        "survivor_item_family": "Maps",
+        "survivor_items": [
             {
-                "item_name": "Cryptic Map",
-                "item_rarity": "Common"
+                "survivor_item_name": "Cryptic Map",
+                "survivor_item_rarity": "Common"
             },
             {
-                "item_name": "Scribbled Map",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "Scribbled Map",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Annotated Map",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Annotated Map",
+                "survivor_item_rarity": "Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Glowing Ink",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Glowing Ink",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Gnarled Compass",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Gnarled Compass",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Battered Tape",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Battered Tape",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Sharpened Flint",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Sharpened Flint",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Crimson Stamp",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Crimson Stamp",
+                "survivor_addon_rarity": "Common"
             }
         ]
     },
     {
-        "item_family": "Keys",
-        "items": [
+        "survivor_item_family": "Keys",
+        "survivor_items": [
             {
-                "item_name": "Broken Key",
-                "item_rarity": "Common"
+                "survivor_item_name": "Broken Key",
+                "survivor_item_rarity": "Common"
             },
             {
-                "item_name": "Dull Key",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "Dull Key",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Skeleton Key",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Skeleton Key",
+                "survivor_item_rarity": "Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Friendship Charm",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Friendship Charm",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Shrill Whistle",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Shrill Whistle",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Braided Bauble",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Braided Bauble",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Unique Wedding Ring",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Unique Wedding Ring",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Blood Amber",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Blood Amber",
+                "survivor_addon_rarity": "Common"
             }
         ]
     },
     {
-        "item_family": "Fog Vials",
-        "items": [
+        "survivor_item_family": "Fog Vials",
+        "survivor_items": [
             {
-                "item_name": "Apprentice’s Fog Vial",
-                "item_rarity": "Common"
+                "survivor_item_name": "Apprentice’s Fog Vial",
+                "survivor_item_rarity": "Common"
             },
             {
-                "item_name": "Artisan’s Fog Vial",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "Artisan’s Fog Vial",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Vigo’s Fog Vial",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Vigo’s Fog Vial",
+                "survivor_item_rarity": "Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Volcanic Stone",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Volcanic Stone",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Reactive Compound",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Reactive Compound",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Oily Sap",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Oily Sap",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Mushroom Formula",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Mushroom Formula",
+                "survivor_addon_rarity": "Common"
             },
             {
-                "addon_name": "Potent Extract",
-                "addon_rarity": "Common"
+                "survivor_addon_name": "Potent Extract",
+                "survivor_addon_rarity": "Common"
             }
         ]
     },
     {
-        "item_family": "Flashlight",
-        "items": [
+        "survivor_item_family": "Flashlight",
+        "survivor_items": [
             {
-                "item_name": "Flashlight",
-                "item_rarity": "Uncommon"
+                "survivor_item_name": "Flashlight",
+                "survivor_item_rarity": "Uncommon"
             },
             {
-                "item_name": "Sport Flashlight",
-                "item_rarity": "Rare"
+                "survivor_item_name": "Sport Flashlight",
+                "survivor_item_rarity": "Rare"
             },
             {
-                "item_name": "Utility Flashlight",
-                "item_rarity": "Very Rare"
+                "survivor_item_name": "Utility Flashlight",
+                "survivor_item_rarity": "Very Rare"
             }
         ],
-        "addons": [
+        "survivor_addons": [
             {
-                "addon_name": "Power Bulb",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Power Bulb",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Battery",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Battery",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Leather Grip",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Leather Grip",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Wide Lens",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Wide Lens",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "TIR Optic",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "TIR Optic",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Heavy Duty Battery",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Heavy Duty Battery",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Focus Lens",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Focus Lens",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Rubber Grip",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Rubber Grip",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Low Amp Filament",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Low Amp Filament",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Long Life Battery",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Long Life Battery",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Intense Halogen",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Intense Halogen",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "High-End Sapphire Lens",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "High-End Sapphire Lens",
+                "survivor_addon_rarity": "Uncommon"
             },
             {
-                "addon_name": "Odd Bulb",
-                "addon_rarity": "Uncommon"
+                "survivor_addon_name": "Odd Bulb",
+                "survivor_addon_rarity": "Uncommon"
             }
         ]
     }

@@ -63,7 +63,7 @@ try:
 
                     addon_rarity = div.find_element(By.TAG_NAME, "span").text
 
-                    addons.append({"addon_name": addon_name, "addon_rarity": addon_rarity})
+                    addons.append({"survivor_addon_name": addon_name, "survivor_addon_rarity": addon_rarity})
 
                 first = False
                 popup_div.find_element(By.XPATH, ".//button[contains(@class, 'popup-close')]").click()
@@ -72,12 +72,12 @@ try:
             item_name = info_div.find_element(By.XPATH, ".//h2").text
             item_rarity = info_div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-badges')]//span").text
 
-            items.append({"item_name": item_name, "item_rarity": item_rarity})
+            items.append({"survivor_item_name": item_name, "survivor_item_rarity": item_rarity})
 
         list = {
-            "item_family": item_family,
-            "items": items,
-            "addons": addons
+            "survivor_item_family": item_family,
+            "survivor_items": items,
+            "survivor_addons": addons
         }
 
         all_items.append(list)

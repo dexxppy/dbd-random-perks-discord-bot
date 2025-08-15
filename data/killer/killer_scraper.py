@@ -72,7 +72,7 @@ try:
             """, details_div)
 
             addon_rarity = details_div.find_element(By.TAG_NAME, "span").text
-            addons.append({"addon_name": addon_name, "addon_rarity": addon_rarity})
+            addons.append({"killer_addon_name": addon_name, "killer_addon_rarity": addon_rarity})
 
         popup_container.find_element(By.XPATH, './/button[contains(@class, "popup-close")]').click()
         time.sleep(1)

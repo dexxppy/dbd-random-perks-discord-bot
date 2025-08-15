@@ -51,13 +51,13 @@ def get_killer_data():
 
         for perk in row["killer_perks"]:
             perks.append({"killer_perk_id": perk_id, "killer_perk_name": perk,
-                          "killer_owner_name": row["killer"]})
+                          "killer_owner_name": row["killer_name"]})
             perk_id += 1
 
         addons = []
         for addon in row["killer_addons"]:
-            addons.append({"killer_addon_id": addon_id, "killer_addon_name": addon["addon_name"],
-                            "killer_addon_rarity": addon["addon_rarity"]})
+            addons.append({"killer_addon_id": addon_id, "killer_addon_name": addon["killer_addon_name"],
+                            "killer_addon_rarity": addon["killer_addon_rarity"]})
             addon_id += 1
 
         killer["killer_addons"] = addons
@@ -76,22 +76,22 @@ def get_items_data():
     addons = []
     
     for row in data:
-        family_name = row["item_family"]
+        family_name = row["survivor_item_family"]
         
-        for item in row["items"]:
-            items.append({"item_id": item_id, "item_name": item["item_name"],
-                          "item_rarity": item["item_rarity"], "item_family": family_name})
+        for item in row["survivor_items"]:
+            items.append({"survivor_item_id": item_id, "survivor_item_name": item["survivor_item_name"],
+                          "survivor_item_rarity": item["survivor_item_rarity"], "survivor_item_family": family_name})
             item_id += 1
             
-        for addon in row["addons"]:
-            addons.append({"addon_id": addon_id, "addon_name": addon["addon_name"],
-                          "addon_rarity": addon["addon_rarity"], "item_family": family_name})
+        for addon in row["survivor_addons"]:
+            addons.append({"survivor_addon_id": addon_id, "survivor_addon_name": addon["survivor_addon_name"],
+                          "survivor_addon_rarity": addon["survivor_addon_rarity"], "survivor_item_family": family_name})
             addon_id += 1
             
     return {"items": items, "addons": addons}
 
 
-def get_offering_data():
+def get_offerings_data():
     path = 'data/offering/offerings_list.json'
     data = get_data(path)
     

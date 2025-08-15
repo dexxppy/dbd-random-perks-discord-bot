@@ -104,11 +104,11 @@ def get_random_item_addon(items_addons_list, exclude_ids=None):
     if exclude_ids is None:
         exclude_ids = []
 
-    start = items_addons_list[0].get("addon_id")
-    end = items_addons_list[-1].get("addon_id")
+    start = items_addons_list[0].get("survivor_addon_id")
+    end = items_addons_list[-1].get("survivor_addon_id")
 
     addon_id = get_random_id(start, end, exclude_ids)
-    return get_row_by_id(items_addons_list, addon_id, "addon_id")
+    return get_row_by_id(items_addons_list, addon_id, "survivor_addon_id")
 
 def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family_name, exclude_ids = None):
     if exclude_ids is None:
@@ -123,10 +123,10 @@ def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family
     end_id = None
     
     for addon in all_addons_list:
-        if addon["item_family"] == item_family_name and start_id is None:
-            start_id = addon["addon_id"]
-        elif start_id is not None and addon["item_family"] != item_family_name:
-            end_id = addon["addon_id"]
+        if addon["survivor_item_family"] == item_family_name and start_id is None:
+            start_id = addon["survivor_addon_id"]
+        elif start_id is not None and addon["survivor_item_family"] != item_family_name:
+            end_id = addon["survivor_addon_id"]
             break
         
     all_addons_list = all_addons_list[start_id-1 : end_id]
@@ -134,7 +134,7 @@ def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family
     if not initial_addons_list:
         while len(random_addons) < 2:
             random_addon = get_random_item_addon(all_addons_list, exclude_ids)
-            exclude_ids.append(random_addon["addon_id"])
+            exclude_ids.append(random_addon["survivor_addon_id"])
             random_addons.append({"replace": False, "addon_data": random_addon})
     else:
         for addon in initial_addons_list:
@@ -142,7 +142,7 @@ def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family
                 random_addons.append({"replace": False, "addon_data": addon["addon_data"]})
             else:
                 random_addon = get_random_item_addon(all_addons_list, exclude_ids)
-                exclude_ids.append(random_addon["addon_id"])
+                exclude_ids.append(random_addon["survivor_addon_id"])
                 random_addons.append({"replace": False, "addon_data": random_addon})
                 
     return {"random_addons": random_addons, "exclude_ids": exclude_ids}
@@ -160,8 +160,8 @@ def get_random_item_with_addons(all_items_list, all_addons_list, exclude_ids_ite
     
     item_id = get_random_id(1, len(all_addons_list), exclude_ids_item)
     exclude_ids_item.append(item_id)
-    random_item = get_row_by_id(all_items_list, item_id, "item_id")
-    random_addons_set_data = get_random_item_addons_set(all_addons_list, None, random_item["item_family"], exclude_ids_addons)
+    random_item = get_row_by_id(all_items_list, item_id, "survivor_item_id")
+    random_addons_set_data = get_random_item_addons_set(all_addons_list, None, random_item["survivor_item_family"], exclude_ids_addons)
     
     random_addons_set = random_addons_set_data["random_addons"]
     exclude_ids_addons.append(random_addons_set_data["exclude_ids"])
