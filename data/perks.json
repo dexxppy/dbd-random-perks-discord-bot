@@ -1,0 +1,1090 @@
+{
+    "survivor_perks": [
+        {
+            "survivor_perk_name": "Better Than New",
+            "survivor_owner_name": "Rebecca Chambers"
+        },
+        {
+            "survivor_perk_name": "Better Together",
+            "survivor_owner_name": "Nancy Wheeler"
+        },
+        {
+            "survivor_perk_name": "Bite The Bullet",
+            "survivor_owner_name": "Leon Scott Kennedy"
+        },
+        {
+            "survivor_perk_name": "Blast Mine",
+            "survivor_owner_name": "Jill Valentine"
+        },
+        {
+            "survivor_perk_name": "Blood Pact",
+            "survivor_owner_name": "Cheryl Mason"
+        },
+        {
+            "survivor_perk_name": "Blood Rush",
+            "survivor_owner_name": "Renato Lyra"
+        },
+        {
+            "survivor_perk_name": "Boil Over",
+            "survivor_owner_name": "Kate Denson"
+        },
+        {
+            "survivor_perk_name": "Bond",
+            "survivor_owner_name": "Dwight Fairfield"
+        },
+        {
+            "survivor_perk_name": "Boon: Circle of Healing",
+            "survivor_owner_name": "Mikaela Reid"
+        },
+        {
+            "survivor_perk_name": "Boon: Dark Theory",
+            "survivor_owner_name": "Yoichi Asakawa"
+        },
+        {
+            "survivor_perk_name": "Boon: Exponential",
+            "survivor_owner_name": "Jonah Vasquez"
+        },
+        {
+            "survivor_perk_name": "Boon: Illumination",
+            "survivor_owner_name": "Alan Wake"
+        },
+        {
+            "survivor_perk_name": "Boon: Shadow Step",
+            "survivor_owner_name": "Mikaela Reid"
+        },
+        {
+            "survivor_perk_name": "Borrowed Time",
+            "survivor_owner_name": "Bill Overbeck"
+        },
+        {
+            "survivor_perk_name": "Botany Knowlege",
+            "survivor_owner_name": "Claudette Morel"
+        },
+        {
+            "survivor_perk_name": "Breakdown",
+            "survivor_owner_name": "Jeff Johansen"
+        },
+        {
+            "survivor_perk_name": "Breakout",
+            "survivor_owner_name": "Yui Kimura"
+        },
+        {
+            "survivor_perk_name": "Buckle Up",
+            "survivor_owner_name": "Ash Williams"
+        },
+        {
+            "survivor_perk_name": "Built to Last",
+            "survivor_owner_name": "Felix Richter"
+        },
+        {
+            "survivor_perk_name": "Calm Spirit",
+            "survivor_owner_name": "Jake Park"
+        },
+        {
+            "survivor_perk_name": "Camaraderie",
+            "survivor_owner_name": "Steve Harrington"
+        },
+        {
+            "survivor_perk_name": "Champion of Light",
+            "survivor_owner_name": "Alan Wake"
+        },
+        {
+            "survivor_perk_name": "Chemical Trap",
+            "survivor_owner_name": "Ellen Ripley"
+        },
+        {
+            "survivor_perk_name": "Clairvoyance",
+            "survivor_owner_name": "Mikaela Reid"
+        },
+        {
+            "survivor_perk_name": "Clean Break",
+            "survivor_owner_name": "Taurie Cain"
+        },
+        {
+            "survivor_perk_name": "Come and Get Me!",
+            "survivor_owner_name": "Rick Grimes"
+        },
+        {
+            "survivor_perk_name": "Conviction",
+            "survivor_owner_name": "Michonne Grimes"
+        },
+        {
+            "survivor_perk_name": "Corrective Action",
+            "survivor_owner_name": "Jonah Vasquez"
+        },
+        {
+            "survivor_perk_name": "Counterforce",
+            "survivor_owner_name": "Jill Valentine"
+        },
+        {
+            "survivor_perk_name": "Cut Loose",
+            "survivor_owner_name": "Thalita Lyra"
+        },
+        {
+            "survivor_perk_name": "Dance With Me",
+            "survivor_owner_name": "Kate Denson"
+        },
+        {
+            "survivor_perk_name": "Dark Sense",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Dead Hard",
+            "survivor_owner_name": "David King"
+        },
+        {
+            "survivor_perk_name": "Deadline",
+            "survivor_owner_name": "Alan Wake"
+        },
+        {
+            "survivor_perk_name": "Deception",
+            "survivor_owner_name": "Élodie Rakoto"
+        },
+        {
+            "survivor_perk_name": "Decisive Strike",
+            "survivor_owner_name": "Laurie Strode"
+        },
+        {
+            "survivor_perk_name": "Deja Vu",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Deliverance",
+            "survivor_owner_name": "Adam Francis"
+        },
+        {
+            "survivor_perk_name": "Desperate Measures",
+            "survivor_owner_name": "Felix Richter"
+        },
+        {
+            "survivor_perk_name": "Detective’s Hunch",
+            "survivor_owner_name": "David Tapp"
+        },
+        {
+            "survivor_perk_name": "Distortion",
+            "survivor_owner_name": "Jeff Johansen"
+        },
+        {
+            "survivor_perk_name": "Diversion",
+            "survivor_owner_name": "Adam Francis"
+        },
+        {
+            "survivor_perk_name": "Do No Harm",
+            "survivor_owner_name": "Orela Rose"
+        },
+        {
+            "survivor_perk_name": "Dramaturgy",
+            "survivor_owner_name": "Nicolas Cage"
+        },
+        {
+            "survivor_perk_name": "Duty of Care",
+            "survivor_owner_name": "Orela Rose"
+        },
+        {
+            "survivor_perk_name": "Empathetic Connection",
+            "survivor_owner_name": "Yoichi Asakawa"
+        },
+        {
+            "survivor_perk_name": "Empathy",
+            "survivor_owner_name": "Claudette Morel"
+        },
+        {
+            "survivor_perk_name": "Exultation",
+            "survivor_owner_name": "Trevor Belmont"
+        },
+        {
+            "survivor_perk_name": "Eyes of Belmont",
+            "survivor_owner_name": "Trevor Belmont"
+        },
+        {
+            "survivor_perk_name": "Fast Track",
+            "survivor_owner_name": "Yun-Jin Lee"
+        },
+        {
+            "survivor_perk_name": "Finesse",
+            "survivor_owner_name": "Lara Croft"
+        },
+        {
+            "survivor_perk_name": "Fixated",
+            "survivor_owner_name": "Nancy Wheeler"
+        },
+        {
+            "survivor_perk_name": "Flashbang",
+            "survivor_owner_name": "Leon Scott Kennedy"
+        },
+        {
+            "survivor_perk_name": "Flip-Flop",
+            "survivor_owner_name": "Ash Williams"
+        },
+        {
+            "survivor_perk_name": "Fogwise",
+            "survivor_owner_name": "Vittorio Toscano"
+        },
+        {
+            "survivor_perk_name": "For The People",
+            "survivor_owner_name": "Zarina Kassir"
+        },
+        {
+            "survivor_perk_name": "Friendly Competition",
+            "survivor_owner_name": "Thalita Lyra"
+        },
+        {
+            "survivor_perk_name": "Hardened",
+            "survivor_owner_name": "Lara Croft"
+        },
+        {
+            "survivor_perk_name": "Head On",
+            "survivor_owner_name": "Jane Romero"
+        },
+        {
+            "survivor_perk_name": "Hope",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Hyperfocus",
+            "survivor_owner_name": "Rebecca Chambers"
+        },
+        {
+            "survivor_perk_name": "Inner Focus",
+            "survivor_owner_name": "Haddie Kaur"
+        },
+        {
+            "survivor_perk_name": "Inner Strength",
+            "survivor_owner_name": "Nancy Wheeler"
+        },
+        {
+            "survivor_perk_name": "Invocation: Treacherous Crows",
+            "survivor_owner_name": "Taurie Cain"
+        },
+        {
+            "survivor_perk_name": "Invocation: Weaving Spiders",
+            "survivor_owner_name": "Sable Ward"
+        },
+        {
+            "survivor_perk_name": "Iron Will",
+            "survivor_owner_name": "Jake Park"
+        },
+        {
+            "survivor_perk_name": "Kindred",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Last Stand",
+            "survivor_owner_name": "Michonne Grimes"
+        },
+        {
+            "survivor_perk_name": "Leader",
+            "survivor_owner_name": "Dwight Fairfield"
+        },
+        {
+            "survivor_perk_name": "Left Behind",
+            "survivor_owner_name": "Bill Overbeck"
+        },
+        {
+            "survivor_perk_name": "Light-Footed",
+            "survivor_owner_name": "Ellen Ripley"
+        },
+        {
+            "survivor_perk_name": "Lightweight",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Lithe",
+            "survivor_owner_name": "Feng Min"
+        },
+        {
+            "survivor_perk_name": "Low-Profile",
+            "survivor_owner_name": "Ada Wong"
+        },
+        {
+            "survivor_perk_name": "Lucky Break",
+            "survivor_owner_name": "Yui Kimura"
+        },
+        {
+            "survivor_perk_name": "Lucky Star",
+            "survivor_owner_name": "Ellen Ripley"
+        },
+        {
+            "survivor_perk_name": "Made For This",
+            "survivor_owner_name": "Gabriel Soma"
+        },
+        {
+            "survivor_perk_name": "Mettle of Man",
+            "survivor_owner_name": "Ash Williams"
+        },
+        {
+            "survivor_perk_name": "Mirrored Illusion",
+            "survivor_owner_name": "Aestri Yazar & Baermar Uraz"
+        },
+        {
+            "survivor_perk_name": "Moment of Glory",
+            "survivor_owner_name": "Trevor Belmont"
+        },
+        {
+            "survivor_perk_name": "No Mither",
+            "survivor_owner_name": "David King"
+        },
+        {
+            "survivor_perk_name": "No One Left Behind",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Object of Obsession",
+            "survivor_owner_name": "Laurie Strode"
+        },
+        {
+            "survivor_perk_name": "Off the Record",
+            "survivor_owner_name": "Zarina Kassir"
+        },
+        {
+            "survivor_perk_name": "Open Handed",
+            "survivor_owner_name": "Ace Visconti"
+        },
+        {
+            "survivor_perk_name": "Overcome",
+            "survivor_owner_name": "Jonah Vasquez"
+        },
+        {
+            "survivor_perk_name": "Overzealous",
+            "survivor_owner_name": "Haddie Kaur"
+        },
+        {
+            "survivor_perk_name": "Parental Guidance",
+            "survivor_owner_name": "Yoichi Asakawa"
+        },
+        {
+            "survivor_perk_name": "Pharmacy",
+            "survivor_owner_name": "Quentin Smith"
+        },
+        {
+            "survivor_perk_name": "Plot Twist",
+            "survivor_owner_name": "Nicolas Cage"
+        },
+        {
+            "survivor_perk_name": "Plunderer’s Instinct",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Poised",
+            "survivor_owner_name": "Jane Romero"
+        },
+        {
+            "survivor_perk_name": "Potential Energy",
+            "survivor_owner_name": "Vittorio Toscano"
+        },
+        {
+            "survivor_perk_name": "Power Struggle",
+            "survivor_owner_name": "Élodie Rakoto"
+        },
+        {
+            "survivor_perk_name": "Premonition",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Prove Thyself",
+            "survivor_owner_name": "Dwight Fairfield"
+        },
+        {
+            "survivor_perk_name": "Quick and Quiet",
+            "survivor_owner_name": "Meg Thomas"
+        },
+        {
+            "survivor_perk_name": "Quick Gambit",
+            "survivor_owner_name": "Vittorio Toscano"
+        },
+        {
+            "survivor_perk_name": "Rapid Response",
+            "survivor_owner_name": "Orela Rose"
+        },
+        {
+            "survivor_perk_name": "Reactive Healing",
+            "survivor_owner_name": "Ada Wong"
+        },
+        {
+            "survivor_perk_name": "Reassurance",
+            "survivor_owner_name": "Rebecca Chambers"
+        },
+        {
+            "survivor_perk_name": "Red Herring",
+            "survivor_owner_name": "Zarina Kassir"
+        },
+        {
+            "survivor_perk_name": "Repressed Alliance",
+            "survivor_owner_name": "Cheryl Mason"
+        },
+        {
+            "survivor_perk_name": "Residual Manifest",
+            "survivor_owner_name": "Haddie Kaur"
+        },
+        {
+            "survivor_perk_name": "Resilience",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Resurgence",
+            "survivor_owner_name": "Jill Valentine"
+        },
+        {
+            "survivor_perk_name": "Rookie Spirit",
+            "survivor_owner_name": "Leon Scott Kennedy"
+        },
+        {
+            "survivor_perk_name": "Saboteur",
+            "survivor_owner_name": "Jake Park"
+        },
+        {
+            "survivor_perk_name": "Scavenger",
+            "survivor_owner_name": "Gabriel Soma"
+        },
+        {
+            "survivor_perk_name": "Scene Partner",
+            "survivor_owner_name": "Nicolas Cage"
+        },
+        {
+            "survivor_perk_name": "Second Wind",
+            "survivor_owner_name": "Steve Harrington"
+        },
+        {
+            "survivor_perk_name": "Self Care",
+            "survivor_owner_name": "Claudette Morel"
+        },
+        {
+            "survivor_perk_name": "Self-Preservation",
+            "survivor_owner_name": "Yun-Jin Lee"
+        },
+        {
+            "survivor_perk_name": "Shoulder the Burden",
+            "survivor_owner_name": "Taurie Cain"
+        },
+        {
+            "survivor_perk_name": "Slippery Meat",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Small Game",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Smash Hit",
+            "survivor_owner_name": "Yun-Jin Lee"
+        },
+        {
+            "survivor_perk_name": "Sole Survivor",
+            "survivor_owner_name": "Laurie Strode"
+        },
+        {
+            "survivor_perk_name": "Solidarity",
+            "survivor_owner_name": "Jane Romero"
+        },
+        {
+            "survivor_perk_name": "Soul Guard",
+            "survivor_owner_name": "Cheryl Mason"
+        },
+        {
+            "survivor_perk_name": "Specialist",
+            "survivor_owner_name": "Lara Croft"
+        },
+        {
+            "survivor_perk_name": "Spine Chill",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Sprint Burst",
+            "survivor_owner_name": "Meg Thomas"
+        },
+        {
+            "survivor_perk_name": "Stake Out",
+            "survivor_owner_name": "David Tapp"
+        },
+        {
+            "survivor_perk_name": "Still Sight",
+            "survivor_owner_name": "Aestri Yazar & Baermar Uraz"
+        },
+        {
+            "survivor_perk_name": "Streetwise",
+            "survivor_owner_name": "Nea Karlsson"
+        },
+        {
+            "survivor_perk_name": "Strength in Shadows",
+            "survivor_owner_name": "Sable Ward"
+        },
+        {
+            "survivor_perk_name": "Teamwork: Collective Stealth",
+            "survivor_owner_name": "Renato Lyra"
+        },
+        {
+            "survivor_perk_name": "Teamwork: Power of Two",
+            "survivor_owner_name": "Thalita Lyra"
+        },
+        {
+            "survivor_perk_name": "Teamwork: Throw Down",
+            "survivor_owner_name": "Michonne Grimes"
+        },
+        {
+            "survivor_perk_name": "Teamwork: Toughen Up",
+            "survivor_owner_name": "Rick Grimes"
+        },
+        {
+            "survivor_perk_name": "Technician",
+            "survivor_owner_name": "Feng Min"
+        },
+        {
+            "survivor_perk_name": "Tenacity",
+            "survivor_owner_name": "David Tapp"
+        },
+        {
+            "survivor_perk_name": "This Is Not Happening",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "Troubleshooter",
+            "survivor_owner_name": "Gabriel Soma"
+        },
+        {
+            "survivor_perk_name": "Unbreakable",
+            "survivor_owner_name": "Bill Overbeck"
+        },
+        {
+            "survivor_perk_name": "Up The Ante",
+            "survivor_owner_name": "Ace Visconti"
+        },
+        {
+            "survivor_perk_name": "Urban Evasion",
+            "survivor_owner_name": "Nea Karlsson"
+        },
+        {
+            "survivor_perk_name": "Vigil",
+            "survivor_owner_name": "Quentin Smith"
+        },
+        {
+            "survivor_perk_name": "Visionary",
+            "survivor_owner_name": "Felix Richter"
+        },
+        {
+            "survivor_perk_name": "Wake Up",
+            "survivor_owner_name": "Quentin Smith"
+        },
+        {
+            "survivor_perk_name": "We’ll Make It",
+            "survivor_owner_name": "All Survivors"
+        },
+        {
+            "survivor_perk_name": "We’re Gonna Live Forever",
+            "survivor_owner_name": "David King"
+        },
+        {
+            "survivor_perk_name": "Wicked",
+            "survivor_owner_name": "Sable Ward"
+        },
+        {
+            "survivor_perk_name": "Windows of Opportunity",
+            "survivor_owner_name": "Kate Denson"
+        },
+        {
+            "survivor_perk_name": "Wiretap",
+            "survivor_owner_name": "Ada Wong"
+        }
+    ],
+    "killer_perks": [
+        {
+            "killer_perk_name": "Beast of Prey",
+            "killer_owner_name": "The Huntress"
+        },
+        {
+            "killer_perk_name": "Bitter Murmur",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Blood Echo",
+            "killer_owner_name": "The Oni"
+        },
+        {
+            "killer_perk_name": "Blood Warden",
+            "killer_owner_name": "The Nightmare"
+        },
+        {
+            "killer_perk_name": "Bloodhound",
+            "killer_owner_name": "The Wraith"
+        },
+        {
+            "killer_perk_name": "Brutal Strength",
+            "killer_owner_name": "The Trapper"
+        },
+        {
+            "killer_perk_name": "Call of Brine",
+            "killer_owner_name": "The Onryō"
+        },
+        {
+            "killer_perk_name": "Corrupt Intervention",
+            "killer_owner_name": "The Plague"
+        },
+        {
+            "killer_perk_name": "Coulrophobia",
+            "killer_owner_name": "The Clown"
+        },
+        {
+            "killer_perk_name": "Coup De Grace",
+            "killer_owner_name": "The Twins"
+        },
+        {
+            "killer_perk_name": "Cruel Limits",
+            "killer_owner_name": "The Demogorgon"
+        },
+        {
+            "killer_perk_name": "Dark Arrogance",
+            "killer_owner_name": "The Lich"
+        },
+        {
+            "killer_perk_name": "Dark Devotion",
+            "killer_owner_name": "The Plague"
+        },
+        {
+            "killer_perk_name": "Darkness Revealed",
+            "killer_owner_name": "The Dredge"
+        },
+        {
+            "killer_perk_name": "Dead Man’s Switch",
+            "killer_owner_name": "The Deathslinger"
+        },
+        {
+            "killer_perk_name": "Deathbound",
+            "killer_owner_name": "The Executioner"
+        },
+        {
+            "killer_perk_name": "Deerstalker",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Discordance",
+            "killer_owner_name": "The Legion"
+        },
+        {
+            "killer_perk_name": "Dissolution",
+            "killer_owner_name": "The Dredge"
+        },
+        {
+            "killer_perk_name": "Distressing",
+            "killer_owner_name": "The Common"
+        },
+        {
+            "killer_perk_name": "Dominance",
+            "killer_owner_name": "The Dark Lord"
+        },
+        {
+            "killer_perk_name": "Dragon’s Grip",
+            "killer_owner_name": "The Blight"
+        },
+        {
+            "killer_perk_name": "Dying Light",
+            "killer_owner_name": "The Shape"
+        },
+        {
+            "killer_perk_name": "Enduring",
+            "killer_owner_name": "The Hillbilly"
+        },
+        {
+            "killer_perk_name": "Eruption",
+            "killer_owner_name": "The Nemesis"
+        },
+        {
+            "killer_perk_name": "Fire Up",
+            "killer_owner_name": "The Nightmare"
+        },
+        {
+            "killer_perk_name": "Forced Hesitation",
+            "killer_owner_name": "The Singularity"
+        },
+        {
+            "killer_perk_name": "Forced Penance",
+            "killer_owner_name": "The Executioner"
+        },
+        {
+            "killer_perk_name": "Forever Entwined",
+            "killer_owner_name": "The Ghoul"
+        },
+        {
+            "killer_perk_name": "Franklin’s Demise",
+            "killer_owner_name": "The Cannibal"
+        },
+        {
+            "killer_perk_name": "Friends ‘til the End",
+            "killer_owner_name": "The Good Guy"
+        },
+        {
+            "killer_perk_name": "Furtive Chase",
+            "killer_owner_name": "The Ghost Face"
+        },
+        {
+            "killer_perk_name": "Game Afoot",
+            "killer_owner_name": "The Skull Merchant"
+        },
+        {
+            "killer_perk_name": "Gearhead",
+            "killer_owner_name": "The Deathslinger"
+        },
+        {
+            "killer_perk_name": "Genetic Limits",
+            "killer_owner_name": "The Singularity"
+        },
+        {
+            "killer_perk_name": "Grim Embrace",
+            "killer_owner_name": "The Artist"
+        },
+        {
+            "killer_perk_name": "Haywire",
+            "killer_owner_name": "The Animatronic"
+        },
+        {
+            "killer_perk_name": "Help Wanted",
+            "killer_owner_name": "The Animatronic"
+        },
+        {
+            "killer_perk_name": "Hex: Blood Favour",
+            "killer_owner_name": "The Blight"
+        },
+        {
+            "killer_perk_name": "Hex: Crowd Control",
+            "killer_owner_name": "The Trickster"
+        },
+        {
+            "killer_perk_name": "Hex: Devour Hope",
+            "killer_owner_name": "The Hag"
+        },
+        {
+            "killer_perk_name": "Hex: Face The Darkness",
+            "killer_owner_name": "The Knight"
+        },
+        {
+            "killer_perk_name": "Hex: Fortune’s Fool (Plaything)",
+            "killer_owner_name": "The Cenobite"
+        },
+        {
+            "killer_perk_name": "Hex: Haunted Ground",
+            "killer_owner_name": "The Spirit"
+        },
+        {
+            "killer_perk_name": "Hex: Huntress Lullaby",
+            "killer_owner_name": "The Huntress"
+        },
+        {
+            "killer_perk_name": "Hex: No One Escapes Death",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Hex: Nothing But Misery",
+            "killer_owner_name": "The Ghoul"
+        },
+        {
+            "killer_perk_name": "Hex: Pentimento",
+            "killer_owner_name": "The Artist"
+        },
+        {
+            "killer_perk_name": "Hex: Retribution",
+            "killer_owner_name": "The Deathslinger"
+        },
+        {
+            "killer_perk_name": "Hex: Ruin",
+            "killer_owner_name": "The Hag"
+        },
+        {
+            "killer_perk_name": "Hex: The Third Seal",
+            "killer_owner_name": "The Hag"
+        },
+        {
+            "killer_perk_name": "Hex: Thrill of The Hunt",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Hex: Two Can Play",
+            "killer_owner_name": "The Good Guy"
+        },
+        {
+            "killer_perk_name": "Hex: Undying",
+            "killer_owner_name": "The Blight"
+        },
+        {
+            "killer_perk_name": "Hex: Wretched Fate",
+            "killer_owner_name": "The Dark Lord"
+        },
+        {
+            "killer_perk_name": "Hoarder",
+            "killer_owner_name": "The Twins"
+        },
+        {
+            "killer_perk_name": "Hubris",
+            "killer_owner_name": "The Knight"
+        },
+        {
+            "killer_perk_name": "Human Greed",
+            "killer_owner_name": "The Dark Lord"
+        },
+        {
+            "killer_perk_name": "Hysteria",
+            "killer_owner_name": "The Nemesis"
+        },
+        {
+            "killer_perk_name": "I’m All Ears",
+            "killer_owner_name": "The Ghost Face"
+        },
+        {
+            "killer_perk_name": "Infectious Fright",
+            "killer_owner_name": "The Plague"
+        },
+        {
+            "killer_perk_name": "Insidious",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Iron Grasp",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Iron Maiden",
+            "killer_owner_name": "The Legion"
+        },
+        {
+            "killer_perk_name": "Knock Out",
+            "killer_owner_name": "The Cannibal"
+        },
+        {
+            "killer_perk_name": "Languid Touch",
+            "killer_owner_name": "The Lich"
+        },
+        {
+            "killer_perk_name": "Lethal Pursuer",
+            "killer_owner_name": "The Nemesis"
+        },
+        {
+            "killer_perk_name": "Leverage",
+            "killer_owner_name": "The Skull Merchant"
+        },
+        {
+            "killer_perk_name": "Lightborn",
+            "killer_owner_name": "The Hillbilly"
+        },
+        {
+            "killer_perk_name": "Machine Learning",
+            "killer_owner_name": "The Singularity"
+        },
+        {
+            "killer_perk_name": "Mad Grit",
+            "killer_owner_name": "The Legion"
+        },
+        {
+            "killer_perk_name": "Make Your Choice",
+            "killer_owner_name": "The Pig"
+        },
+        {
+            "killer_perk_name": "Merciless Storm",
+            "killer_owner_name": "The Onryō"
+        },
+        {
+            "killer_perk_name": "Mindbreaker",
+            "killer_owner_name": "The Demogorgon"
+        },
+        {
+            "killer_perk_name": "Monitor and Abuse",
+            "killer_owner_name": "The Doctor"
+        },
+        {
+            "killer_perk_name": "Nemesis",
+            "killer_owner_name": "The Oni"
+        },
+        {
+            "killer_perk_name": "No Holds Barred (Deadlock)",
+            "killer_owner_name": "The Cenobite"
+        },
+        {
+            "killer_perk_name": "No Quarter",
+            "killer_owner_name": "The Houndmaster"
+        },
+        {
+            "killer_perk_name": "No Way Out",
+            "killer_owner_name": "The Trickster"
+        },
+        {
+            "killer_perk_name": "None Are Free",
+            "killer_owner_name": "The Ghoul"
+        },
+        {
+            "killer_perk_name": "Nowhere To Hide",
+            "killer_owner_name": "The Knight"
+        },
+        {
+            "killer_perk_name": "Oppression",
+            "killer_owner_name": "The Twins"
+        },
+        {
+            "killer_perk_name": "Overcharge",
+            "killer_owner_name": "The Doctor"
+        },
+        {
+            "killer_perk_name": "Overwhelming Presence",
+            "killer_owner_name": "The Doctor"
+        },
+        {
+            "killer_perk_name": "Phantom Fear",
+            "killer_owner_name": "The Animatronic"
+        },
+        {
+            "killer_perk_name": "Play With Your Food",
+            "killer_owner_name": "The Shape"
+        },
+        {
+            "killer_perk_name": "Pop Goes The Weasel",
+            "killer_owner_name": "The Clown"
+        },
+        {
+            "killer_perk_name": "Predator",
+            "killer_owner_name": "The Wraith"
+        },
+        {
+            "killer_perk_name": "Rancor",
+            "killer_owner_name": "The Spirit"
+        },
+        {
+            "killer_perk_name": "Rapid Brutality",
+            "killer_owner_name": "The Xenomorph"
+        },
+        {
+            "killer_perk_name": "Remember Me",
+            "killer_owner_name": "The Nightmare"
+        },
+        {
+            "killer_perk_name": "Save The Best For Last",
+            "killer_owner_name": "The Shape"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Floods of Rage",
+            "killer_owner_name": "The Onryō"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Hangman’s Trick",
+            "killer_owner_name": "The Pig"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Jagged Compass",
+            "killer_owner_name": "The Houndmaster"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Monstrous Shrine",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Pain Resonance",
+            "killer_owner_name": "The Artist"
+        },
+        {
+            "killer_perk_name": "Scourge Hook: Weeping Wounds (Gift of Pain)",
+            "killer_owner_name": "The Cenobite"
+        },
+        {
+            "killer_perk_name": "Septic Touch",
+            "killer_owner_name": "The Dredge"
+        },
+        {
+            "killer_perk_name": "Shadowborn",
+            "killer_owner_name": "The Wraith"
+        },
+        {
+            "killer_perk_name": "Shattered Hope",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Sloppy Butcher",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Spies From The Shadows",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Spirit Fury",
+            "killer_owner_name": "The Spirit"
+        },
+        {
+            "killer_perk_name": "Starstruck",
+            "killer_owner_name": "The Trickster"
+        },
+        {
+            "killer_perk_name": "Stridor",
+            "killer_owner_name": "The Nurse"
+        },
+        {
+            "killer_perk_name": "Superior Anatomy",
+            "killer_owner_name": "The Mastermind"
+        },
+        {
+            "killer_perk_name": "Surge",
+            "killer_owner_name": "The Demogorgon"
+        },
+        {
+            "killer_perk_name": "Surveillance",
+            "killer_owner_name": "The Pig"
+        },
+        {
+            "killer_perk_name": "Terminus",
+            "killer_owner_name": "The Mastermind"
+        },
+        {
+            "killer_perk_name": "Territorial Imperative",
+            "killer_owner_name": "The Huntress"
+        },
+        {
+            "killer_perk_name": "Thanatophobia",
+            "killer_owner_name": "The Nurse"
+        },
+        {
+            "killer_perk_name": "Thrilling Tremors",
+            "killer_owner_name": "The Ghost Face"
+        },
+        {
+            "killer_perk_name": "THWACK!",
+            "killer_owner_name": "The Skull Merchant"
+        },
+        {
+            "killer_perk_name": "Tinkerer",
+            "killer_owner_name": "The Hillbilly"
+        },
+        {
+            "killer_perk_name": "Trail of Torment",
+            "killer_owner_name": "The Executioner"
+        },
+        {
+            "killer_perk_name": "Ultimate Weapon",
+            "killer_owner_name": "The Xenomorph"
+        },
+        {
+            "killer_perk_name": "Unbound",
+            "killer_owner_name": "The Unknown"
+        },
+        {
+            "killer_perk_name": "Undone",
+            "killer_owner_name": "The Unknown"
+        },
+        {
+            "killer_perk_name": "Unforeseen",
+            "killer_owner_name": "The Unknown"
+        },
+        {
+            "killer_perk_name": "Unnerving Presence",
+            "killer_owner_name": "The Trapper"
+        },
+        {
+            "killer_perk_name": "Unrelenting",
+            "killer_owner_name": "Common"
+        },
+        {
+            "killer_perk_name": "Weave Attunement",
+            "killer_owner_name": "The Lich"
+        },
+        {
+            "killer_perk_name": "Whispers",
+            "killer_owner_name": "All Killers"
+        },
+        {
+            "killer_perk_name": "Zanshin Tactics",
+            "killer_owner_name": "The Oni"
+        }
+    ]
+}

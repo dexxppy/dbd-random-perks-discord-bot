@@ -129,103 +129,6 @@
         ]
     },
     {
-        "character_type": "Killer",
-        "offerings": [
-            {
-                "offering_name": "Hollow Shell",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Survivor Pudding",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Tanager Wreath",
-                "offering_rarity": "Common"
-            },
-            {
-                "offering_name": "Devout Tanager Wreath",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Ardent Tanager Wreath",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Raven Wreath",
-                "offering_rarity": "Common"
-            },
-            {
-                "offering_name": "Devout Raven Wreath",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Ardent Raven Wreath",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Spotted Owl Wreath",
-                "offering_rarity": "Common"
-            },
-            {
-                "offering_name": "Devout Spotted Owl Wreath",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Ardent Spotted Owl Wreath",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Shrike Wreath",
-                "offering_rarity": "Common"
-            },
-            {
-                "offering_name": "Devout Shrike Wreath",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Ardent Shrike Wreath",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Mouldy Oak",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Scratched Coin",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Rotten Oak",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Cut Coin",
-                "offering_rarity": "Very Rare"
-            },
-            {
-                "offering_name": "Putrid Oak",
-                "offering_rarity": "Very Rare"
-            },
-            {
-                "offering_name": "Ivory Memento Mori",
-                "offering_rarity": "Rare"
-            },
-            {
-                "offering_name": "Ebony Memento Mori",
-                "offering_rarity": "Ultra Rare"
-            },
-            {
-                "offering_name": "Shroud of Vanishing",
-                "offering_rarity": "Uncommon"
-            },
-            {
-                "offering_name": "Black Ward",
-                "offering_rarity": "Very Rare"
-            }
-        ]
-    },
-    {
         "character_type": "Survivor",
         "offerings": [
             {
@@ -338,6 +241,103 @@
             },
             {
                 "offering_name": "White Ward",
+                "offering_rarity": "Very Rare"
+            }
+        ]
+    },
+    {
+        "character_type": "Killer",
+        "offerings": [
+            {
+                "offering_name": "Hollow Shell",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Survivor Pudding",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Tanager Wreath",
+                "offering_rarity": "Common"
+            },
+            {
+                "offering_name": "Devout Tanager Wreath",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Ardent Tanager Wreath",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Raven Wreath",
+                "offering_rarity": "Common"
+            },
+            {
+                "offering_name": "Devout Raven Wreath",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Ardent Raven Wreath",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Spotted Owl Wreath",
+                "offering_rarity": "Common"
+            },
+            {
+                "offering_name": "Devout Spotted Owl Wreath",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Ardent Spotted Owl Wreath",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Shrike Wreath",
+                "offering_rarity": "Common"
+            },
+            {
+                "offering_name": "Devout Shrike Wreath",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Ardent Shrike Wreath",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Mouldy Oak",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Scratched Coin",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Rotten Oak",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Cut Coin",
+                "offering_rarity": "Very Rare"
+            },
+            {
+                "offering_name": "Putrid Oak",
+                "offering_rarity": "Very Rare"
+            },
+            {
+                "offering_name": "Ivory Memento Mori",
+                "offering_rarity": "Rare"
+            },
+            {
+                "offering_name": "Ebony Memento Mori",
+                "offering_rarity": "Ultra Rare"
+            },
+            {
+                "offering_name": "Shroud of Vanishing",
+                "offering_rarity": "Uncommon"
+            },
+            {
+                "offering_name": "Black Ward",
                 "offering_rarity": "Very Rare"
             }
         ]

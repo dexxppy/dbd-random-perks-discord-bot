@@ -1,4 +1,5 @@
-from funcs.data_funcs import get_killer_data, get_survivor_data, get_items_data, get_offerings_data
+from core.data_funcs import get_killer_data, get_survivor_data, get_items_data, get_offerings_data, get_perks_data
+
 
 class DataLoader:
     def __init__(self, character_type):
@@ -19,16 +20,14 @@ class DataLoader:
     @property
     def perks_list(self):
         if self._perks_list is None:
-            data = self._data_loader()
-            self._characters_list = data[f"{self.character_type}s"]
-            self._perks_list = data["perks"]
+            self._perks_list = get_perks_data(self.character_type)
             
         return self._perks_list
     
     @property
     def characters_list(self):
         if self._characters_list is None:
-            _ = self.perks_list
+            self._characters_list = self._data_loader()
             
         return self._characters_list
     
@@ -44,4 +43,4 @@ class DataLoader:
         if self._offerings_list is None:
             self._offerings_list = get_offerings_data()
             
-        return self._items_list
+        return self._offerings_list

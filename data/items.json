@@ -34,43 +34,43 @@
             },
             {
                 "survivor_addon_name": "Sponge",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Medical Scissors",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Self Adherent Wrap",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Needle & Thread",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Gauze Roll",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Surgical Suture",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Styptic Agent",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Abdominal Dressing",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Anti-Haemorrhagic Syringe",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             },
             {
                 "survivor_addon_name": "Gel Dressings",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     },
@@ -117,35 +117,35 @@
             },
             {
                 "survivor_addon_name": "Wire Spool",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Spring Clamp",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Socket Swivels",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Cutting Wire",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Protective Gloves",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Hacksaw",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Grip Wrench",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Brand New Part",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     },
@@ -172,19 +172,19 @@
             },
             {
                 "survivor_addon_name": "Gnarled Compass",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Battered Tape",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Sharpened Flint",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Crimson Stamp",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     },
@@ -211,19 +211,19 @@
             },
             {
                 "survivor_addon_name": "Shrill Whistle",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Braided Bauble",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Unique Wedding Ring",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Blood Amber",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     },
@@ -250,19 +250,19 @@
             },
             {
                 "survivor_addon_name": "Reactive Compound",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Uncommon"
             },
             {
                 "survivor_addon_name": "Oily Sap",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Mushroom Formula",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Potent Extract",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     },
@@ -285,19 +285,19 @@
         "survivor_addons": [
             {
                 "survivor_addon_name": "Power Bulb",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Common"
             },
             {
                 "survivor_addon_name": "Battery",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Common"
             },
             {
                 "survivor_addon_name": "Leather Grip",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Common"
             },
             {
                 "survivor_addon_name": "Wide Lens",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Common"
             },
             {
                 "survivor_addon_name": "TIR Optic",
@@ -321,19 +321,19 @@
             },
             {
                 "survivor_addon_name": "Long Life Battery",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "Intense Halogen",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Rare"
             },
             {
                 "survivor_addon_name": "High-End Sapphire Lens",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Very Rare"
             },
             {
                 "survivor_addon_name": "Odd Bulb",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Ultra Rare"
             }
         ]
     }

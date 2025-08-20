@@ -60,7 +60,7 @@ Make sure your bot has the "Message Content Intent" enabled in the Discord Devel
 ### 5. Run the bot
 In project folder terminal, run:
 ```bash
-python main.py
+python bot.py
 ```
 
 ## 📸 Preview

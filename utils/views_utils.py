@@ -1,5 +1,5 @@
 import discord
-from funcs.randomize_funcs import get_random_item_addons_set
+
 
 def get_options_for_select(results, object_type, character_type):
     options = [
