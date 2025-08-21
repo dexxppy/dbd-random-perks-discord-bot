@@ -26,14 +26,27 @@ class OfferingRandomizeView(BaseRandomizeView):
 
         self.randomize()
 
-        replace_btn = discord.ui.Button(label="Replace Offering", style=discord.ButtonStyle.primary)
-        replace_btn.callback = self.replace
-        self.add_item(replace_btn)
+        self.get_replace_button("Offering")
+        self.get_accept_button()
     
     def get_message(self):
-        msg =  f'→ **{self.random_offering["offering_name"]}** of *{self.random_offering["offering_rarity"]}* rarity'
+        msg = f'**{self.ctx.author.mention}**, your offering:'
 
-        return f'**{self.ctx.author.mention}**, you will play with: \n \n{msg} ! \n \n If you don\'t own it, you can replace it\n \n'
+        embeds = []
+
+        offering_name = self.random_offering[f"offering_name"]
+        offering_rarity = self.random_offering[f"offering_rarity"]
+        offering_icon = self.random_offering[f"offering_icon"]
+
+        embed = discord.Embed(
+            title=offering_name,
+            description=f'of *{offering_rarity}* rarity',
+            color=discord.Color.red()
+        )
+        embed.set_thumbnail(url=offering_icon)
+        embeds.append(embed)
+
+        return {'content': msg, 'embeds': embeds}
             
     def randomize(self):
         randomize_result = get_random_offering(
@@ -50,7 +63,8 @@ class OfferingRandomizeView(BaseRandomizeView):
         next_view = self.followup_view["view"](ctx=self.ctx, state=self.state, character_type=self.character_type)
 
         await interaction.response.edit_message(
-            content=next_view.get_message(),
+            content=None,
+            embed=next_view.get_message(),
             view=next_view
         )
 

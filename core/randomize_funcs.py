@@ -34,7 +34,6 @@ def get_random_perks(all_perks_list, initial_perk_list, character_type, exclude_
 
     random_perks = []
     id_field_name = character_type+"_perk_id"
-    print(all_perks_list)
 
     if not initial_perk_list:
         while len(random_perks) < 4:

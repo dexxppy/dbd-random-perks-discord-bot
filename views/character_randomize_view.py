@@ -26,13 +26,28 @@ class CharacterRandomizeView(BaseRandomizeView):
 
         self.randomize()
 
-        replace_btn = discord.ui.Button(label="Replace Character", style=discord.ButtonStyle.primary)
-        replace_btn.callback = self.replace
-        self.add_item(replace_btn)
+        self.get_replace_button("Character")
+        self.get_accept_button()
     
     def get_message(self):
-        return f'**{self.ctx.author.mention}**, you will play as: \n \n**{self.random_character[f"{self.character_type}_name"]}** ! \n \n If you don\'t own it, you can replace it\n \n'
-            
+        msg = f'**{self.ctx.author.mention}**, your character:'
+
+        embeds = []
+
+        character_name = self.random_character[f"{self.character_type}_name"]
+        character_desc = self.random_character[f"{self.character_type}_description"]
+        character_icon = self.random_character[f"{self.character_type}_icon"]
+
+        embed = discord.Embed(
+            title=character_name,
+            description=f'*{character_desc}*',
+            color=discord.Color.red()
+        )
+        embed.set_thumbnail(url=character_icon)
+        embeds.append(embed)
+
+        return {'content': msg, 'embeds': embeds}
+
     def randomize(self):
         randomize_result = get_random_character(
             self.characters_list,
@@ -51,9 +66,13 @@ class CharacterRandomizeView(BaseRandomizeView):
                                                state=self.state, 
                                                character_type=self.character_type, 
                                                next_step=True)
+        msg = next_view.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
 
         await interaction.response.edit_message(
-            content=next_view.get_message(),
+            content=content,
+            embeds=embeds,
             view=next_view
         )
 

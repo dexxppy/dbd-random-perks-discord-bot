@@ -13,7 +13,6 @@ class ItemRandomizeView(BaseRandomizeView):
         character_type = "survivor"
 
         followup = {
-            "killer": {"view": OfferingRandomizeView, "next_drawn": "offering"},
             "survivor": {"view": OfferingRandomizeView, "next_drawn": "offering"}
         }
 
@@ -30,40 +29,47 @@ class ItemRandomizeView(BaseRandomizeView):
         self.exclude_ids_addons = []
 
         self.randomize()
-        
-        self.replace_item_button = discord.ui.Button(label="Replace Item", style=discord.ButtonStyle.primary)
-        self.replace_item_button.callback = self.replace_item
-        self.add_item(self.replace_item_button)
-        
-        self.select = discord.ui.Select(
-            placeholder="Choose addons to replace",
-            min_values=1,
-            max_values=2,
-            options=get_options_for_select(self.random_item_set["addons"], "addon", self.character_type)
-        )
 
-        self.select.callback = self.handle_select
-        self.add_item(self.select)
+        self.get_select(self.random_item_set["addons"], "addon")
+        self.get_replace_button("Item", self.replace_item)
+        self.get_replace_button("Selected Addons", self.replace_addons)
+        self.get_accept_button()
 
-        replace_btn = discord.ui.Button(label="Replace Selected Addons", style=discord.ButtonStyle.primary)
-        replace_btn.callback = self.replace_addons
-        self.add_item(replace_btn)
-            
     def get_message(self):
-        msg = "\n".join(
-            [
-                "Item:",
-                f'→ **{self.random_item_set["item"]["survivor_item_name"]}** of *{self.random_item_set["item"]["survivor_item_rarity"]}* rarity',
-                "With Addons:",
-                *[
-                    f'→ **{addon["addon_data"]["survivor_addon_name"]}** of *{addon["addon_data"]["survivor_addon_rarity"]}* rarity'
-                    for addon in self.random_item_set["addons"]
-                ]
-            ]
-        )
+        msg = f'**{self.ctx.author.mention}**, your item set: '
 
-        return f'**{self.ctx.author.mention}**, this is your item set:\n \n{msg} \n \n If you don\'t own any of these objects, you can replace it!\n \n'
-            
+        embeds = []
+
+        item = self.random_item_set["item"]
+        addons = self.random_item_set["addons"]
+
+        item_name = item["survivor_item_name"]
+        item_desc = item["survivor_item_rarity"]
+        item_icon = item["survivor_item_icon"]
+
+        item_embed = discord.Embed(
+            title=item_name,
+            description=f"of *{item_desc}* rarity",
+            color=discord.Color.red()
+        )
+        item_embed.set_thumbnail(url=item_icon)
+        embeds.append(item_embed)
+
+        for addon in addons:
+            addon_name = addon["addon_data"]["survivor_addon_name"]
+            addon_rarity = addon["addon_data"]["survivor_addon_rarity"]
+            addon_icon = addon["addon_data"]["survivor_addon_icon"]
+
+            embed = discord.Embed(
+                title=addon_name,
+                description=f"of *{addon_rarity}* rarity",
+                color=discord.Color.red()
+            )
+            embed.set_thumbnail(url=addon_icon)
+            embeds.append(embed)
+
+        return {"content": msg, "embeds": embeds}
+
     def randomize(self):
         randomize_result = get_random_item_with_addons(
             all_items_list=self.items_list,
@@ -87,14 +93,20 @@ class ItemRandomizeView(BaseRandomizeView):
         
         self.random_item_set["addons"] = randomize_result["random_addons"]
         self.exclude_ids_addons = randomize_result["exclude_ids"]
-
     
     async def replace_item(self, interaction: discord.Interaction):
         self.randomize()
         self.select.options = get_options_for_select(self.random_item_set["addons"], "addon", self.character_type)
 
-        content = self.get_message()
-        await interaction.response.edit_message(content=content, view=self)
+        msg = self.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
+
+        await interaction.response.edit_message(
+            content=content,
+            embeds=embeds,
+            view=self
+        )
         
     async def replace_addons(self, interaction: discord.Interaction):
         for item in self.random_item_set["addons"]:
@@ -103,8 +115,15 @@ class ItemRandomizeView(BaseRandomizeView):
         self.randomize_items_addons_set()
         self.select.options = get_options_for_select(self.random_item_set["addons"], "addon", self.character_type)
 
-        content = self.get_message()
-        await interaction.response.edit_message(content=content, view=self)
+        msg = self.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
+
+        await interaction.response.edit_message(
+            content=content,
+            embeds=embeds,
+            view=self
+        )
 
     async def accept(self, interaction: discord.Interaction):
         self.state.item = self.random_item_set
@@ -114,8 +133,13 @@ class ItemRandomizeView(BaseRandomizeView):
                                                character_type=self.character_type, 
                                                next_step=True)
 
+        msg = next_view.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
+
         await interaction.response.edit_message(
-            content=next_view.get_message(),
+            content=content,
+            embeds=embeds,
             view=next_view
         )
         

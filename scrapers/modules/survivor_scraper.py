@@ -15,12 +15,21 @@ class SurvivorScraper(BaseScraper):
         )
 
         survivor_divs = self.wait_for_all_elements_presence(
-            By.XPATH, './/div[contains(@class, "survivor-list")]//div[contains(@class, "survivor-card")]', survivors_container
+            By.XPATH,
+            './/div[contains(@class, "survivor-list")]//div[contains(@class, "survivor-card")]',
+            survivors_container
         )
 
         for div in survivor_divs:
             info_div = div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-info')]")
             survivor_name = self.get_elements_text(By.XPATH, ".//h2[contains(@class, 'survivor-name')]", info_div)
-            survivors.append({"survivor_name": survivor_name})
+            survivor_desc = (info_div.find_elements(By.XPATH, ".//div[contains(@class, 'survivor-badges')]//span")[1]).text
+
+            survivor_icon = (div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-image-container')]//img")
+                             .get_attribute("src"))
+
+            survivors.append({"survivor_name": survivor_name,
+                              "survivor_description": survivor_desc,
+                              "survivor_icon": survivor_icon})
 
         return survivors

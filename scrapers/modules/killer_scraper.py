@@ -23,6 +23,8 @@ class KillerScraper(BaseScraper):
         for div in killers_divs:
             addons = []
 
+            killer_icon = div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-image-container')]//img").get_attribute("src")
+
             info_div = self.wait_for_element_presence(By.XPATH, ".//div[contains(@class, 'survivor-info')]", div)
 
             killer_name = self.driver.execute_script("""
@@ -31,6 +33,8 @@ class KillerScraper(BaseScraper):
                                      let text = element.childNodes[0].nodeValue.trim();
                                      return text;
                                  """, info_div.find_element(By.TAG_NAME, 'h2'))
+
+            killer_desc = info_div.find_element(By.XPATH, ".//h2//span").text.strip("()")
 
             addons_btn = self.wait_for_element_to_be_clickable(By.XPATH,
                                                            ".//div[contains(@class, 'popup-buttons')]"
@@ -47,6 +51,8 @@ class KillerScraper(BaseScraper):
             addons_divs = addons_container.find_elements(By.CSS_SELECTOR, 'div[class^="perk-item"]')
 
             for addon_div in addons_divs:
+                addon_icon = addon_div.find_element(By.TAG_NAME, "img").get_attribute("src")
+
                 details_div = addon_div.find_element(By.XPATH, './/div[contains(@class, "perk-details")]//div[contains(@class, "perk-name")]')
                 addon_name = self.driver.execute_script("""
                     let element = arguments[0];
@@ -56,9 +62,14 @@ class KillerScraper(BaseScraper):
                 """, details_div)
 
                 addon_rarity = details_div.find_element(By.TAG_NAME, "span").text
-                addons.append({"killer_addon_name": addon_name, "killer_addon_rarity": addon_rarity})
+                addons.append({"killer_addon_name": addon_name,
+                               "killer_addon_rarity": addon_rarity,
+                               "killer_addon_icon": addon_icon})
 
             popup_div.find_element(By.XPATH, './/button[contains(@class, "popup-close")]').click()
-            killers.append({"killer_name": killer_name, "killer_addons": addons})
+            killers.append({"killer_name": killer_name,
+                            "killer_description": killer_desc,
+                            "killer_icon": killer_icon,
+                            "killer_addons": addons})
 
         return killers

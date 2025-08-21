@@ -4,73 +4,90 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Camping Aid Kit",
-                "survivor_item_rarity": "Common"
+                "survivor_item_rarity": "Common",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/brown_campingAidKit.png"
             },
             {
                 "survivor_item_name": "First Aid Kit",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/yellow_firstAidKit.png"
             },
             {
                 "survivor_item_name": "Emergency Med-Kit",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/green_emergencyMedKit.png"
             },
             {
                 "survivor_item_name": "Ranger Med-Kit",
-                "survivor_item_rarity": "Very Rare"
+                "survivor_item_rarity": "Very Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/purple_rangerMedKit.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Rubber Gloves",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/rubberGloves.png"
             },
             {
                 "survivor_addon_name": "Bandages",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/bandages.png"
             },
             {
                 "survivor_addon_name": "Butterfly Tape",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/butterflyTape.png"
             },
             {
                 "survivor_addon_name": "Sponge",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/sponge.png"
             },
             {
                 "survivor_addon_name": "Medical Scissors",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/medicalScissors.png"
             },
             {
                 "survivor_addon_name": "Self Adherent Wrap",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/selfAdherentWrap.png"
             },
             {
                 "survivor_addon_name": "Needle & Thread",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/needle&Thread.png"
             },
             {
                 "survivor_addon_name": "Gauze Roll",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/gauzeRoll.png"
             },
             {
                 "survivor_addon_name": "Surgical Suture",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/surgicalSuture.png"
             },
             {
                 "survivor_addon_name": "Styptic Agent",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/stypticAgent.png"
             },
             {
                 "survivor_addon_name": "Abdominal Dressing",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/abdominalDressing.png"
             },
             {
                 "survivor_addon_name": "Anti-Haemorrhagic Syringe",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/anti-haemorrhagicSyringe.png"
             },
             {
                 "survivor_addon_name": "Gel Dressings",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/gelDressings.png"
             }
         ]
     },
@@ -79,73 +96,90 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Worn-Out Tools",
-                "survivor_item_rarity": "Common"
+                "survivor_item_rarity": "Common",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/brown_wornOutTools.png"
             },
             {
                 "survivor_item_name": "Toolbox",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/yellow_toolbox.png"
             },
             {
                 "survivor_item_name": "Mechanic’s Toolbox",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/green_mechanicsToolbox.png"
             },
             {
                 "survivor_item_name": "Commodious Toolbox",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/green_commodiousToolbox.png"
             },
             {
                 "survivor_item_name": "Alex’s Toolbox",
-                "survivor_item_rarity": "Ultra Rare"
+                "survivor_item_rarity": "Ultra Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/purple_alexsToolbox.png"
             },
             {
                 "survivor_item_name": "Engineer’s Toolbox",
-                "survivor_item_rarity": "Ultra Rare"
+                "survivor_item_rarity": "Ultra Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/purple_engineersToolbox.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Instructions",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/instructions.png"
             },
             {
                 "survivor_addon_name": "Scraps",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/scraps.png"
             },
             {
                 "survivor_addon_name": "Clean Rag",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/cleanRag.png"
             },
             {
                 "survivor_addon_name": "Wire Spool",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/wireSpool.png"
             },
             {
                 "survivor_addon_name": "Spring Clamp",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/springClamp.png"
             },
             {
                 "survivor_addon_name": "Socket Swivels",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/socketSwivels.png"
             },
             {
                 "survivor_addon_name": "Cutting Wire",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/cuttingWire.png"
             },
             {
                 "survivor_addon_name": "Protective Gloves",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/protectiveGloves.png"
             },
             {
                 "survivor_addon_name": "Hacksaw",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/hacksaw.png"
             },
             {
                 "survivor_addon_name": "Grip Wrench",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/gripWrench.png"
             },
             {
                 "survivor_addon_name": "Brand New Part",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/brandNewPart.png"
             }
         ]
     },
@@ -154,37 +188,45 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Cryptic Map",
-                "survivor_item_rarity": "Common"
+                "survivor_item_rarity": "Common",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/CrypticMap.png"
             },
             {
                 "survivor_item_name": "Scribbled Map",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/Scribbledmap.png"
             },
             {
                 "survivor_item_name": "Annotated Map",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/rainbowMap.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Glowing Ink",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/glowingInk.png"
             },
             {
                 "survivor_addon_name": "Gnarled Compass",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/gnarledCompass.png"
             },
             {
                 "survivor_addon_name": "Battered Tape",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/batteredTape.png"
             },
             {
                 "survivor_addon_name": "Sharpened Flint",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/sharpenedFlint.png"
             },
             {
                 "survivor_addon_name": "Crimson Stamp",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/crimsonStamp.png"
             }
         ]
     },
@@ -193,37 +235,45 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Broken Key",
-                "survivor_item_rarity": "Common"
+                "survivor_item_rarity": "Common",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/green_brokenKey.png"
             },
             {
                 "survivor_item_name": "Dull Key",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/purple_dullKey.png"
             },
             {
                 "survivor_item_name": "Skeleton Key",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/iri_skeletonKey.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Friendship Charm",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/friendshipCharm.png"
             },
             {
                 "survivor_addon_name": "Shrill Whistle",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/shrillWhistle.png"
             },
             {
                 "survivor_addon_name": "Braided Bauble",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/braidedBauble.png"
             },
             {
                 "survivor_addon_name": "Unique Wedding Ring",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/uniqueWeddingRing.png"
             },
             {
                 "survivor_addon_name": "Blood Amber",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/bloodAmber.png"
             }
         ]
     },
@@ -232,37 +282,45 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Apprentice’s Fog Vial",
-                "survivor_item_rarity": "Common"
+                "survivor_item_rarity": "Common",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/apprenticesFogVial.png"
             },
             {
                 "survivor_item_name": "Artisan’s Fog Vial",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/artisansFogVial.png"
             },
             {
                 "survivor_item_name": "Vigo’s Fog Vial",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/vigosFogVial.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Volcanic Stone",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/volcanicStone.png"
             },
             {
                 "survivor_addon_name": "Reactive Compound",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/reactiveCompound.png"
             },
             {
                 "survivor_addon_name": "Oily Sap",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/oilySap.png"
             },
             {
                 "survivor_addon_name": "Mushroom Formula",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/mushroomFormula.png"
             },
             {
                 "survivor_addon_name": "Potent Extract",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/potentExtract.png"
             }
         ]
     },
@@ -271,69 +329,85 @@
         "survivor_items": [
             {
                 "survivor_item_name": "Flashlight",
-                "survivor_item_rarity": "Uncommon"
+                "survivor_item_rarity": "Uncommon",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/yellow_flashlight.png"
             },
             {
                 "survivor_item_name": "Sport Flashlight",
-                "survivor_item_rarity": "Rare"
+                "survivor_item_rarity": "Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/green_sportFlashlight.png"
             },
             {
                 "survivor_item_name": "Utility Flashlight",
-                "survivor_item_rarity": "Very Rare"
+                "survivor_item_rarity": "Very Rare",
+                "survivor_item_icon": "https://www.unwrittenrulebook.com/survivoritems/purple_utilityFlashlight.png"
             }
         ],
         "survivor_addons": [
             {
                 "survivor_addon_name": "Power Bulb",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/powerBulb.png"
             },
             {
                 "survivor_addon_name": "Battery",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/battery.png"
             },
             {
                 "survivor_addon_name": "Leather Grip",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/leatherGrip.png"
             },
             {
                 "survivor_addon_name": "Wide Lens",
-                "survivor_addon_rarity": "Common"
+                "survivor_addon_rarity": "Common",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/wideLens.png"
             },
             {
                 "survivor_addon_name": "TIR Optic",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/tirOptic.png"
             },
             {
                 "survivor_addon_name": "Heavy Duty Battery",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/heavyDutyBattery.png"
             },
             {
                 "survivor_addon_name": "Focus Lens",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/focusLens.png"
             },
             {
                 "survivor_addon_name": "Rubber Grip",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/rubberGrip.png"
             },
             {
                 "survivor_addon_name": "Low Amp Filament",
-                "survivor_addon_rarity": "Uncommon"
+                "survivor_addon_rarity": "Uncommon",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/lowAmpFilament.png"
             },
             {
                 "survivor_addon_name": "Long Life Battery",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/longLifeBattery.png"
             },
             {
                 "survivor_addon_name": "Intense Halogen",
-                "survivor_addon_rarity": "Rare"
+                "survivor_addon_rarity": "Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/intenseHalogen.png"
             },
             {
                 "survivor_addon_name": "High-End Sapphire Lens",
-                "survivor_addon_rarity": "Very Rare"
+                "survivor_addon_rarity": "Very Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/high-EndSapphireLens.png"
             },
             {
                 "survivor_addon_name": "Odd Bulb",
-                "survivor_addon_rarity": "Ultra Rare"
+                "survivor_addon_rarity": "Ultra Rare",
+                "survivor_addon_icon": "https://www.unwrittenrulebook.com/survivoraddons/oddBulb.png"
             }
         ]
     }

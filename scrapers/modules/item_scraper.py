@@ -22,6 +22,7 @@ class ItemScraper(BaseScraper):
             item_family = self.get_elements_text(By.XPATH, './/h2[contains(@class, "item-type-header")]', div)
 
             list_div = div.find_element(By.XPATH, './/div[contains(@class, "survivor-list")]')
+
             list_sub_divs = self.wait_for_all_elements_presence(By.CSS_SELECTOR,
                                                         "div[class^='survivor-card']",
                                                                list_div)
@@ -32,6 +33,9 @@ class ItemScraper(BaseScraper):
             first = True
 
             for sub_div in list_sub_divs:
+                item_icon = (sub_div.find_element(By.XPATH, './/div[contains(@class, "survivor-image-container")]//img')
+                             .get_attribute("src"))
+
                 info_div = self.wait_for_element_presence(By.XPATH,
                                                           ".//div[contains(@class, 'survivor-info')]",
                                                           sub_div)
@@ -51,6 +55,7 @@ class ItemScraper(BaseScraper):
                     addon_divs = addons_div.find_elements(By.CSS_SELECTOR, "div[class^='perk-item']")
 
                     for addon_div in addon_divs:
+                        addon_icon = addon_div.find_element(By.TAG_NAME, "img").get_attribute("src")
                         details_div = addon_div.find_element(By.XPATH, ".//div[contains(@class, 'perk-details')]"
                                                                        "//div[contains(@class, 'perk-name')]")
 
@@ -63,7 +68,9 @@ class ItemScraper(BaseScraper):
 
                         addon_rarity = details_div.find_element(By.TAG_NAME, "span").text
 
-                        addons.append({"survivor_addon_name": addon_name, "survivor_addon_rarity": addon_rarity})
+                        addons.append({"survivor_addon_name": addon_name,
+                                       "survivor_addon_rarity": addon_rarity,
+                                       "survivor_addon_icon": addon_icon})
 
                     first = False
                     popup_div.find_element(By.XPATH, ".//button[contains(@class, 'popup-close')]").click()
@@ -71,7 +78,7 @@ class ItemScraper(BaseScraper):
                 item_name = info_div.find_element(By.XPATH, ".//h2").text
                 item_rarity = info_div.find_element(By.XPATH, ".//div[contains(@class, 'survivor-badges')]//span").text
 
-                items.append({"survivor_item_name": item_name, "survivor_item_rarity": item_rarity})
+                items.append({"survivor_item_name": item_name, "survivor_item_rarity": item_rarity, "survivor_item_icon": item_icon})
 
             item_list = {
                 "survivor_item_family": item_family,

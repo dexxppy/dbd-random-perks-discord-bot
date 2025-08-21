@@ -1,8 +1,6 @@
 import discord
 
-from core.data_loader import DataLoader
 from core.state import SetupState
-
 
 class FinalSetupView(discord.ui.View):
     def __init__(self, ctx, state: SetupState, character_type: str):
@@ -15,83 +13,108 @@ class FinalSetupView(discord.ui.View):
         }.get(character_type)
 
     def get_survivor_message(self):
-        return "nice"
-        # character = self.state.character["survivor_name"]
-        # perks = [{"perk_name": perk["perk_data"]["survivor_perk_name"], "perk_owner": perk["perk_data"]["survivor_owner_name"]} for perk in self.state.perks]
-        # item = {
-        #     "item": {
-        #         "item_name": self.state.item["item"]["survivor_item_name"],
-        #         "item_rarity": self.state.item["item"]["survivor_item_rarity"]},
-        #     "addons": [
-        #         {
-        #             "addon_name": addon["addon_data"]["survivor_addon_name"],
-        #             "addon_rarity": addon["addon_data"]["survivor_addon_rarity"],
-        #         }
-        #         for addon in self.state.item["addons"]
-        #     ]
-        # }
-        # offering = {
-        #     "offering_name": self.state.offering["offering_name"],
-        #     "offering_rarity":self.state.offering["offering_rarity"]
-        # }
-        #
-        # msg_character = " ".join([
-        #     "**Your Survivor**:",
-        #     f'{character}'
-        # ])
-        #
-        # msg_perks = "\n".join([
-        #     "**Your Perks**:",
-        #     *[f'→ **{perk["perk_name"]}** from *{perk["perk_owner"]}*'
-        #     for perk in perks]
-        # ])
-        #
-        # msg_item = "\n".join([
-        #     "**Your Item Set**:",
-        #     f'→ **{item["item"]["item_name"]}** of *{item["item"]["item_rarity"]}* rarity',
-        #     *[f'→ **{addon["addon_name"]}** of *{addon["addon_rarity"]}* rarity'
-        #     for addon in item["addons"]]
-        # ])
-        #
-        # msg_offering = "\n".join([
-        #     "**Your Offering**:",
-        #     f'**{offering["offering_name"]}** of *{offering["offering_rarity"]}* rarity'
-        # ])
-        #
-        #
-        # return (
-        #     f'**{self.ctx.author.mention}**, this is your final setup: \n'
-        #     f'{msg_character}\n'
-        #     f'{msg_perks}\n'
-        #     f'{msg_item}\n'
-        #     f'{msg_offering}\n'
-        # )
+        character = self.state.character["survivor_name"]
+        perks = [{"perk_name": perk["perk_data"]["survivor_perk_name"]} for perk in self.state.perks]
+        item = {
+            "item": self.state.item["item"]["survivor_item_name"],
+            "addons": [
+                addon["addon_data"]["survivor_addon_name"]
+                for addon in self.state.item["addons"]
+            ]
+        }
+        offering = self.state.offering["offering_name"]
+
+        embed = discord.Embed(
+            title="🎲 Your Randomized Setup",
+            description=f"{self.ctx.author.mention}, this is your summary:",
+            color=discord.Color.red()
+        )
+
+        embed.add_field(
+            name="→ Your survivor:",
+            value=f"*{character}*",
+            inline=False
+        )
+
+        perks_value = []
+        for perk in perks:
+            perks_value.append(f'*{perk["perk_name"]}*')
+
+        embed.add_field(
+            name="→ Your perks:",
+            value="\n".join(perks_value),
+            inline=False
+        )
+
+        item_value = [f'*{item["item"]}*']
+
+        for addon in item["addons"]:
+            item_value.append(f'+ *{addon}*')
+
+        embed.add_field(
+            name="→ Your Item Set:",
+            value="\n".join(item_value),
+            inline=False
+        )
+
+        embed.add_field(
+            name="→ Your offering:",
+            value=f"*{offering}*",
+            inline=False
+        )
+
+        embed.set_thumbnail(url='https://yt3.googleusercontent.com/40AgRpxhy-LBqDUDyN4kyYX6iKVa3fVoO-ztUntBOrfxcsGdUFxMGgc2PJo98zxz7OtRfkLJeg=s900-c-k-c0x00ffffff-no-rj')
+        embed.set_footer(text="Good luck, have fun!")
+        return embed
         
     def get_killer_message(self):
         character = self.state.character["killer_name"]
-        perks = [{"perk_name": perk["perk_data"]["killer_perk_name"], "perk_owner": perk["perk_data"]["killer_owner_name"]} for perk in self.state.perks]
-        addons = [
-            {
-                "addon_name": addon["addon_data"]["killer_addon_name"],
-                "addon_rarity": addon["addon_data"]["killer_addon_rarity"],
-            }
-            for addon in self.state.killer_addons
-        ]
+        perks = [{"perk_name": perk["perk_data"]["killer_perk_name"]} for perk in self.state.perks]
+        addons = [{"addon_name": addon["addon_data"]["killer_addon_name"]} for addon in self.state.killer_addons]
+        offering = self.state.offering["offering_name"]
 
-        offering = {
-            "offering_name": self.state.offering["offering_name"],
-            "offering_rarity":self.state.offering["offering_rarity"]
-        }
-        
-        
-        return (
-            f'**{self.ctx.author.mention}**, your setup:'
-            f'**Character:** {character}\n'
-            f'**Perks:** {perks}\n'
-            f'**Item:** {addons}\n'
-            f'**Offering:** {offering}\n'
+        embed = discord.Embed(
+            title="🎲 Your Randomized Setup",
+            description=f"{self.ctx.author.mention}, this is your summary:",
+            color=discord.Color.red()
         )
+
+        embed.add_field(
+            name="→ Your killer:",
+            value=f"*{character}*",
+            inline=False
+        )
+
+        perks_value = []
+        for perk in perks:
+            perks_value.append(f'*{perk["perk_name"]}*')
+
+        embed.add_field(
+            name="→ Your perks:",
+            value="\n".join(perks_value),
+            inline=False
+        )
+
+        addons_value = []
+        for addon in addons:
+            addons_value.append(f'+ *{addon["addon_name"]}*')
+
+        embed.add_field(
+            name="→ Your Addon Set:",
+            value="\n".join(addons_value),
+            inline=False
+        )
+
+        embed.add_field(
+            name="→ Your offering:",
+            value=f"*{offering}*",
+            inline=False
+        )
+
+        embed.set_thumbnail(url='https://yt3.googleusercontent.com/40AgRpxhy-LBqDUDyN4kyYX6iKVa3fVoO-ztUntBOrfxcsGdUFxMGgc2PJo98zxz7OtRfkLJeg=s900-c-k-c0x00ffffff-no-rj')
+        embed.set_footer(text="Good luck, have fun!")
+
+        return embed
         
     def get_message(self):
-        print(self.message_function())
         return self.message_function()

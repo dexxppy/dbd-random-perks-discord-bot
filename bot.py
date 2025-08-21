@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from views.character_randomize_view import CharacterRandomizeView
 from core.data_loader import DataLoader
 from core.state import SetupState
-
+from views.start_setup_view import StartSetupView
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -50,23 +50,29 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.command()
 async def surv_setup(ctx):
-    data_loader = DataLoader("survivor")
-    state = SetupState(ctx.author.id)
-    view = CharacterRandomizeView(ctx=ctx, data_loader=data_loader, state=state, character_type="survivor")
+    view = StartSetupView(ctx=ctx, character_type="survivor")
+
+    msg = view.get_message()
+    content = msg['content']
+    embeds = msg['embeds']
 
     await ctx.send(
-        content=view.get_message(),
+        content=content,
+        embeds=embeds,
         view=view
     )
     
 @bot.command()
 async def killer_setup(ctx):
-    data_loader = DataLoader("killer")
-    state = SetupState(ctx.author.id)
-    view = CharacterRandomizeView(ctx=ctx, data_loader=data_loader, state=state, character_type="killer")
+    view = StartSetupView(ctx=ctx, character_type="killer")
+
+    msg = view.get_message()
+    content = msg['content']
+    embeds = msg['embeds']
 
     await ctx.send(
-        content=view.get_message(),
+        content=content,
+        embeds=embeds,
         view=view
     )
 

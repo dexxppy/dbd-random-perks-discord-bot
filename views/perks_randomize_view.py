@@ -13,14 +13,8 @@ class PerksRandomizeView(BaseRandomizeView):
 
     def __init__(self, ctx, data_loader: DataLoader, state: SetupState, character_type, next_step: bool = False):
 
-        # followup = {
-        #     "killer": {"view": KillerAddonsRandomizeView, "next_drawn": "addons"},
-        #     "survivor": {"view": ItemRandomizeView, "next_drawn": "item"}
-        # }
-
-
         followup = {
-            "killer": {"view": OfferingRandomizeView, "next_drawn": "perks"},
+            "killer": {"view": KillerAddonsRandomizeView, "next_drawn": "addons"},
             "survivor": {"view": ItemRandomizeView, "next_drawn": "item"}
         }
 
@@ -35,27 +29,28 @@ class PerksRandomizeView(BaseRandomizeView):
 
         self.randomize()
 
-        self.select = discord.ui.Select(
-            placeholder="Choose perks to replace",
-            min_values=1,
-            max_values=4,
-            options=get_options_for_select(self.random_perks, "perk", character_type)
-        )
+        self.get_select(self.random_perks, "perk")
+        self.get_replace_button("Selected Perks")
+        self.get_accept_button()
 
-        self.select.callback = self.handle_select
-        self.add_item(self.select)
-
-        replace_btn = discord.ui.Button(label="Replace Selected Perks", style=discord.ButtonStyle.primary)
-        replace_btn.callback = self.replace
-        self.add_item(replace_btn)
-            
     def get_message(self):
-        msg = "\n".join(
-            [f'→ **{ perk["perk_data"][f"{self.character_type}_perk_name"]}** from *{perk["perk_data"][f"{self.character_type}_owner_name"]}*'
-            for perk in self.random_perks]
-        )
+        msg = f'**{self.ctx.author.mention}**, these are your perks:'
 
-        return f'**{self.ctx.author.mention}**, these are your perks:\n \n{msg} \n \n If you don\'t own any of these perks, you can replace them!\n \n'
+        embeds = []
+        for perk in self.random_perks:
+            perk_name = perk["perk_data"][f"{self.character_type}_perk_name"]
+            perk_owner = perk["perk_data"][f"{self.character_type}_owner_name"]
+            perk_icon = perk["perk_data"][f"{self.character_type}_perk_icon"]
+
+            embed = discord.Embed(
+                title=perk_name,
+                description=f"from *{perk_owner}*",
+                color=discord.Color.red()
+            )
+            embed.set_thumbnail(url=perk_icon)
+            embeds.append(embed)
+
+        return {"content": msg, "embeds": embeds}
             
     def randomize(self):
         randomize_result = get_random_perks(
@@ -75,8 +70,15 @@ class PerksRandomizeView(BaseRandomizeView):
         self.randomize()
         self.select.options = get_options_for_select(self.random_perks, "perk", self.character_type)
 
-        content = self.get_message()
-        await interaction.response.edit_message(content=content, view=self)
+        msg = self.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
+
+        await interaction.response.edit_message(
+            content=content,
+            embeds=embeds,
+            view=self
+        )
 
     async def accept(self, interaction: discord.Interaction):
         self.state.perks = self.random_perks
@@ -85,8 +87,13 @@ class PerksRandomizeView(BaseRandomizeView):
                                                state=self.state,
                                                next_step=True)
 
+        msg = next_view.get_message()
+        content = msg['content']
+        embeds = msg['embeds']
+
         await interaction.response.edit_message(
-            content=next_view.get_message(),
+            content=content,
+            embeds=embeds,
             view=next_view
         )
 

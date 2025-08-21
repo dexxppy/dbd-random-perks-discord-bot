@@ -1,146 +1,242 @@
 [
     {
-        "survivor_name": "Dwight Fairfield"
+        "survivor_name": "Dwight Fairfield",
+        "survivor_description": "Nervous Leader",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/DwightFairfield.png"
     },
     {
-        "survivor_name": "Meg Thomas"
+        "survivor_name": "Meg Thomas",
+        "survivor_description": "Energetic Athlete",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/MegThomas.png"
     },
     {
-        "survivor_name": "Claudette Morel"
+        "survivor_name": "Claudette Morel",
+        "survivor_description": "Studious Botanist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/ClaudetteMorel.png"
     },
     {
-        "survivor_name": "Jake Park"
+        "survivor_name": "Jake Park",
+        "survivor_description": "Solitary Survivalist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/JakePark.png"
     },
     {
-        "survivor_name": "Nea Karlsson"
+        "survivor_name": "Nea Karlsson",
+        "survivor_description": "Urban Artist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/NeaKarlsson.png"
     },
     {
-        "survivor_name": "Laurie Strode"
+        "survivor_name": "Laurie Strode",
+        "survivor_description": "Determined Survivor",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/LaurieStrode.png"
     },
     {
-        "survivor_name": "Ace Visconti"
+        "survivor_name": "Ace Visconti",
+        "survivor_description": "Lucky Gambler",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/AceVisconti.png"
     },
     {
-        "survivor_name": "Bill Overbeck"
+        "survivor_name": "Bill Overbeck",
+        "survivor_description": "Old Soldier",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/BillOverbeck.png"
     },
     {
-        "survivor_name": "Feng Min"
+        "survivor_name": "Feng Min",
+        "survivor_description": "Focused Competitor",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/FengMin.png"
     },
     {
-        "survivor_name": "David King"
+        "survivor_name": "David King",
+        "survivor_description": "Rugged Scrapper",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/DavidKing.png"
     },
     {
-        "survivor_name": "Quentin Smith"
+        "survivor_name": "Quentin Smith",
+        "survivor_description": "Resolute Dreamwalker",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/QuentinSmith.png"
     },
     {
-        "survivor_name": "David Tapp"
+        "survivor_name": "David Tapp",
+        "survivor_description": "Obsessed Detective",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/DavidTapp.png"
     },
     {
-        "survivor_name": "Kate Denson"
+        "survivor_name": "Kate Denson",
+        "survivor_description": "Hopeful Songbird",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/KateDenson.png"
     },
     {
-        "survivor_name": "Adam Francis"
+        "survivor_name": "Adam Francis",
+        "survivor_description": "Resourceful Teacher",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/AdamFrancis.png"
     },
     {
-        "survivor_name": "Jeff Johansen"
+        "survivor_name": "Jeff Johansen",
+        "survivor_description": "Quiet Artist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/JeffJohansen.png"
     },
     {
-        "survivor_name": "Jane Romero"
+        "survivor_name": "Jane Romero",
+        "survivor_description": "Influential Celebrity",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/JaneRomero.png"
     },
     {
-        "survivor_name": "Ash Williams"
+        "survivor_name": "Ash Williams",
+        "survivor_description": "Alone Wolf",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/AshWilliams.png"
     },
     {
-        "survivor_name": "Nancy Wheeler"
+        "survivor_name": "Nancy Wheeler",
+        "survivor_description": "Aspiring Journalist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/NancyWheeler.png"
     },
     {
-        "survivor_name": "Steve Harrington"
+        "survivor_name": "Steve Harrington",
+        "survivor_description": "Former Jock",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/SteveHarrington.png"
     },
     {
-        "survivor_name": "Yui Kimura"
+        "survivor_name": "Yui Kimura",
+        "survivor_description": "Hardened Streetracer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/YuiKimura.png"
     },
     {
-        "survivor_name": "Zarina Kassir"
+        "survivor_name": "Zarina Kassir",
+        "survivor_description": "Plucky Documentarian",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/ZarinaKassir.png"
     },
     {
-        "survivor_name": "Cheryl Mason"
+        "survivor_name": "Cheryl Mason",
+        "survivor_description": "Young Veteran of Terror",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/CherylMason.png"
     },
     {
-        "survivor_name": "Felix Richter"
+        "survivor_name": "Felix Richter",
+        "survivor_description": "Visionary Architect",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/FelixRichter.png"
     },
     {
-        "survivor_name": "Élodie Rakoto"
+        "survivor_name": "Élodie Rakoto",
+        "survivor_description": "Occult Investigator",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/ElodieRakoto.png"
     },
     {
-        "survivor_name": "Yun-Jin Lee"
+        "survivor_name": "Yun-Jin Lee",
+        "survivor_description": "Self-Interested Music Producer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/Yun-JinLee.png"
     },
     {
-        "survivor_name": "Jill Valentine"
+        "survivor_name": "Jill Valentine",
+        "survivor_description": "Founding Member of S.T.A.R.S.",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/JillValentine.png"
     },
     {
-        "survivor_name": "Leon Scott Kennedy"
+        "survivor_name": "Leon Scott Kennedy",
+        "survivor_description": "Rookie Police Officer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/LeonScottKennedy.png"
     },
     {
-        "survivor_name": "Mikaela Reid"
+        "survivor_name": "Mikaela Reid",
+        "survivor_description": "Young Mystic",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/MikaelaReid.png"
     },
     {
-        "survivor_name": "Jonah Vasquez"
+        "survivor_name": "Jonah Vasquez",
+        "survivor_description": "Mathematical Mastermind",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/JonahVasquez.png"
     },
     {
-        "survivor_name": "Yoichi Asakawa"
+        "survivor_name": "Yoichi Asakawa",
+        "survivor_description": "Brilliant Marine Biologist",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/YoichiAsakawa.png"
     },
     {
-        "survivor_name": "Haddie Kaur"
+        "survivor_name": "Haddie Kaur",
+        "survivor_description": "Brave and Determined Podcaster",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/HaddieKaur.png"
     },
     {
-        "survivor_name": "Ada Wong"
+        "survivor_name": "Ada Wong",
+        "survivor_description": "Mysterious Secret Agent",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/AdaWong.png"
     },
     {
-        "survivor_name": "Rebecca Chambers"
+        "survivor_name": "Rebecca Chambers",
+        "survivor_description": "Gifted Medic and Squad Member",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/RebeccaChambers.png"
     },
     {
-        "survivor_name": "Vittorio Toscano"
+        "survivor_name": "Vittorio Toscano",
+        "survivor_description": "Endless Wanderer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/VittorioToscano.png"
     },
     {
-        "survivor_name": "Thalita Lyra"
+        "survivor_name": "Thalita Lyra",
+        "survivor_description": "No Role",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/ThalitaLyra.png"
     },
     {
-        "survivor_name": "Renato Lyra"
+        "survivor_name": "Renato Lyra",
+        "survivor_description": "No Role",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/RenatoLyra.png"
     },
     {
-        "survivor_name": "Gabriel Soma"
+        "survivor_name": "Gabriel Soma",
+        "survivor_description": "Resourceful Engineer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/GabrielSoma.png"
     },
     {
-        "survivor_name": "Nicolas Cage"
+        "survivor_name": "Nicolas Cage",
+        "survivor_description": "Superstar",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/NicolasCage.png"
     },
     {
-        "survivor_name": "Ellen Ripley"
+        "survivor_name": "Ellen Ripley",
+        "survivor_description": "Nostromo Warrant Officer",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/EllenRipley.png"
     },
     {
-        "survivor_name": "Alan Wake"
+        "survivor_name": "Alan Wake",
+        "survivor_description": "Bestselling Author",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/AlanWake.png"
     },
     {
-        "survivor_name": "Sable Ward"
+        "survivor_name": "Sable Ward",
+        "survivor_description": "No Role",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/SableWard.png"
     },
     {
-        "survivor_name": "Aestri Yazar & Baermar Uraz"
+        "survivor_name": "Aestri Yazar & Baermar Uraz",
+        "survivor_description": "Bard",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/TheTroupe.png"
     },
     {
-        "survivor_name": "Lara Croft"
+        "survivor_name": "Lara Croft",
+        "survivor_description": "Tomb Raider",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/LaraCroft.png"
     },
     {
-        "survivor_name": "Trevor Belmont"
+        "survivor_name": "Trevor Belmont",
+        "survivor_description": "Vampire Hunter",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/TrevorBelmont.png"
     },
     {
-        "survivor_name": "Taurie Cain"
+        "survivor_name": "Taurie Cain",
+        "survivor_description": "Disciple of the Black Talon",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/TaurieCain.png"
     },
     {
-        "survivor_name": "Orela Rose"
+        "survivor_name": "Orela Rose",
+        "survivor_description": "Paramedic",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/OrelaRose.png"
     },
     {
-        "survivor_name": "Rick Grimes"
+        "survivor_name": "Rick Grimes",
+        "survivor_description": "Post-Apocalyptic Group Leader",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/RickGrimes.png"
     },
     {
-        "survivor_name": "Michonne Grimes"
+        "survivor_name": "Michonne Grimes",
+        "survivor_description": "Relentless Protector",
+        "survivor_icon": "https://www.unwrittenrulebook.com/survivorphotos/MichonneGrimes.png"
     }
 ]

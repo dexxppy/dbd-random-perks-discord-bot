@@ -1,6 +1,7 @@
 from scrapers.base_scraper import BaseScraper
 from selenium.webdriver.common.by import By
 
+
 class OfferingScraper(BaseScraper):
     def __init__(self, driver=None, link=None, output_file=None, wait_time=10):
         link = link or "https://www.unwrittenrulebook.com/offeringlist.html"
@@ -22,17 +23,24 @@ class OfferingScraper(BaseScraper):
 
         for div in offerings_divs:
             list_div = div.find_element(By.XPATH, './/div[contains(@class, "survivor-list")]')
-            list_sub_divs = self.wait_for_all_elements_presence(By.CSS_SELECTOR, "div[class^='survivor-card']", list_div)
+            list_sub_divs = self.wait_for_all_elements_presence(By.CSS_SELECTOR, "div[class^='survivor-card']",
+                                                                list_div)
 
             for subdiv in list_sub_divs:
+                offering_icon = (subdiv.find_element(
+                    By.XPATH,
+                    './/div[contains(@class, "survivor-image-container")]//img').get_attribute("src"))
+
                 info_div = subdiv.find_element(By.XPATH, './/div[contains(@class, "survivor-info")]')
                 offering_name = self.get_elements_text(By.XPATH, './/h2[contains(@class, "survivor-name")]', info_div)
 
                 badges = info_div.find_element(By.XPATH, './/div[contains(@class, "survivor-badges")]')
-                offering_rarity = self.get_elements_text(By.CSS_SELECTOR, "span[class^='survivor-badge rarity-badge']", badges)
-                offering_character_type = self.get_elements_text(By.CSS_SELECTOR, "span[class='survivor-badge']", badges)
+                offering_rarity = self.get_elements_text(By.CSS_SELECTOR, "span[class^='survivor-badge rarity-badge']",
+                                                         badges)
+                offering_character_type = self.get_elements_text(By.CSS_SELECTOR, "span[class='survivor-badge']",
+                                                                 badges)
 
-                offering_data = {"offering_name": offering_name, "offering_rarity": offering_rarity}
+                offering_data = {"offering_name": offering_name, "offering_rarity": offering_rarity, "offering_icon": offering_icon}
 
                 if offering_character_type == "Killer":
                     killer_offerings.append(offering_data)

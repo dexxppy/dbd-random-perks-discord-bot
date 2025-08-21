@@ -1,0 +1,4 @@
+- change embeds colors accordingly,
+- fix issue with replacement when depleted
+- fix select reloading (have to double click replacer button)
+- implement random perks only commands
