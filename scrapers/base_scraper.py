@@ -1,6 +1,7 @@
 import os
 import json
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,6 +13,11 @@ from scrapers.utils import TextNotEmpty
 load_dotenv()
 CHROMEDRIVER_PATH = os.getenv("CHROMEDRIVER_PATH")
 
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+
 class BaseScraper:
     def __init__(self, link: str, output_file: str, wait_time: int = 10, driver: webdriver.Chrome = None):
         self.link = link
@@ -20,6 +26,7 @@ class BaseScraper:
 
         if driver is None:
             service = Service(CHROMEDRIVER_PATH)
+            # self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver = webdriver.Chrome(service=service)
         else:
             self.driver = driver

@@ -14,8 +14,8 @@ def run_scrapers():
     scrapers = [
         # SurvivorScraper(),
         # KillerScraper(),
-        PerkScraper(),
-        # ItemScraper(),
+        # PerkScraper(),
+        ItemScraper(),
         # OfferingScraper(),
     ]
 

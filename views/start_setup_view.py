@@ -12,7 +12,7 @@ class StartSetupView(discord.ui.View):
         self.character_type = character_type
 
         btn_accept = discord.ui.Button(label=f"Let's go",
-                                       style=discord.ButtonStyle.success,
+                                       style=discord.ButtonStyle.red,
                                        emoji="➡️")
         btn_accept.callback = self.accept
         self.add_item(btn_accept)
@@ -23,7 +23,7 @@ class StartSetupView(discord.ui.View):
         embed = discord.Embed(
             title=f"🎲 DBD Random {self.character_type.capitalize()} Setup",
             description=f'*{self.ctx.author.mention}*, let\'s get You a randomized Setup for your next game!',
-            color=discord.Color.red()
+            color=discord.Color.dark_red()
         )
 
         embed.add_field(

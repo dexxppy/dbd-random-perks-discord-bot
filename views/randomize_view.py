@@ -37,11 +37,11 @@ class BaseRandomizeView(discord.ui.View):
         replace_btn.callback = replace_func
         self.add_item(replace_btn)
 
-    def get_select(self, options, object_type):
+    def get_select(self, options, object_type, min_values, max_values):
         self.select = discord.ui.Select(
             placeholder=f"Choose {object_type}s to replace",
-            min_values=1,
-            max_values=2,
+            min_values=min_values,
+            max_values=max_values,
             options=get_options_for_select(options, object_type, self.character_type)
         )
 

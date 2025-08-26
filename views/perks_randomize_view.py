@@ -29,7 +29,7 @@ class PerksRandomizeView(BaseRandomizeView):
 
         self.randomize()
 
-        self.get_select(self.random_perks, "perk")
+        self.get_select(self.random_perks, "perk", 1, 4)
         self.get_replace_button("Selected Perks")
         self.get_accept_button()
 
@@ -45,7 +45,7 @@ class PerksRandomizeView(BaseRandomizeView):
             embed = discord.Embed(
                 title=perk_name,
                 description=f"from *{perk_owner}*",
-                color=discord.Color.red()
+                color=discord.Color.dark_green()
             )
             embed.set_thumbnail(url=perk_icon)
             embeds.append(embed)

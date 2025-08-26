@@ -27,7 +27,7 @@ class FinalSetupView(discord.ui.View):
         embed = discord.Embed(
             title="🎲 Your Randomized Setup",
             description=f"{self.ctx.author.mention}, this is your summary:",
-            color=discord.Color.red()
+            color=discord.Color.dark_red()
         )
 
         embed.add_field(
@@ -76,7 +76,7 @@ class FinalSetupView(discord.ui.View):
         embed = discord.Embed(
             title="🎲 Your Randomized Setup",
             description=f"{self.ctx.author.mention}, this is your summary:",
-            color=discord.Color.red()
+            color=discord.Color.dark_red()
         )
 
         embed.add_field(

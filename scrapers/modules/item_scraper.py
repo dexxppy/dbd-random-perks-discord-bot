@@ -8,6 +8,7 @@ class ItemScraper(BaseScraper):
         super().__init__(link=link, output_file=output_file, wait_time=wait_time, driver=driver)
 
     def scrape(self):
+        item_families = ["Med Kits", "Toolboxes", "Maps", "Keys", "Fog Vials", "Flashlight"]
         all_items = []
 
         items_container = self.wait_for_element_presence(
@@ -20,6 +21,9 @@ class ItemScraper(BaseScraper):
 
         for div in items_divs:
             item_family = self.get_elements_text(By.XPATH, './/h2[contains(@class, "item-type-header")]', div)
+
+            if item_family not in item_families:
+                break
 
             list_div = div.find_element(By.XPATH, './/div[contains(@class, "survivor-list")]')
 

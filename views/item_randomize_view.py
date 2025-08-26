@@ -30,7 +30,7 @@ class ItemRandomizeView(BaseRandomizeView):
 
         self.randomize()
 
-        self.get_select(self.random_item_set["addons"], "addon")
+        self.get_select(self.random_item_set["addons"], "addon", 1, 2)
         self.get_replace_button("Item", self.replace_item)
         self.get_replace_button("Selected Addons", self.replace_addons)
         self.get_accept_button()
@@ -50,7 +50,7 @@ class ItemRandomizeView(BaseRandomizeView):
         item_embed = discord.Embed(
             title=item_name,
             description=f"of *{item_desc}* rarity",
-            color=discord.Color.red()
+            color=discord.Color.dark_orange()
         )
         item_embed.set_thumbnail(url=item_icon)
         embeds.append(item_embed)
@@ -63,7 +63,7 @@ class ItemRandomizeView(BaseRandomizeView):
             embed = discord.Embed(
                 title=addon_name,
                 description=f"of *{addon_rarity}* rarity",
-                color=discord.Color.red()
+                color=discord.Color.dark_gold()
             )
             embed.set_thumbnail(url=addon_icon)
             embeds.append(embed)
@@ -80,6 +80,7 @@ class ItemRandomizeView(BaseRandomizeView):
         )
 
         self.random_item_set = randomize_result["random_item_set"]
+        print(self.items_list)
         self.exclude_ids_items = randomize_result["exclude_ids_item"]
         self.exclude_ids_addons = randomize_result["exclude_ids_addons"]
                 
@@ -92,6 +93,7 @@ class ItemRandomizeView(BaseRandomizeView):
         )
         
         self.random_item_set["addons"] = randomize_result["random_addons"]
+        print(self.addons_list)
         self.exclude_ids_addons = randomize_result["exclude_ids"]
     
     async def replace_item(self, interaction: discord.Interaction):

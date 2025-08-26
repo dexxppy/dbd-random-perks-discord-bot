@@ -28,7 +28,7 @@ class KillerAddonsRandomizeView(BaseRandomizeView):
         
         self.randomize()
 
-        self.get_select(self.random_addons_set, "addon")
+        self.get_select(self.random_addons_set, "addon", 1, 2)
         self.get_replace_button("Selected Addons")
         self.get_accept_button()
             
@@ -45,7 +45,7 @@ class KillerAddonsRandomizeView(BaseRandomizeView):
             embed = discord.Embed(
                 title=addon_name,
                 description=f"of *{addon_rarity}* rarity",
-                color=discord.Color.red()
+                color=discord.Color.dark_gold()
             )
             embed.set_thumbnail(url=addon_icon)
             embeds.append(embed)

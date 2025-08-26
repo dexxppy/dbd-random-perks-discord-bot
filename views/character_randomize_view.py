@@ -41,7 +41,7 @@ class CharacterRandomizeView(BaseRandomizeView):
         embed = discord.Embed(
             title=character_name,
             description=f'*{character_desc}*',
-            color=discord.Color.red()
+            color=discord.Color.dark_blue()
         )
         embed.set_thumbnail(url=character_icon)
         embeds.append(embed)
