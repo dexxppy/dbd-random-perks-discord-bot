@@ -53,12 +53,11 @@ class CharacterRandomizeView(BaseRandomizeView):
             self.characters_list,
             self.character_type,
             self.exclude_ids,
-            self.random_character
         )
         
         self.exclude_ids = randomize_result["exclude_ids"]
         self.random_character = randomize_result[f"random_{self.character_type}"]
-        
+
     async def accept(self, interaction: discord.Interaction):
         self.state.character = self.random_character
         next_view = self.followup_view["view"](ctx=self.ctx, 

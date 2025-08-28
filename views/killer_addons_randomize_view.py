@@ -29,7 +29,7 @@ class KillerAddonsRandomizeView(BaseRandomizeView):
         self.randomize()
 
         self.get_select(self.random_addons_set, "addon", 1, 2)
-        self.get_replace_button("Selected Addons")
+        self.get_replace_button("Selected Addons", self.replace_addons)
         self.get_accept_button()
             
     def get_message(self):
@@ -58,14 +58,14 @@ class KillerAddonsRandomizeView(BaseRandomizeView):
             initial_addons_list=self.random_addons_set,
             exclude_ids=self.exclude_ids
         )
-        
+
         self.random_addons_set = randomize_result["random_addons"]
         self.exclude_ids = randomize_result["exclude_ids"]
-        
+
     async def replace_addons(self, interaction: discord.Interaction):
         for item in self.random_addons_set:
             item["replace"] = item["addon_data"][f"{self.character_type}_addon_id"] in self.selected_ids
-            
+
         self.randomize()
         self.select.options = get_options_for_select(self.random_addons_set, "addon", self.character_type)
 

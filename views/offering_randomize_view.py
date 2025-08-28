@@ -51,8 +51,7 @@ class OfferingRandomizeView(BaseRandomizeView):
     def randomize(self):
         randomize_result = get_random_offering(
             self.offerings_list,
-            self.exclude_ids,
-            self.random_offering
+            self.exclude_ids
         )
         
         self.exclude_ids = randomize_result["exclude_ids"]

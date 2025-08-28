@@ -2,80 +2,16 @@ import discord
 import os
 from discord.ext import commands
 from dotenv import load_dotenv
-
-from views.character_randomize_view import CharacterRandomizeView
-from core.data_loader import DataLoader
-from core.state import SetupState
-from views.start_setup_view import StartSetupView
+from commands import register_commands, register_help_command, register_character_specific_commands
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix="!", intents=intents)
-        
-# @bot.command()
-# async def random_killer(ctx):
-#     character_type = "killer"
-#     data_loader = DataLoader(character_type)
-#     perks_list = data_loader.perks_list
-    
-#     randomize_result = get_random_perks(perks_list, [], character_type)
-#     exclude_ids = randomize_result["exclude_ids"]
-#     random_perks = randomize_result["random_perks"]
+bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
-#     perks_msg = "\n".join(
-#         [f'→ **{perk["perk_data"]["killer_perk_name"]}** from *{perk["perk_data"]["killer_owner_name"]}*' for perk in random_perks]
-#     )
-
-#     msg = f"**{ctx.author.mention}**, here are your random killer perks:\n \n{perks_msg} \n \n If you don't own any of these perks, you can replace them!\n \n"
-#     view = PerksRandomizeView(ctx, character_type, perks_list, random_perks, exclude_ids)
-#     await ctx.send(msg, view=view)
-
-# @bot.command()
-# async def random_surv(ctx):
-#     character_type = "survivor"
-#     data_loader = DataLoader(character_type)
-#     perks_list = data_loader.perks_list
-    
-#     randomize_result = get_random_perks(perks_list, [], character_type)
-#     exclude_ids = randomize_result["exclude_ids"]
-#     random_perks = randomize_result["random_perks"]
-
-#     perks_msg = "\n".join(
-#         [f'→ **{perk["perk_data"]["survivor_perk_name"]}** from *{perk["perk_data"]["survivor_owner_name"]}*' for perk in random_perks]
-#     )
-
-#     msg = f"**{ctx.author.mention}**, here are your random survivor perks:\n \n{perks_msg} \n \n If you don't own any of these perks, you can replace them!\n \n"
-#     view = PerksRandomizeView(ctx, character_type, perks_list, random_perks, exclude_ids)
-#     await ctx.send(msg, view=view)
-
-@bot.command()
-async def surv_setup(ctx):
-    view = StartSetupView(ctx=ctx, character_type="survivor")
-
-    msg = view.get_message()
-    content = msg['content']
-    embeds = msg['embeds']
-
-    await ctx.send(
-        content=content,
-        embeds=embeds,
-        view=view
-    )
-    
-@bot.command()
-async def killer_setup(ctx):
-    view = StartSetupView(ctx=ctx, character_type="killer")
-
-    msg = view.get_message()
-    content = msg['content']
-    embeds = msg['embeds']
-
-    await ctx.send(
-        content=content,
-        embeds=embeds,
-        view=view
-    )
-
+register_help_command(bot)
+register_character_specific_commands(bot)
+register_commands(bot, "killer")
+register_commands(bot, "survivor")
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')

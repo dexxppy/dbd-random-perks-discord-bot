@@ -33,7 +33,9 @@ class BaseRandomizeView(discord.ui.View):
         if replace_func is None:
             replace_func = self.replace
 
-        replace_btn = discord.ui.Button(label=f"Replace {replace_value}", style=discord.ButtonStyle.primary, emoji="🔃")
+        replace_btn = discord.ui.Button(label=f"Replace {replace_value}",
+                                        style=discord.ButtonStyle.primary,
+                                        emoji="🔃")
         replace_btn.callback = replace_func
         self.add_item(replace_btn)
 
@@ -69,4 +71,5 @@ class BaseRandomizeView(discord.ui.View):
 
     async def handle_select(self, interaction: discord.Interaction):
         self.selected_ids = [int(value) for value in self.select.values]
+
         await interaction.response.defer()

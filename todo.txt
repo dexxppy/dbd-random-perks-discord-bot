@@ -1,6 +1,0 @@
-- fix issue with replacement when depleted
-- item addons should be randomized from addons list only for this specific item
-- implement get_remaining_ids func
-
-- fix select reloading (have to double click replacer button)
-- implement random perks only commands

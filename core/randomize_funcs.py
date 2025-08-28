@@ -1,12 +1,6 @@
 import random
 from core.data_funcs import get_row_by_id
 
-# def get_remaining_ids(objects_list, object_type, exclude_ids):
-#     remaining_ids = []
-#
-#     for object in objects_list:
-#
-
 def list_depleted(objects_list, exclude_ids, initial_object_list=None):
     replace_count = 0
 
@@ -14,6 +8,8 @@ def list_depleted(objects_list, exclude_ids, initial_object_list=None):
         for object in initial_object_list:
             if object["replace"]:
                 replace_count += 1
+    else:
+        replace_count = 1
 
     if len(objects_list) < len(exclude_ids) + replace_count:
         return True
@@ -54,11 +50,13 @@ def get_random_perks(all_perks_list, initial_perk_list, character_type, exclude_
             random_perks.append({"replace": False, "perk_data": random_perk})
     else:
         if list_depleted(all_perks_list, exclude_ids, initial_perk_list):
-            return {"random_perks": initial_perk_list, "exclude_ids": exclude_ids}
+            exclude_ids = []
 
         for perk in initial_perk_list:
             if not perk["replace"]:
                 random_perks.append({"replace": False, "perk_data": perk["perk_data"]})
+                if perk["perk_data"][f"{character_type}_perk_id"] not in exclude_ids:
+                    exclude_ids.append(perk["perk_data"][f"{character_type}_perk_id"])
             else:
                 random_perk = get_random_perk(all_perks_list, character_type, exclude_ids)
                 exclude_ids.append(random_perk[id_field_name])
@@ -67,12 +65,9 @@ def get_random_perks(all_perks_list, initial_perk_list, character_type, exclude_
     return {"random_perks": random_perks, "exclude_ids": exclude_ids}
 
 
-def get_random_character(all_characters_list, character_type, exclude_ids=None, last_drawn_character=None):
-    if exclude_ids is None:
+def get_random_character(all_characters_list, character_type, exclude_ids=None):
+    if exclude_ids is None or list_depleted(all_characters_list, exclude_ids):
         exclude_ids = []
-
-    if list_depleted(all_characters_list, exclude_ids):
-        return {f"random_{character_type}": last_drawn_character, "exclude_ids": exclude_ids}
 
     random_id = get_random_id(1, len(all_characters_list), exclude_ids)
     random_character = get_row_by_id(all_characters_list, random_id, character_type + "_id")
@@ -104,12 +99,14 @@ def get_random_killer_addons_set(all_addons_list, initial_addons_list, exclude_i
             exclude_ids.append(random_addon["killer_addon_id"])
             random_addons.append({"replace": False, "addon_data": random_addon})
     else:
-        if list_depleted(all_addons_list, exclude_ids):
-            return {f"random_addons": initial_addons_list, "exclude_ids": exclude_ids}
+        if list_depleted(all_addons_list, exclude_ids, initial_addons_list):
+            exclude_ids = []
 
         for addon in initial_addons_list:
             if not addon["replace"]:
                 random_addons.append({"replace": False, "addon_data": addon["addon_data"]})
+                if addon["addon_data"][f"killer_addon_id"] not in exclude_ids:
+                    exclude_ids.append(addon["addon_data"][f"killer_addon_id"])
             else:
                 random_addon = get_random_killer_addon(all_addons_list, exclude_ids)
                 exclude_ids.append(random_addon["killer_addon_id"])
@@ -154,11 +151,13 @@ def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family
             random_addons.append({"replace": False, "addon_data": random_addon})
     else:
         if list_depleted(all_addons_list, exclude_ids, initial_addons_list):
-            return {"random_addons": initial_addons_list, "exclude_ids": exclude_ids}
+            exclude_ids = []
 
         for addon in initial_addons_list:
             if not addon["replace"]:
                 random_addons.append({"replace": False, "addon_data": addon["addon_data"]})
+                if addon["addon_data"][f"survivor_addon_id"] not in exclude_ids:
+                    exclude_ids.append(addon["perk_data"][f"survivor_addon_id"])
             else:
                 random_addon = get_random_item_addon(all_addons_list, exclude_ids)
                 exclude_ids.append(random_addon["survivor_addon_id"])
@@ -167,8 +166,7 @@ def get_random_item_addons_set(all_addons_list, initial_addons_list, item_family
     return {"random_addons": random_addons, "exclude_ids": exclude_ids}
 
 
-def get_random_item_with_addons(all_items_list, all_addons_list, exclude_ids_item=None, exclude_ids_addons=None,
-                                last_drawn_item_with_addons=None):
+def get_random_item_with_addons(all_items_list, all_addons_list, exclude_ids_item=None, exclude_ids_addons=None):
     if exclude_ids_item is None:
         exclude_ids_item = []
 
@@ -176,7 +174,7 @@ def get_random_item_with_addons(all_items_list, all_addons_list, exclude_ids_ite
         exclude_ids_addons = []
 
     if list_depleted(all_items_list, exclude_ids_item):
-        return last_drawn_item_with_addons
+        exclude_ids_item = []
 
     item_id = get_random_id(1, len(all_items_list), exclude_ids_item)
     exclude_ids_item.append(item_id)
@@ -193,12 +191,9 @@ def get_random_item_with_addons(all_items_list, all_addons_list, exclude_ids_ite
             "exclude_ids_addons": exclude_ids_addons}
 
 
-def get_random_offering(all_offerings_list, exclude_ids=None, last_drawn_offering=None):
-    if exclude_ids is None:
+def get_random_offering(all_offerings_list, exclude_ids=None):
+    if exclude_ids is None or list_depleted(all_offerings_list, exclude_ids):
         exclude_ids = []
-
-    if list_depleted(all_offerings_list, exclude_ids):
-        return last_drawn_offering
 
     offering_id = get_random_id(1, len(all_offerings_list), exclude_ids)
     exclude_ids.append(offering_id)

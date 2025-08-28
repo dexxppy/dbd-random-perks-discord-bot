@@ -75,12 +75,10 @@ class ItemRandomizeView(BaseRandomizeView):
             all_items_list=self.items_list,
             all_addons_list=self.addons_list,
             exclude_ids_item=self.exclude_ids_items,
-            exclude_ids_addons=self.exclude_ids_addons,
-            last_drawn_item_with_addons=self.random_item_set
+            exclude_ids_addons=self.exclude_ids_addons
         )
 
         self.random_item_set = randomize_result["random_item_set"]
-        print(self.items_list)
         self.exclude_ids_items = randomize_result["exclude_ids_item"]
         self.exclude_ids_addons = randomize_result["exclude_ids_addons"]
                 
@@ -93,11 +91,12 @@ class ItemRandomizeView(BaseRandomizeView):
         )
         
         self.random_item_set["addons"] = randomize_result["random_addons"]
-        print(self.addons_list)
         self.exclude_ids_addons = randomize_result["exclude_ids"]
     
     async def replace_item(self, interaction: discord.Interaction):
+        self.exclude_ids_addons = []
         self.randomize()
+
         self.select.options = get_options_for_select(self.random_item_set["addons"], "addon", self.character_type)
 
         msg = self.get_message()
