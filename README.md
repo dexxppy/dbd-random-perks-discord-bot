@@ -126,11 +126,20 @@ python bot.py
 ```
 
 ## 📸 Preview
-### Random survivor perks
-![Survivor perks](screenshots/random_surv.png)
+### Random survivor setup
+![Survivor entry](screenshots/survivors/surv_setup_start.png) \
+![Survivor](screenshots/survivors/rand_surv.png) \
+![Survivor perks](screenshots/survivors/rand_perks_surv.png) \
+![Survivor item](screenshots/survivors/rand_item_surv.png) \
+![Survivor offering](screenshots/survivors/rand_offering_surv.png) \
+![Survivor summary](screenshots/survivors/surv_summary.png) 
 
-### Random killer perks
-![Killer perks](screenshots/random_killer.png)
+### Random killer setup
+![Killer entry](screenshots/killer/killer_setup_start.png) \
+![Killer](screenshots/killer/rand_killer.png) \
+![Killer perks](screenshots/killer/rand_perks_killer.png) \
+![Killer addons](screenshots/killer/rand_addons_killer.png) \
+![Killer summary](screenshots/killer/killer_summary.png) 
 
 ## 📄 License
 MIT License. Free to use, modify.
