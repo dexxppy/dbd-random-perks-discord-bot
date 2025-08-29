@@ -1,9 +1,6 @@
 import discord
 from core.randomize_funcs import get_random_character
-from views.offering_randomize_view import OfferingRandomizeView
-from views.perks_randomize_view import PerksRandomizeView
-from core.data_loader import DataLoader
-from core.state import SetupState
+from views.modules.perks_randomize_view import PerksRandomizeView
 from views.randomize_view import BaseRandomizeView
 
 

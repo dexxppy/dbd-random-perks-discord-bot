@@ -1,11 +1,10 @@
 import discord
 from utils.views_utils import get_options_for_select
 from core.randomize_funcs import get_random_perks
-from views.item_randomize_view import ItemRandomizeView
-from views.killer_addons_randomize_view import KillerAddonsRandomizeView
+from views.modules.item_randomize_view import ItemRandomizeView
+from views.modules.killer_addons_randomize_view import KillerAddonsRandomizeView
 from core.data_loader import DataLoader
 from core.state import SetupState
-from views.offering_randomize_view import OfferingRandomizeView
 from views.randomize_view import BaseRandomizeView
 
 

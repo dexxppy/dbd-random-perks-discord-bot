@@ -2,7 +2,7 @@ import discord
 
 from core.data_loader import DataLoader
 from core.state import SetupState
-from views.character_randomize_view import CharacterRandomizeView
+from views.modules.character_randomize_view import CharacterRandomizeView
 
 
 class StartSetupView(discord.ui.View):
