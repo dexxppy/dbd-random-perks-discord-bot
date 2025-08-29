@@ -5,10 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 from dotenv import load_dotenv
-
-from scrapers.utils import TextNotEmpty
 
 load_dotenv()
 CHROMEDRIVER_PATH = os.getenv("CHROMEDRIVER_PATH")
@@ -26,8 +23,7 @@ class BaseScraper:
 
         if driver is None:
             service = Service(CHROMEDRIVER_PATH)
-            # self.driver = webdriver.Chrome(service=service, options=chrome_options)
-            self.driver = webdriver.Chrome(service=service)
+            self.driver = webdriver.Chrome(service=service, options=chrome_options)
         else:
             self.driver = driver
 

@@ -1,7 +1,7 @@
 import discord
 from utils.views_utils import get_options_for_select
 from core.randomize_funcs import get_random_killer_addons_set
-from views.offering_randomize_view import OfferingRandomizeView
+from views.modules.offering_randomize_view import OfferingRandomizeView
 from core.data_loader import DataLoader
 from core.state import SetupState
 from views.randomize_view import BaseRandomizeView

@@ -11,10 +11,3 @@ def get_options_for_select(results, object_type, character_type):
     ]
     
     return options
-
-# SetupState = SetupState("survivor")
-# addons = SetupState.items_list["addons"]
-
-# random_addons = get_random_item_addons_set(addons, None, "Med Kits")["random_addons"]
-
-# print(get_options_for_select(random_addons, "addon", "survivor"))

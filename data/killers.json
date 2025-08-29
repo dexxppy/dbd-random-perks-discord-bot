@@ -1917,7 +1917,7 @@
         "killer_addons": [
             {
                 "killer_addon_name": "Modified Ammo Belt",
-                "killer_addon_rarity": "Common",
+                "killer_addon_rarity": "",
                 "killer_addon_icon": "https://www.unwrittenrulebook.com/killeraddons/modifiedAmmoBelt.png"
             },
             {

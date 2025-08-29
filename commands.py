@@ -1,11 +1,11 @@
 import discord
 
-from views.character_randomize_view import CharacterRandomizeView
+from views.modules.character_randomize_view import CharacterRandomizeView
 from core.data_loader import DataLoader
-from views.offering_randomize_view import OfferingRandomizeView
-from views.item_randomize_view import ItemRandomizeView
-from views.killer_addons_randomize_view import KillerAddonsRandomizeView
-from views.perks_randomize_view import PerksRandomizeView
+from views.modules.offering_randomize_view import OfferingRandomizeView
+from views.modules.item_randomize_view import ItemRandomizeView
+from views.modules.killer_addons_randomize_view import KillerAddonsRandomizeView
+from views.modules.perks_randomize_view import PerksRandomizeView
 from views.start_setup_view import StartSetupView
 
 async def base(ctx, view):
