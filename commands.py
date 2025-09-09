@@ -109,6 +109,8 @@ def register_help_command(bot):
                   "`!survivor_setup` - Randomize whole setup for survivor\n",
             inline=False
         )
+
+        embed.set_author(name="With ♥ by dexxppy", )
         await ctx.send(embed=embed)
 
 def register_character_specific_commands(bot):
