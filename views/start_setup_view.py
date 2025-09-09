@@ -47,7 +47,6 @@ class StartSetupView(discord.ui.View):
         )
 
         embed.set_thumbnail(url='https://yt3.googleusercontent.com/40AgRpxhy-LBqDUDyN4kyYX6iKVa3fVoO-ztUntBOrfxcsGdUFxMGgc2PJo98zxz7OtRfkLJeg=s900-c-k-c0x00ffffff-no-rj')
-        embed.set_author(name="With ♥ by dexxppy", )
         embeds.append(embed)
 
         return {'content': None, 'embeds': embeds}
