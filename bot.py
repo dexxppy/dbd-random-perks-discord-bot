@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import discord
 import os
 
@@ -18,13 +20,28 @@ async def on_guild_join(guild):
         if owner is None:
             owner = await guild.fetch_member(guild.owner_id)
 
-        log_message = f"Bot invited to {guild.name} (ID: {guild.id}) by {owner}"
+        log_message = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [INVITE] Bot invited to {guild.name} (ID: {guild.id}, Members: {guild.member_count}) by {owner}"
     except Exception as e:
         log_message = f"Error inviting to new server: {e}"
     finally:
         print(log_message)
         with open("bot_logs.txt", "a", encoding="utf-8") as f:
             f.write(log_message + "\n")
+
+@bot.event
+async def on_guild_remove(guild):
+    log_message = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [KICK] Bot removed from {guild.name} (ID: {guild.id})"
+    print(log_message)
+    with open("bot_logs.txt", "a", encoding="utf-8") as f:
+        f.write(log_message + "\n")
+
+@bot.listen("on_command")
+async def log_command(ctx):
+    log_message = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [COMMAND] {ctx.author} called: '{ctx.command}' on server: {ctx.guild.name if ctx.guild else 'DM'}"
+    print(log_message)
+    with open("bot_logs.txt", "a", encoding="utf-8") as f:
+        f.write(log_message + "\n")
+
 
 register_help_command(bot)
 register_character_specific_commands(bot)
