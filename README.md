@@ -2,7 +2,7 @@
 
 A Discord bot that helps you randomly select Dead by Daylight setups for Killers and Survivors — perfect for challenges, custom games, or just for fun!  
 Users can roll perks, items, oferrings, or whole setups, select which ones they want to replace, and reroll with a single button click.
-Game data is scraped using Selenium for up-to-date values.
+Game data is scraped using Selenium for up-to-date values (https://www.unwrittenrulebook.com).
 
 ## Add the bot to your Discord Server!
 Bot is actively deployed on server and ready to use! Paste the link below in your browser, log in to discord, select your server and give necessary permissions(all selected). Authorise and enjoy! 
