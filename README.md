@@ -5,8 +5,9 @@ Users can roll perks, items, oferrings, or whole setups, select which ones they 
 Game data is scraped using Selenium for up-to-date values.
 
 ## Add the bot to your Discord Server!
-Bot is actively deployed on server and ready to use! Paste the link below in your browser, log in to discord, select your server and give necessary permissions(all selected). Authorise and enjoy!
-https://discord.com/oauth2/authorize?client_id=1401135973974282290&permissions=549755841536&integration_type=0&scope=applications.commands+bot
+Bot is actively deployed on server and ready to use! Paste the link below in your browser, log in to discord, select your server and give necessary permissions(all selected). Authorise and enjoy! 
+- https://discord.com/oauth2/authorize?client_id=1401135973974282290&permissions=549755841536&integration_type=0&scope=applications.commands+bot
+- https://top.gg/bot/1401135973974282290 
 
 ## ✨ Features
 
